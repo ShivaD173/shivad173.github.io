@@ -60,10 +60,10 @@
         </span>
         <span class="modeSelection" aria-labelledby="selectModeInstruction" role="radiogroup" title="Select the calculator's mode of function.">
             <span class="visually-hidden" id="selectModeInstruction">Select the calculator's mode of function.</span>
-            <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-one" checked="checked" /><label class="btn btn-left" for="one-vs-one">One vs One</label>
+            <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-one" /><label class="btn btn-left" for="one-vs-one">One vs One</label>
             <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-all" /><label class="btn btn-mid" for="one-vs-all">One vs All</label>
             <input class="mode visually-hidden" type="radio" name="mode" id="all-vs-one" /><label class="btn btn-mid" for="all-vs-one">All vs One</label>
-            <input class="mode visually-hidden" type="radio" name="mode" id="randoms" /><label class="btn btn-right" for="randoms">Random Battles</label>
+            <input class="mode visually-hidden" type="radio" name="mode" id="randoms" checked="checked" /><label class="btn btn-right" for="randoms">Random Battles</label>
         </span>
     </div>
     <hr />
@@ -130,7 +130,7 @@
             <input type="text" class="set-selector calc-trigger" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
-                <button id="clearSets">Clear Imported Sets</button>
+                <button id="clearSets">Clear Custom Sets</button>
             </span>
             <div class="info-group top">
                 <div>
@@ -445,6 +445,16 @@
                     <label for="itemL1">Item</label>
                     <select class="item terrain-trigger calc-trigger" id="itemL1"></select>
                 </div>
+                <div class="pool">
+                    <div class="ability-pool gen-specific g3 g4 g5 g6 g7 g8">
+                        <div>Ability Pool</div>
+                        <small class="extraSetAbilities"></small>
+                    </div>
+                    <div class="item-pool gen-specific g2 g3 g4 g5 g6 g7 g8">
+                        <div>Item Pool</div>
+                        <small class="extraSetItems"></small>
+                    </div>
+                </div>
                 <div>
                     <label for="statusL1">Status</label>
                     <select class="status calc-trigger" id="statusL1">
@@ -624,6 +634,10 @@
                     <option value="5">5 times</option>
                 </select>
             </div>
+            <div class="pool move-pool gen-specific g1 g2 g3 g4 g5 g6 g7 g8">
+                <div>Move Pool</div>
+                <small class="extraSetMoves"></small>
+            </div>
         </fieldset>
     </div>
 
@@ -648,7 +662,7 @@
                 <hr class="gen-specific g6 g7 g8" />
                 <div aria-labelledby="selectWeatherInstruction" role="radiogroup">
                     <span class="visually-hidden" id="selectWeatherInstruction">Select the current weather condition.</span>
-                    <div class="gen-specific g3 g4 g5 g6 g7 g8" style="width: 22.2em; margin: 5px auto;" title="Select the current weather condition.">
+                    <div  class="gen-specific g3 g4 g5 g6 g7 g8" style="width: 22.2em; margin: 5px auto;" title="Select the current weather condition.">
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="" id="clear" checked="checked" />
                         <label class="btn btn-small btn-left" for="clear">None</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Sun" id="sun" />
@@ -722,36 +736,6 @@
                             <td><div class="right" title="Is Steelsurge affecting this side of the field?">
                                 <input aria-describedby="selectSteelsurgeInstruction" class="visually-hidden calc-trigger" type="checkbox" id="steelsurgeR" />
                                 <label class="btn btn-xwide" for="steelsurgeR">Steelsurge</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g8">
-                            <div hidden id="selectVinefireInstruction">Is Vine Lash and/or Wildfire affecting this side of the field?</div>
-                            <td><div class="left" title="Is Vine Lash/Wildfire affecting this side of the field?">
-                                <input aria-describedby="selectVinefireInstruction" class="visually-hidden calc-trigger" type="checkbox" id="vinelashL" />
-                                <label class="btn btn-wide btn-left" for="vinelashL">Vine Lash</label>
-                                <input aria-describedby="selectVinefireInstruction" class="visually-hidden calc-trigger" type="checkbox" id="wildfireL" />
-                                <label class="btn btn-right" for="wildfireL">Wildfire</label>
-                            </div></td>
-                            <td><div class="right" title="Is Vine Lash/Wildfire affecting this side of the field?">
-                                <input aria-describedby="selectVinefireInstruction" class="visually-hidden calc-trigger" type="checkbox" id="wildfireR" />
-                                <label class="btn btn-left" for="wildfireR">Wildfire</label>
-                                <input aria-describedby="selectVinefireInstruction" class="visually-hidden calc-trigger" type="checkbox" id="vinelashR" />
-                                <label class="btn btn-wide btn-right" for="vinelashR">Vine Lash</label>
-                            </div></td>
-                        </tr>
-                        <tr class="gen-specific g8">
-                            <div hidden id="selectCannonlithInstruction">Is Cannonade and/or Volcalith affecting this side of the field?</div>
-                            <td><div class="left" title="Is Cannonade/Volcalith affecting this side of the field?">
-                                <input aria-describedby="selectCannonlithInstruction" class="visually-hidden calc-trigger" type="checkbox" id="cannonadeL" />
-                                <label class="btn btn-wide btn-left" for="cannonadeL">Cannonade</label>
-                                <input aria-describedby="selectCannonlithInstruction" class="visually-hidden calc-trigger" type="checkbox" id="volcalithL" />
-                                <label class="btn btn-right" for="volcalithL">Volcalith</label>
-                            </div></td>
-                            <td><div class="right" title="Is Cannonade/Volcalith affecting this side of the field?">
-                                <input aria-describedby="selectCannonlithInstruction" class="visually-hidden calc-trigger" type="checkbox" id="volcalithR" />
-                                <label class="btn btn-left" for="volcalithR">Volcalith</label>
-                                <input aria-describedby="selectCannonlithInstruction" class="visually-hidden calc-trigger" type="checkbox" id="cannonadeR" />
-                                <label class="btn btn-wide btn-right" for="cannonadeR">Cannonade</label>
                             </div></td>
                         </tr>
                         <tr class="gen-specific g3 g4 g5 g6 g7 g8">
@@ -902,16 +886,16 @@
                             </div></td>
                         </tr>
                         <tr class="gen-specific g8">
-                          <td><div class="left" title="Is the Pok&eacute;mon boosted by an ally's Power Spot ability?">
-                              <div hidden id="selectPowerSpotInstruction">Is the Pok&eacute;mon boosted by an ally's Power Spot ability?</div>
-                                <input aria-describedby="selectPowerSpotInstruction" class="visually-hidden calc-trigger" type="checkbox" id="powerSpotL" />
-                                <label class="btn btn-xxwide" for="powerSpotL">Power Spot</label>
+                            <td><div class="left" title="Is the Pok&eacute;mon boosted by an ally's Power Spot ability?">
+                                <div hidden id="selectPowerSpotInstruction">Is the Pok&eacute;mon boosted by an ally's Power Spot ability?</div>
+                                  <input aria-describedby="selectPowerSpotInstruction" class="visually-hidden calc-trigger" type="checkbox" id="powerSpotL" />
+                                  <label class="btn btn-xxwide" for="powerSpotL">Power Spot</label>
+                                </div></td>
+                              <td><div class="right" title="Is the Pok&eacute;mon boosted by an ally's Power Spot ability?">
+                                  <input aria-describedby="selectPowerSpotInstruction" class="visually-hidden calc-trigger" type="checkbox" id="powerSpotR" />
+                                  <label class="btn btn-xxwide" for="powerSpotR">Power Spot</label>
                               </div></td>
-                            <td><div class="right" title="Is the Pok&eacute;mon boosted by an ally's Power Spot ability?">
-                                <input aria-describedby="selectPowerSpotInstruction" class="visually-hidden calc-trigger" type="checkbox" id="powerSpotR" />
-                                <label class="btn btn-xxwide" for="powerSpotR">Power Spot</label>
-                            </div></td>
-                        </tr>
+                          </tr>
                         <tr class="gen-specific g2 g3 g4 g5 g6 g7 g8">
                             <td><div class="left" title="Is the defending Pok&eacute;mon switching out?">
                               <div hidden id="selectSwitchingInstruction">Is the defending Pok&eacute;mon switching out?</div>
@@ -923,28 +907,8 @@
                                 <label class="btn btn-xxwide" for="switchingR">Switching Out</label>
                             </div></td>
                         </tr>
-                        <tr>
-                            <td><div class="left" title="Export the leftmost Pok&eacute;mon set">
-                                <button id="exportL">Export</button>
-                            </div></td>
-                            <td><div class="right" title="Export the rightmost Pok&eacute;mon set">
-                                <button id="exportR">Export</button>
-                            </div></td>
-                        </tr>
                     </tbody>
                 </table>
-            </fieldset>
-        </div>
-        <div aria-label="Import team" role="region">
-            <fieldset class="poke-import">
-                <legend align="center">Import / Export</legend>
-                <div id="import-1_wrapper" class="dataTables_wrapper no-footer">
-                    <form class="import-team">
-                        <input class="import-name-text" value="Custom Set"></input>
-                        <textarea class="import-team-text"></textarea>
-                        <!--<button style='position:absolute' class='bs-btn bs-btn-default'>Import</button>-->
-                    </form>
-                </div>
             </fieldset>
         </div>
     </div>
@@ -952,10 +916,6 @@
         <fieldset class="poke-info" id="p2">
             <legend align="center">Pok&eacute;mon 2</legend>
             <input type="text" class="set-selector calc-trigger" />
-            <span id="importedSetsOptions" style="width:auto; display:none">
-                <input type="checkbox" id="importedSets" /> Only show imported sets <br />
-                <button id="clearSets">Clear Imported Sets</button>
-            </span>
             <div class="info-group top">
                 <div>
                     <label>Type</label>
@@ -1265,9 +1225,19 @@
                     <select class="ability terrain-trigger calc-trigger" id="abilityR1"></select>
                     <input hidden type="checkbox" title= "Is this ability active?" class="abilityToggle calc-trigger">
                 </div>
-                <div class="gen-specific g2 g3 g4 g5 g6 g7 g8">
+                         <div class="gen-specific g2 g3 g4 g5 g6 g7 g8">
                     <label for="itemR1">Item</label>
                     <select class="item terrain-trigger calc-trigger" id="itemR1"></select>
+                </div>
+                <div class="pool">
+                    <div class="ability-pool gen-specific g3 g4 g5 g6 g7 g8">
+                        <div>Ability Pool</div>
+                        <small class="extraSetAbilities"></small>
+                    </div>
+                    <div class="item-pool gen-specific g2 g3 g4 g5 g6 g7 g8">
+                        <div>Item Pool</div>
+                        <small class="extraSetItems"></small>
+                    </div>
                 </div>
                 <div>
                     <label for="statusR1">Status</label>
@@ -1446,6 +1416,10 @@
                     <option value="5">5 times</option>
                 </select>
             </div>
+            <div class ="move-pool pool gen-specific g1 g2 g3 g4 g5 g6 g7 g8">
+                <div>Move Pool</div>
+                <small class="extraSetMoves"></small>
+            </div>
         </fieldset>
     </div>
     <script type="text/javascript">
@@ -1455,8 +1429,9 @@
     <script type="text/javascript" src="./js/vendor/select2/select2.min.js"></script>
     <script type="text/javascript" src="./js/vendor/url-search-params-0.1.2.min.js"></script>
     <script type="text/javascript">
-        this.__createBinding = function(o, m, k) {
-            o[k] = m[k];
+        this.__createBinding = function(o, m, k, k2) {
+            if (k2 === undefined) k2 = k;
+            o[k2] = m[k];
         };
         var calc = exports = {};
         function require() { return exports };
@@ -1464,14 +1439,14 @@
     <script type="text/javascript" src="./calc/util.js?51463f0d"></script>
     <script type="text/javascript" src="./calc/stats.js?d44b29f3"></script>
     <script type="text/javascript" src="./calc/data/species.js?0436a63c"></script>
-    <script type="text/javascript" src="./js/data/sets/gen8.js?bf2d75e8"></script>
-    <script type="text/javascript" src="./js/data/sets/gen7.js?c3151310"></script>
-    <script type="text/javascript" src="./js/data/sets/gen6.js?316672e9"></script>
-    <script type="text/javascript" src="./js/data/sets/gen5.js?81af6949"></script>
-    <script type="text/javascript" src="./js/data/sets/gen4.js?6c00d694"></script>
-    <script type="text/javascript" src="./js/data/sets/gen3.js?c2c2d64e"></script>
-    <script type="text/javascript" src="./js/data/sets/gen2.js?555ddfe9"></script>
-    <script type="text/javascript" src="./js/data/sets/gen1.js?7aca53c3"></script>
+    <script type="text/javascript" src="https://pkmn.github.io/randbats/data/gen8randombattle.js?"></script>
+    <script type="text/javascript" src="https://pkmn.github.io/randbats/data/gen7randombattle.js?"></script>
+    <script type="text/javascript" src="https://pkmn.github.io/randbats/data/gen6randombattle.js?"></script>
+    <script type="text/javascript" src="https://pkmn.github.io/randbats/data/gen5randombattle.js?"></script>
+    <script type="text/javascript" src="https://pkmn.github.io/randbats/data/gen4randombattle.js?"></script>
+    <script type="text/javascript" src="https://pkmn.github.io/randbats/data/gen3randombattle.js?"></script>
+    <script type="text/javascript" src="https://pkmn.github.io/randbats/data/gen2randombattle.js?"></script>
+    <script type="text/javascript" src="https://pkmn.github.io/randbats/data/gen1randombattle.js?"></script>
     <script type="text/javascript" src="./calc/data/types.js?83fec665"></script>
     <script type="text/javascript" src="./calc/data/natures.js?18c0ef89"></script>
     <script type="text/javascript" src="./calc/data/abilities.js?24311b00"></script>
