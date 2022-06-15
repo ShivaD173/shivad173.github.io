@@ -3,18 +3,30 @@ var SETDEX_DPP = {
     "Togekiss":
     {
         "Cynthia 1": { "level": 37, "item": "Lum Berry", "moves": ["Air Slash", "Aura Sphere", "Dazzling Gleam", "Nasty Plot"] },
-        "Cynthia 2 Lead": { "level": 100, "item": "Lum Berry", "moves": ["Moonblast", "Air Slash", "Heat Wave", "Follow Me"] }
+        "Cynthia 2 Lead": { "level": 100, "item": "Lum Berry", "moves": ["Moonblast", "Air Slash", "Heat Wave", "Follow Me"] },
     },
     "Latias":
         { "Cynthia 2 Lead": { "level": 100, "item": "Sitrus Berry", "moves": ["Psycho Boost", "Calm Mind", "Ice Beam", "Aura Sphere"] } },
     "Arceus":
         { "Cynthia 2": { "level": 100, "item": "Life Orb", "moves": ["Sacred Fire", "Giga Impact", "Extreme Speed", "Swords Dance"] } },
     "Garchomp":
-        { "Cynthia 2": { "level": 100, "item": "Yache Berry", "moves": ["Dragon Rush", "Dragon Dance", "Earthquake", "Rock Slide"] } },
+    {
+        "Cynthia 1": { "level": 37, "item": "Yache Berry", "moves": ["Dragon Rush", "Earthquake", "Brick Break", "Giga Impact"] },
+        "Cynthia 2": { "level": 100, "item": "Yache Berry", "moves": ["Dragon Rush", "Dragon Dance", "Earthquake", "Rock Slide"] }
+    },
     "Milotic":
-        { "Cynthia 2": { "level": 100, "item": "Leftovers", "moves": ["Water Spout", "Draco Meteor", "Ice Beam", "Recover"] } },
+    {
+        "Cynthia 1": { "level": 37, "item": "Flame Orb", "moves": ["Surf", "Ice Beam", "Recover", "Draco Meteor"] },
+        "Cynthia 2": { "level": 100, "item": "Leftovers", "moves": ["Water Spout", "Draco Meteor", "Ice Beam", "Recover"] },
+    },
     "Heatran":
         { "Cynthia 2": { "level": 100, "item": "Focus Sash", "moves": ["Heat Wave", "Flash Cannon", "Earth Power", "Accelerock"] } },
+    "Roserade":
+        { "Cynthia 1 Lead": { "level": 37, "item": "Focus Sash", "moves": ["Dark Pulse", "Taxation", "Psychic", "Ominous Wind"] } },
+    "Spiritomb":
+        { "Cynthia 1 Lead": { "level": 37, "item": "Leftovers", "moves": ["Energy Ball", "Sludge Bomb", "Shadow Ball", "Extrasensory"] } },
+    "Lucario":
+        { "Cynthia 1": { "level": 37, "item": "Choice Scarf", "moves": ["Aura Sphere", "Dragon Pulse", "Psychic", "Earthquake"] } },
     "Vaporeon":
         { "Aaron Lead": { "level": 100, "item": "Leftovers", "moves": ["Hydro Pump", "Ice Beam", "Follow Me", "Helping Hand"] } },
     "Scizor":
@@ -67,37 +79,37 @@ var SETDEX_DPP = {
     "Porygon-Z":
         { "Lucian": { "level": 100, "item": "Choice Specs", "moves": ["Hyper Beam", "Psychic", "Ice Beam", "Focus Blast"] } },
     "Articuno":
-        { "Candice 2": {"level": 100, "item": "Charti Berry", "moves": ["Blizzard", "Air Slash", "Tailwind", "Follow Me"]}},
+        { "Candice 2": { "level": 100, "item": "Charti Berry", "moves": ["Blizzard", "Air Slash", "Tailwind", "Follow Me"] } },
     "Cloyster":
-        { "Candice 2": {"level": 100, "item": "Focus Sash", "moves": ["Icicle Spear", "Rock Blast", "Spike Cannon", "Explosion"]}},
+        { "Candice 2": { "level": 100, "item": "Focus Sash", "moves": ["Icicle Spear", "Rock Blast", "Spike Cannon", "Explosion"] } },
     "Zapdos":
-        { "Volkner 2 Lead": {"level": 100, "item": "Choice Scarf", "moves": ["Weather Ball", "Volt Switch", "Heat Wave", "Air Slash"]}},
+        { "Volkner 2 Lead": { "level": 100, "item": "Choice Scarf", "moves": ["Weather Ball", "Volt Switch", "Heat Wave", "Air Slash"] } },
     "Manectric":
-        { "Volkner 2": {"level": 100, "item": "Choice Scarf", "moves": ["Seed Flare", "Volt Switch", "Thunderbolt", "Flamethrower"]}},
+        { "Volkner 2": { "level": 100, "item": "Choice Scarf", "moves": ["Seed Flare", "Volt Switch", "Thunderbolt", "Flamethrower"] } },
     "Raikou":
-        { "Volkner 2": {"level": 100, "item": "Shuca Berry", "moves": ["Scald", "Volt Switch", "Aura Sphere", "Thunderbolt"]}},
+        { "Volkner 2": { "level": 100, "item": "Shuca Berry", "moves": ["Scald", "Volt Switch", "Aura Sphere", "Thunderbolt"] } },
     "Skitty":
-        {"Barry 1 Lead": {"level": 13, "item": "Leftovers", "moves": ["DoubleSlap", "Attract", "Sing", "Rock Smash"]}},
+        { "Barry 1 Lead": { "level": 13, "item": "Leftovers", "moves": ["DoubleSlap", "Attract", "Sing", "Rock Smash"] } },
     "Rhyhorn":
-        {"Barry 1 Lead": {"level": 13, "item": "Berry Juice", "moves": ["Accelerock", "Bulk Up", "Rock Tomb", "Gyro Ball"]}},
+        { "Barry 1 Lead": { "level": 13, "item": "Berry Juice", "moves": ["Accelerock", "Bulk Up", "Rock Tomb", "Gyro Ball"] } },
     "Mankey":
-        {"Barry 1": {"level": 13, "item": "Black Belt", "moves": ["Bulk Up", "Pursuit", "Mega Punch", "Rock Throw"]}},
+        { "Barry 1": { "level": 13, "item": "Black Belt", "moves": ["Bulk Up", "Pursuit", "Mega Punch", "Rock Throw"] } },
     "Chimchar":
-        {"Barry 1": {"level": 13, "item": "Berry Juice", "moves": ["Mach Punch", "Screech", "Ember", "Taunt"]}},
+        { "Barry 1": { "level": 13, "item": "Berry Juice", "moves": ["Mach Punch", "Screech", "Ember", "Taunt"] } },
     "Mudkip":
-        {"Barry 1": {"level": 13, "item": "Berry Juice", "moves": ["Tackle", "Growl", "Mud-Slap", "Water Gun"]}},
+        { "Barry 1": { "level": 13, "item": "Berry Juice", "moves": ["Tackle", "Growl", "Mud-Slap", "Water Gun"] } },
     "Bulbasaur":
-        {"Barry 1": {"level": 13, "item": "Berry Juice", "moves": ["Leech Seed", "Vine Whip", "Poison Powder", "Sleep Powder"]}},
+        { "Barry 1": { "level": 13, "item": "Berry Juice", "moves": ["Leech Seed", "Vine Whip", "Poison Powder", "Sleep Powder"] } },
     "Onix":
-        {"Roark 1 Lead": {"level": 16}, "item": "Choice Scarf", "moves": ["Rock Slide", "EarthSqueeze", "Rock Smash", "Poison Tail"]},
+        { "Roark 1 Lead": { "level": 16, "item": "Choice Scarf", "moves": ["Rock Slide", "EarthSqueeze", "Rock Smash", "Poison Tail"] } },
     "Shieldon":
-        {"Roark 1 Lead": {"level": 16}, "item": "Chople Berry", "moves": ["Iron Head", "Sand Tomb", "Rock Slide", "Iron Defense"]},
+        { "Roark 1 Lead": { "level": 16, "item": "Chople Berry", "moves": ["Iron Head", "Sand Tomb", "Rock Slide", "Iron Defense"] } },
     "Cranidos":
-        {"Roark 1": {"level": 16}, "item": "Focus Sash", "moves": ["Iron Head", "Knock Off", "Rock Slide", "Accelerock"]},
+        { "Roark 1": { "level": 16, "item": "Focus Sash", "moves": ["Iron Head", "Knock Off", "Rock Slide", "Accelerock"] } },
     "Solrock":
-        {"Roark 1": {"level": 16}, "item": "Passho Berry", "moves": ["Flame Wheel", "Zen Headbutt", "Rock Tomb", "Swords Dance"]},
+        { "Roark 1": { "level": 16, "item": "Passho Berry", "moves": ["Flame Wheel", "Zen Headbutt", "Rock Tomb", "Swords Dance"] } },
     "Corsola":
-        {"Roark 1": {"level": 16}, "item": "Rindo Berry", "moves": ["Submission", "Dragon Dance", "Rock Tomb", "Scald"]},
+        { "Roark 1": { "level": 16, "item": "Rindo Berry", "moves": ["Submission", "Dragon Dance", "Rock Tomb", "Scald"] } },
     "Sudowoodo":
-        {"Roark 1": {"level": 16}, "item": "Life Orb", "moves": ["Rock Slide", "Ice Punch", "Thunder Punch", "Bullet Seed"]},
+        { "Roark 1": { "level": 16, "item": "Life Orb", "moves": ["Rock Slide", "Ice Punch", "Thunder Punch", "Bullet Seed"] } },
 }
