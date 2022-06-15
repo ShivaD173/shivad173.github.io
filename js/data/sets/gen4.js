@@ -88,4 +88,16 @@ var SETDEX_DPP = {
         {"Barry 1": {"level": 13, "item": "Berry Juice", "moves": ["Tackle", "Growl", "Mud-Slap", "Water Gun"]}},
     "Bulbasaur":
         {"Barry 1": {"level": 13, "item": "Berry Juice", "moves": ["Leech Seed", "Vine Whip", "Poison Powder", "Sleep Powder"]}},
+    "Onix":
+        {"Roark 1": {"level": 16}, "item": "Choice Scarf", "moves": ["Rock Slide", "EarthSqueeze", "Rock Smash", "Poison Tail"]},
+    "Shieldon":
+        {"Roark 1": {"level": 16}, "item": "Chople Berry", "moves": ["Iron Head", "Sand Tomb", "Rock Slide", "Iron Defense"]},
+    "Cranidos":
+        {"Roark 1": {"level": 16}, "item": "Focus Sash", "moves": ["Iron Head", "Knock Off", "Rock Slide", "Accelerock"]},
+    "Solrock":
+        {"Roark 1": {"level": 16}, "item": "Passho Berry", "moves": ["Flame Wheel", "Zen Headbutt", "Rock Tomb", "Swords Dance"]},
+    "Corsola":
+        {"Roark 1": {"level": 16}, "item": "Rindo Berry", "moves": ["Submission", "Dragon Dance", "Rock Tomb", "Scald"]},
+    "Sudowoodo":
+        {"Roark 1": {"level": 16}, "item": "Life Orb", "moves": ["Rock Slide", "Ice Punch", "Thunder Punch", "Bullet Seed"]},
 }

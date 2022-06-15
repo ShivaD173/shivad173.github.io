@@ -429,9 +429,6 @@ function smogonAnalysis(pokemonName) {
 	return "https://smogon.com/dex/" + generation + "/pokemon/" + pokemonName.toLowerCase() + "/";
 }
 
-// $(".set-selector").search(function() {
-
-// })
 // auto-update set details on select
 $(".set-selector").change(function () {
 	var fullSetName = $(this).val();

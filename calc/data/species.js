@@ -3802,11 +3802,11 @@ var DPP_PATCH = {
 var DPP_old = (0, util_1.extend)(true, {}, ADV, DPP_PATCH);
 var DPP_VGC_PATCH = {
     "Bulbasaur": {
-        types: [
+        "types": [
             "Grass",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 49,
             "df": 49,
@@ -3814,16 +3814,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 45
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Ivysaur": {
-        types: [
+        "types": [
             "Grass",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 62,
             "df": 63,
@@ -3831,16 +3831,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 60
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Venusaur": {
-        types: [
+        "types": [
             "Grass",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 82,
             "df": 83,
@@ -3848,15 +3848,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 85
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Charmander": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 39,
             "at": 52,
             "df": 43,
@@ -3864,16 +3865,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 65
         },
-        abilities: {
-            0: "Solar Power"
+        "abilities": {
+            "0": "Solar Power"
         }
     },
     "Charmeleon": {
-        types: [
+        "types": [
             "Fire",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 58,
             "at": 75,
             "df": 58,
@@ -3881,16 +3882,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 80
         },
-        abilities: {
-            0: "Solar Power"
+        "abilities": {
+            "0": "Solar Power"
         }
     },
     "Charizard": {
-        types: [
+        "types": [
             "Fire",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 90,
             "df": 78,
@@ -3898,15 +3899,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 100
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Squirtle": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 44,
             "at": 48,
             "df": 65,
@@ -3914,16 +3916,16 @@ var DPP_VGC_PATCH = {
             "sd": 64,
             "sp": 43
         },
-        abilities: {
-            0: "Shell Armor"
+        "abilities": {
+            "0": "Shell Armor"
         }
     },
     "Wartortle": {
-        types: [
+        "types": [
             "Water",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 59,
             "at": 63,
             "df": 80,
@@ -3931,16 +3933,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 58
         },
-        abilities: {
-            0: "Shell Armor"
+        "abilities": {
+            "0": "Shell Armor"
         }
     },
     "Blastoise": {
-        types: [
+        "types": [
             "Water",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 84,
             "at": 83,
             "df": 110,
@@ -3948,16 +3950,16 @@ var DPP_VGC_PATCH = {
             "sd": 105,
             "sp": 78
         },
-        abilities: {
-            0: "Shell Armor"
+        "abilities": {
+            "0": "Shell Armor"
         }
     },
     "Weedle": {
-        types: [
+        "types": [
             "Bug",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 50,
             "df": 45,
@@ -3965,16 +3967,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 50
         },
-        abilities: {
-            0: "Huge Power"
+        "abilities": {
+            "0": "Huge Power"
         }
     },
     "Kakuna": {
-        types: [
+        "types": [
             "Bug",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 60,
             "df": 70,
@@ -3982,16 +3984,16 @@ var DPP_VGC_PATCH = {
             "sd": 68,
             "sp": 35
         },
-        abilities: {
-            0: "Huge Power"
+        "abilities": {
+            "0": "Huge Power"
         }
     },
     "Beedrill": {
-        types: [
+        "types": [
             "Bug",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 70,
             "df": 70,
@@ -3999,16 +4001,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 89
         },
-        abilities: {
-            0: "Huge Power"
+        "abilities": {
+            "0": "Huge Power"
         }
     },
     "Pidgey": {
-        types: [
+        "types": [
             "Ground",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 45,
             "df": 40,
@@ -4016,16 +4018,16 @@ var DPP_VGC_PATCH = {
             "sd": 43,
             "sp": 56
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Pidgeotto": {
-        types: [
+        "types": [
             "Ground",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 72,
             "at": 75,
             "df": 55,
@@ -4033,16 +4035,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 71
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Pidgeot": {
-        types: [
+        "types": [
             "Ground",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 103,
             "df": 75,
@@ -4050,16 +4052,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 103
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Ekans": {
-        types: [
+        "types": [
             "Poison",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 42,
             "at": 65,
             "df": 44,
@@ -4067,16 +4069,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 55
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Arbok": {
-        types: [
+        "types": [
             "Poison",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 68,
             "at": 90,
             "df": 69,
@@ -4084,16 +4086,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 84
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Pikachu": {
-        types: [
+        "types": [
             "Electric",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 75,
             "df": 45,
@@ -4101,16 +4103,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 90
         },
-        abilities: {
-            0: "Lightningrod"
+        "abilities": {
+            "0": "Lightning Rod"
         }
     },
     "Raichu": {
-        types: [
+        "types": [
             "Electric",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 102,
             "df": 75,
@@ -4118,16 +4120,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 100
         },
-        abilities: {
-            0: "Lightningrod"
+        "abilities": {
+            "0": "Lightning Rod"
         }
     },
     "Sandshrew": {
-        types: [
+        "types": [
             "Ground",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 75,
             "df": 85,
@@ -4135,16 +4137,16 @@ var DPP_VGC_PATCH = {
             "sd": 30,
             "sp": 30
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Sandslash": {
-        types: [
+        "types": [
             "Ground",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 100,
             "df": 120,
@@ -4152,15 +4154,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 65
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Nidoran \u2642": {
-        types: [
+        "types": [
+            "Poison",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 46,
             "at": 57,
             "df": 40,
@@ -4168,16 +4171,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 50
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Nidorino": {
-        types: [
+        "types": [
             "Poison",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 61,
             "at": 80,
             "df": 57,
@@ -4185,16 +4188,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 65
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Nidoking": {
-        types: [
+        "types": [
             "Poison",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 81,
             "at": 115,
             "df": 80,
@@ -4202,16 +4205,16 @@ var DPP_VGC_PATCH = {
             "sd": 84,
             "sp": 80
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Vulpix": {
-        types: [
+        "types": [
             "Fire",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 41,
             "at": 41,
             "df": 45,
@@ -4219,16 +4222,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 75
         },
-        abilities: {
-            0: "Drought"
+        "abilities": {
+            "0": "Drought"
         }
     },
     "Ninetales": {
-        types: [
+        "types": [
             "Fire",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 76,
             "df": 70,
@@ -4236,16 +4239,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 105
         },
-        abilities: {
-            0: "Drought"
+        "abilities": {
+            "0": "Drought"
         }
     },
     "Zubat": {
-        types: [
+        "types": [
             "Poison",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 45,
             "df": 35,
@@ -4253,16 +4256,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 55
         },
-        abilities: {
-            0: "Shadow Tag"
+        "abilities": {
+            "0": "Shadow Tag"
         }
     },
     "Golbat": {
-        types: [
+        "types": [
             "Poison",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 80,
             "df": 70,
@@ -4270,16 +4273,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 90
         },
-        abilities: {
-            0: "Shadow Tag"
+        "abilities": {
+            "0": "Shadow Tag"
         }
     },
     "Paras": {
-        types: [
+        "types": [
             "Bug",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 60,
             "df": 55,
@@ -4287,16 +4290,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 25
         },
-        abilities: {
-            0: "Skill Link"
+        "abilities": {
+            "0": "Skill Link"
         }
     },
     "Parasect": {
-        types: [
+        "types": [
             "Bug",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 95,
             "df": 80,
@@ -4304,15 +4307,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 30
         },
-        abilities: {
-            0: "Skill Link"
+        "abilities": {
+            "0": "Skill Link"
         }
     },
     "Mankey": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 80,
             "df": 50,
@@ -4320,15 +4324,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 70
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Primeape": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 72,
             "at": 115,
             "df": 60,
@@ -4336,16 +4341,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 95
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Growlithe": {
-        types: [
+        "types": [
             "Normal",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 70,
             "df": 45,
@@ -4353,16 +4358,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 60
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Arcanine": {
-        types: [
+        "types": [
             "Normal",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 110,
             "df": 80,
@@ -4370,15 +4375,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 95
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Poliwag": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 50,
             "df": 40,
@@ -4386,15 +4392,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 90
         },
-        abilities: {
-            0: "Drizzle"
+        "abilities": {
+            "0": "Drizzle"
         }
     },
     "Poliwhirl": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 65,
             "df": 65,
@@ -4402,16 +4409,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 90
         },
-        abilities: {
-            0: "Drizzle"
+        "abilities": {
+            "0": "Drizzle"
         }
     },
     "Poliwrath": {
-        types: [
+        "types": [
             "Water",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 120,
             "df": 95,
@@ -4419,15 +4426,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 70
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Abra": {
-        types: [
+        "types": [
+            "Psychic",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 25,
             "at": 20,
             "df": 15,
@@ -4435,16 +4443,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 90
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Kadabra": {
-        types: [
+        "types": [
             "Psychic",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 35,
             "df": 30,
@@ -4452,16 +4460,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 105
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Alakazam": {
-        types: [
+        "types": [
             "Psychic",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 50,
             "df": 45,
@@ -4469,15 +4477,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 120
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Machop": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 80,
             "df": 50,
@@ -4485,15 +4494,16 @@ var DPP_VGC_PATCH = {
             "sd": 35,
             "sp": 35
         },
-        abilities: {
-            0: "No Guard"
+        "abilities": {
+            "0": "No Guard"
         }
     },
     "Machoke": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 100,
             "df": 70,
@@ -4501,15 +4511,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 45
         },
-        abilities: {
-            0: "No Guard"
+        "abilities": {
+            "0": "No Guard"
         }
     },
     "Machamp": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 130,
             "df": 80,
@@ -4517,16 +4528,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 55
         },
-        abilities: {
-            0: "No Guard"
+        "abilities": {
+            "0": "No Guard"
         }
     },
     "Slowpoke": {
-        types: [
+        "types": [
             "Water",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 65,
             "df": 65,
@@ -4534,16 +4545,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 10
         },
-        abilities: {
-            0: "Shell Armor"
+        "abilities": {
+            "0": "Shell Armor"
         }
     },
     "Slowbro": {
-        types: [
+        "types": [
             "Water",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 80,
             "df": 110,
@@ -4551,16 +4562,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 30
         },
-        abilities: {
-            0: "Shell Armor"
+        "abilities": {
+            "0": "Shell Armor"
         }
     },
     "Magnemite": {
-        types: [
+        "types": [
             "Electric",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 35,
             "df": 70,
@@ -4568,16 +4579,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 45
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Magneton": {
-        types: [
+        "types": [
             "Electric",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 60,
             "df": 95,
@@ -4585,16 +4596,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 70
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Doduo": {
-        types: [
+        "types": [
             "Fighting",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 53,
             "at": 85,
             "df": 45,
@@ -4602,16 +4613,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 75
         },
-        abilities: {
-            0: "Technician"
+        "abilities": {
+            "0": "Technician"
         }
     },
     "Dodrio": {
-        types: [
+        "types": [
             "Fighting",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 110,
             "df": 70,
@@ -4619,16 +4630,16 @@ var DPP_VGC_PATCH = {
             "sd": 68,
             "sp": 108
         },
-        abilities: {
-            0: "Technician"
+        "abilities": {
+            "0": "Technician"
         }
     },
     "Grimer": {
-        types: [
+        "types": [
             "Poison",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 80,
             "df": 80,
@@ -4636,16 +4647,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 25
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Muk": {
-        types: [
+        "types": [
             "Poison",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 105,
             "at": 105,
             "df": 100,
@@ -4653,16 +4664,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 50
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Shellder": {
-        types: [
+        "types": [
             "Water",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 65,
             "df": 100,
@@ -4670,16 +4681,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 40
         },
-        abilities: {
-            0: "Skill Link"
+        "abilities": {
+            "0": "Skill Link"
         }
     },
     "Cloyster": {
-        types: [
+        "types": [
             "Water",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 105,
             "df": 145,
@@ -4687,16 +4698,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 65
         },
-        abilities: {
-            0: "Skill Link"
+        "abilities": {
+            "0": "Skill Link"
         }
     },
     "Gastly": {
-        types: [
+        "types": [
             "Ghost",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 35,
             "df": 30,
@@ -4704,16 +4715,16 @@ var DPP_VGC_PATCH = {
             "sd": 35,
             "sp": 80
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Haunter": {
-        types: [
+        "types": [
             "Ghost",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 50,
             "df": 45,
@@ -4721,16 +4732,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 95
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Gengar": {
-        types: [
+        "types": [
             "Ghost",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 65,
             "df": 60,
@@ -4738,16 +4749,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 110
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Onix": {
-        types: [
+        "types": [
             "Rock",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 75,
             "df": 110,
@@ -4755,15 +4766,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 50
         },
-        abilities: {
-            0: "Solid Rock"
+        "abilities": {
+            "0": "Solid Rock"
         }
     },
     "Voltorb": {
-        types: [
+        "types": [
+            "Electric",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 30,
             "df": 50,
@@ -4771,15 +4783,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 100
         },
-        abilities: {
-            0: "Volt Absorb"
+        "abilities": {
+            "0": "Volt Absorb"
         }
     },
     "Electrode": {
-        types: [
+        "types": [
+            "Electric",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 105,
             "df": 70,
@@ -4787,16 +4800,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 135
         },
-        abilities: {
-            0: "Volt Absorb"
+        "abilities": {
+            "0": "Volt Absorb"
         }
     },
     "Exeggcute": {
-        types: [
+        "types": [
             "Grass",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 55,
             "df": 80,
@@ -4804,16 +4817,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 40
         },
-        abilities: {
-            0: "Skill Link"
+        "abilities": {
+            "0": "Skill Link"
         }
     },
     "Exeggutor": {
-        types: [
+        "types": [
             "Grass",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 125,
             "df": 85,
@@ -4821,15 +4834,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 67
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Cubone": {
-        types: [
+        "types": [
+            "Ground",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 45,
             "df": 100,
@@ -4837,16 +4851,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 35
         },
-        abilities: {
-            0: "Lightningrod"
+        "abilities": {
+            "0": "Lightning Rod"
         }
     },
     "Marowak": {
-        types: [
+        "types": [
             "Ground",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 85,
             "df": 110,
@@ -4854,15 +4868,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 45
         },
-        abilities: {
-            0: "Lightningrod"
+        "abilities": {
+            "0": "Lightning Rod"
         }
     },
     "Hitmonlee": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 120,
             "df": 53,
@@ -4870,15 +4885,16 @@ var DPP_VGC_PATCH = {
             "sd": 110,
             "sp": 90
         },
-        abilities: {
-            0: "Reckless"
+        "abilities": {
+            "0": "Reckless"
         }
     },
     "Hitmonchan": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 105,
             "df": 79,
@@ -4886,16 +4902,16 @@ var DPP_VGC_PATCH = {
             "sd": 110,
             "sp": 76
         },
-        abilities: {
-            0: "Iron Fist"
+        "abilities": {
+            "0": "Iron Fist"
         }
     },
     "Rhyhorn": {
-        types: [
+        "types": [
             "Steel",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 85,
             "df": 95,
@@ -4903,16 +4919,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 25
         },
-        abilities: {
-            0: "Solid Rock"
+        "abilities": {
+            "0": "Solid Rock"
         }
     },
     "Rhydon": {
-        types: [
+        "types": [
             "Steel",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 105,
             "at": 130,
             "df": 120,
@@ -4920,15 +4936,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 40
         },
-        abilities: {
-            0: "Solid Rock"
+        "abilities": {
+            "0": "Solid Rock"
         }
     },
     "Chansey": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 150,
             "at": 100,
             "df": 100,
@@ -4936,15 +4953,16 @@ var DPP_VGC_PATCH = {
             "sd": 30,
             "sp": 50
         },
-        abilities: {
-            0: "Scrappy"
+        "abilities": {
+            "0": "Scrappy"
         }
     },
     "Tangela": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 55,
             "df": 115,
@@ -4952,15 +4970,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 60
         },
-        abilities: {
-            0: "Simple"
+        "abilities": {
+            "0": "Simple"
         }
     },
     "Horsea": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 40,
             "df": 70,
@@ -4968,16 +4987,16 @@ var DPP_VGC_PATCH = {
             "sd": 35,
             "sp": 60
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Seadra": {
-        types: [
+        "types": [
             "Water",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 75,
             "df": 95,
@@ -4985,16 +5004,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 85
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Staryu": {
-        types: [
+        "types": [
             "Water",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 53,
             "at": 45,
             "df": 55,
@@ -5002,16 +5021,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 95
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Starmie": {
-        types: [
+        "types": [
             "Water",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 75,
             "df": 85,
@@ -5019,16 +5038,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 115
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Scyther": {
-        types: [
+        "types": [
             "Bug",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 110,
             "df": 80,
@@ -5036,16 +5055,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 105
         },
-        abilities: {
-            0: "Technician"
+        "abilities": {
+            "0": "Technician"
         }
     },
     "Jynx": {
-        types: [
+        "types": [
             "Ice",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 50,
             "df": 68,
@@ -5053,15 +5072,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 119
         },
-        abilities: {
-            0: "Inner Focus"
+        "abilities": {
+            "0": "Inner Focus"
         }
     },
     "Electabuzz": {
-        types: [
+        "types": [
+            "Electric",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 86,
             "df": 57,
@@ -5069,15 +5089,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 105
         },
-        abilities: {
-            0: "Motor Drive"
+        "abilities": {
+            "0": "Motor Drive"
         }
     },
     "Magmar": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 95,
             "df": 57,
@@ -5085,15 +5106,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 93
         },
-        abilities: {
-            0: "Water Absorb"
+        "abilities": {
+            "0": "Water Absorb"
         }
     },
     "Tauros": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 110,
             "df": 95,
@@ -5101,15 +5123,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 116
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Magikarp": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 35,
             "df": 50,
@@ -5117,16 +5140,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 80
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Gyarados": {
-        types: [
+        "types": [
             "Water",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 120,
             "df": 83,
@@ -5134,16 +5157,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 81
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Lapras": {
-        types: [
+        "types": [
             "Water",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 130,
             "at": 85,
             "df": 80,
@@ -5151,15 +5174,16 @@ var DPP_VGC_PATCH = {
             "sd": 95,
             "sp": 60
         },
-        abilities: {
-            0: "Water Absorb"
+        "abilities": {
+            "0": "Water Absorb"
         }
     },
     "Eevee": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 55,
             "df": 50,
@@ -5167,15 +5191,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 55
         },
-        abilities: {
-            0: "Adaptibility"
+        "abilities": {
+            "0": "Adaptibility"
         }
     },
     "Vaporeon": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 130,
             "at": 65,
             "df": 60,
@@ -5183,15 +5208,16 @@ var DPP_VGC_PATCH = {
             "sd": 95,
             "sp": 75
         },
-        abilities: {
-            0: "Drizzle"
+        "abilities": {
+            "0": "Drizzle"
         }
     },
     "Jolteon": {
-        types: [
+        "types": [
+            "Electric",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 70,
             "df": 75,
@@ -5199,15 +5225,16 @@ var DPP_VGC_PATCH = {
             "sd": 95,
             "sp": 130
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Flareon": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 130,
             "df": 70,
@@ -5215,15 +5242,16 @@ var DPP_VGC_PATCH = {
             "sd": 110,
             "sp": 65
         },
-        abilities: {
-            0: "Drought"
+        "abilities": {
+            "0": "Drought"
         }
     },
     "Porygon": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 60,
             "df": 80,
@@ -5231,16 +5259,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 40
         },
-        abilities: {
-            0: "Adaptibility"
+        "abilities": {
+            "0": "Adaptibility"
         }
     },
     "Omanyte": {
-        types: [
+        "types": [
             "Rock",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 55,
             "df": 100,
@@ -5248,16 +5276,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 35
         },
-        abilities: {
-            0: "Shell Armor"
+        "abilities": {
+            "0": "Shell Armor"
         }
     },
     "Omastar": {
-        types: [
+        "types": [
             "Rock",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 60,
             "df": 125,
@@ -5265,16 +5293,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 55
         },
-        abilities: {
-            0: "Shell Armor"
+        "abilities": {
+            "0": "Shell Armor"
         }
     },
     "Kabuto": {
-        types: [
+        "types": [
             "Rock",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 30,
             "at": 80,
             "df": 90,
@@ -5282,16 +5310,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 55
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Kabutops": {
-        types: [
+        "types": [
             "Rock",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 115,
             "df": 105,
@@ -5299,16 +5327,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 100
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Aerodactyl": {
-        types: [
+        "types": [
             "Rock",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 110,
             "df": 65,
@@ -5316,15 +5344,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 130
         },
-        abilities: {
-            0: "Rock Head"
+        "abilities": {
+            "0": "Rock Head"
         }
     },
     "Snorlax": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 160,
             "at": 110,
             "df": 65,
@@ -5332,16 +5361,16 @@ var DPP_VGC_PATCH = {
             "sd": 110,
             "sp": 30
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Articuno": {
-        types: [
+        "types": [
             "Ice",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 85,
             "df": 135,
@@ -5349,16 +5378,16 @@ var DPP_VGC_PATCH = {
             "sd": 125,
             "sp": 85
         },
-        abilities: {
-            0: "Filter"
+        "abilities": {
+            "0": "Filter"
         }
     },
     "Zapdos": {
-        types: [
+        "types": [
             "Electric",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 90,
             "df": 85,
@@ -5366,16 +5395,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 130
         },
-        abilities: {
-            0: "Volt Absorb"
+        "abilities": {
+            "0": "Volt Absorb"
         }
     },
     "Moltres": {
-        types: [
+        "types": [
             "Fire",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 110,
             "at": 100,
             "df": 85,
@@ -5383,15 +5412,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 80
         },
-        abilities: {
-            0: "Drought"
+        "abilities": {
+            "0": "Drought"
         }
     },
     "Dratini": {
-        types: [
+        "types": [
+            "Dragon",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 41,
             "at": 64,
             "df": 45,
@@ -5399,15 +5429,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 50
         },
-        abilities: {
-            0: "Filter"
+        "abilities": {
+            "0": "Filter"
         }
     },
     "Dragonair": {
-        types: [
+        "types": [
+            "Dragon",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 61,
             "at": 84,
             "df": 65,
@@ -5415,16 +5446,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 70
         },
-        abilities: {
-            0: "Filter"
+        "abilities": {
+            "0": "Filter"
         }
     },
     "Dragonite": {
-        types: [
+        "types": [
             "Dragon",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 91,
             "at": 134,
             "df": 95,
@@ -5432,16 +5463,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 80
         },
-        abilities: {
-            0: "Filter"
+        "abilities": {
+            "0": "Filter"
         }
     },
     "Mewtwo": {
-        types: [
+        "types": [
             "Psychic",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 106,
             "at": 110,
             "df": 90,
@@ -5449,15 +5480,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 130
         },
-        abilities: {
-            0: "Inner Focus"
+        "abilities": {
+            "0": "Inner Focus"
         }
     },
     "Chikorita": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 49,
             "df": 65,
@@ -5465,16 +5497,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 45
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Bayleef": {
-        types: [
+        "types": [
             "Grass",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 62,
             "df": 80,
@@ -5482,16 +5514,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 60
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Meganium": {
-        types: [
+        "types": [
             "Grass",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 87,
             "at": 88,
             "df": 100,
@@ -5499,15 +5531,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 75
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Cyndaquil": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 43,
             "at": 52,
             "df": 43,
@@ -5515,15 +5548,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 65
         },
-        abilities: {
-            0: "Flame Body"
+        "abilities": {
+            "0": "Flame Body"
         }
     },
     "Quilava": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 58,
             "at": 64,
             "df": 58,
@@ -5531,15 +5565,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 80
         },
-        abilities: {
-            0: "Flame Body"
+        "abilities": {
+            "0": "Flame Body"
         }
     },
     "Typhlosion": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 78,
             "at": 84,
             "df": 78,
@@ -5547,16 +5582,16 @@ var DPP_VGC_PATCH = {
             "sd": 94,
             "sp": 100
         },
-        abilities: {
-            0: "Flame Body"
+        "abilities": {
+            "0": "Flame Body"
         }
     },
     "Totodile": {
-        types: [
+        "types": [
             "Water",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 65,
             "df": 64,
@@ -5564,16 +5599,16 @@ var DPP_VGC_PATCH = {
             "sd": 48,
             "sp": 43
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Croconaw": {
-        types: [
+        "types": [
             "Water",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 80,
             "df": 90,
@@ -5581,16 +5616,16 @@ var DPP_VGC_PATCH = {
             "sd": 63,
             "sp": 58
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Feraligatr": {
-        types: [
+        "types": [
             "Water",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 115,
             "df": 110,
@@ -5598,15 +5633,16 @@ var DPP_VGC_PATCH = {
             "sd": 83,
             "sp": 78
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Sentret": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 46,
             "df": 40,
@@ -5614,15 +5650,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 40
         },
-        abilities: {
-            0: "Huge Power"
+        "abilities": {
+            "0": "Huge Power"
         }
     },
     "Furret": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 76,
             "df": 69,
@@ -5630,16 +5667,16 @@ var DPP_VGC_PATCH = {
             "sd": 69,
             "sp": 99
         },
-        abilities: {
-            0: "Huge Power"
+        "abilities": {
+            "0": "Huge Power"
         }
     },
     "Hoothoot": {
-        types: [
+        "types": [
             "Psychic",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 30,
             "df": 30,
@@ -5647,16 +5684,16 @@ var DPP_VGC_PATCH = {
             "sd": 56,
             "sp": 50
         },
-        abilities: {
-            0: "Inner Focus"
+        "abilities": {
+            "0": "Inner Focus"
         }
     },
     "Noctowl": {
-        types: [
+        "types": [
             "Psychic",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 50,
             "df": 68,
@@ -5664,16 +5701,16 @@ var DPP_VGC_PATCH = {
             "sd": 96,
             "sp": 86
         },
-        abilities: {
-            0: "Inner Focus"
+        "abilities": {
+            "0": "Inner Focus"
         }
     },
     "Ledyba": {
-        types: [
+        "types": [
             "Bug",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 20,
             "df": 38,
@@ -5681,16 +5718,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 55
         },
-        abilities: {
-            0: "Technician"
+        "abilities": {
+            "0": "Technician"
         }
     },
     "Ledian": {
-        types: [
+        "types": [
             "Bug",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 45,
             "df": 50,
@@ -5698,16 +5735,16 @@ var DPP_VGC_PATCH = {
             "sd": 110,
             "sp": 85
         },
-        abilities: {
-            0: "Technician"
+        "abilities": {
+            "0": "Technician"
         }
     },
     "Spinarak": {
-        types: [
+        "types": [
             "Bug",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 69,
             "at": 40,
             "df": 40,
@@ -5715,16 +5752,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 30
         },
-        abilities: {
-            0: "Compoundeyes"
+        "abilities": {
+            "0": "Compoundeyes"
         }
     },
     "Ariados": {
-        types: [
+        "types": [
             "Bug",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 88,
             "at": 95,
             "df": 70,
@@ -5732,16 +5769,16 @@ var DPP_VGC_PATCH = {
             "sd": 72,
             "sp": 40
         },
-        abilities: {
-            0: "Compoundeyes"
+        "abilities": {
+            "0": "Compoundeyes"
         }
     },
     "Crobat": {
-        types: [
+        "types": [
             "Poison",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 90,
             "df": 80,
@@ -5749,16 +5786,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 140
         },
-        abilities: {
-            0: "Shadow Tag"
+        "abilities": {
+            "0": "Shadow Tag"
         }
     },
     "Pichu": {
-        types: [
+        "types": [
             "Electric",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 25,
             "at": 40,
             "df": 25,
@@ -5766,15 +5803,16 @@ var DPP_VGC_PATCH = {
             "sd": 35,
             "sp": 60
         },
-        abilities: {
-            0: "Lightningrod"
+        "abilities": {
+            "0": "Lightning Rod"
         }
     },
     "Togepi": {
-        types: [
+        "types": [
+            "Fairy",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 20,
             "df": 65,
@@ -5782,16 +5820,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 20
         },
-        abilities: {
-            0: "Serene Grace"
+        "abilities": {
+            "0": "Serene Grace"
         }
     },
     "Togetic": {
-        types: [
+        "types": [
             "Fairy",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 40,
             "df": 85,
@@ -5799,16 +5837,16 @@ var DPP_VGC_PATCH = {
             "sd": 105,
             "sp": 40
         },
-        abilities: {
-            0: "Serene Grace"
+        "abilities": {
+            "0": "Serene Grace"
         }
     },
     "Natu": {
-        types: [
+        "types": [
             "Psychic",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 52,
             "at": 50,
             "df": 45,
@@ -5816,16 +5854,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 70
         },
-        abilities: {
-            0: "Tinted Lens"
+        "abilities": {
+            "0": "Tinted Lens"
         }
     },
     "Xatu": {
-        types: [
+        "types": [
             "Psychic",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 77,
             "at": 75,
             "df": 70,
@@ -5833,15 +5871,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 105
         },
-        abilities: {
-            0: "Tinted Lens"
+        "abilities": {
+            "0": "Tinted Lens"
         }
     },
     "Mareep": {
-        types: [
+        "types": [
+            "Electric",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 40,
             "df": 40,
@@ -5849,15 +5888,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 35
         },
-        abilities: {
-            0: "Motor Drive"
+        "abilities": {
+            "0": "Motor Drive"
         }
     },
     "Flaaffy": {
-        types: [
+        "types": [
+            "Electric",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 55,
             "df": 55,
@@ -5865,16 +5905,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 45
         },
-        abilities: {
-            0: "Motor Drive"
+        "abilities": {
+            "0": "Motor Drive"
         }
     },
     "Ampharos": {
-        types: [
+        "types": [
             "Electric",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 75,
             "df": 75,
@@ -5882,16 +5922,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 55
         },
-        abilities: {
-            0: "Motor Drive"
+        "abilities": {
+            "0": "Motor Drive"
         }
     },
     "Sudowoodo": {
-        types: [
+        "types": [
             "Rock",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 100,
             "df": 115,
@@ -5899,15 +5939,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 30
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Politoed": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 88,
             "df": 85,
@@ -5915,16 +5956,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 70
         },
-        abilities: {
-            0: "Drizzle"
+        "abilities": {
+            "0": "Drizzle"
         }
     },
     "Hoppip": {
-        types: [
+        "types": [
             "Grass",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 35,
             "at": 35,
             "df": 40,
@@ -5932,16 +5973,16 @@ var DPP_VGC_PATCH = {
             "sd": 35,
             "sp": 50
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Skiploom": {
-        types: [
+        "types": [
             "Grass",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 45,
             "df": 68,
@@ -5949,16 +5990,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 80
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Jumpluff": {
-        types: [
+        "types": [
             "Grass",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 55,
             "df": 80,
@@ -5966,16 +6007,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 110
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Aipom": {
-        types: [
+        "types": [
             "Normal",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 60,
             "df": 70,
@@ -5983,15 +6024,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 85
         },
-        abilities: {
-            0: "Technician"
+        "abilities": {
+            "0": "Technician"
         }
     },
     "Sunkern": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 30,
             "df": 30,
@@ -5999,15 +6041,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 43
         },
-        abilities: {
-            0: "Solar Power"
+        "abilities": {
+            "0": "Solar Power"
         }
     },
     "Sunflora": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 75,
             "df": 55,
@@ -6015,16 +6058,16 @@ var DPP_VGC_PATCH = {
             "sd": 93,
             "sp": 73
         },
-        abilities: {
-            0: "Solar Power"
+        "abilities": {
+            "0": "Solar Power"
         }
     },
     "Yanma": {
-        types: [
+        "types": [
             "Bug",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 65,
             "df": 45,
@@ -6032,15 +6075,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 95
         },
-        abilities: {
-            0: "Speed Boost"
+        "abilities": {
+            "0": "Speed Boost"
         }
     },
     "Espeon": {
-        types: [
+        "types": [
+            "Psychic",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 65,
             "df": 65,
@@ -6048,15 +6092,16 @@ var DPP_VGC_PATCH = {
             "sd": 95,
             "sp": 110
         },
-        abilities: {
-            0: "Adaptibility"
+        "abilities": {
+            "0": "Adaptibility"
         }
     },
     "Umbreon": {
-        types: [
+        "types": [
+            "Dark",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 65,
             "df": 120,
@@ -6064,16 +6109,16 @@ var DPP_VGC_PATCH = {
             "sd": 120,
             "sp": 65
         },
-        abilities: {
-            0: "Adaptibility"
+        "abilities": {
+            "0": "Adaptibility"
         }
     },
     "Murkrow": {
-        types: [
+        "types": [
             "Dark",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 85,
             "df": 42,
@@ -6081,16 +6126,16 @@ var DPP_VGC_PATCH = {
             "sd": 42,
             "sp": 91
         },
-        abilities: {
-            0: "Super Luck"
+        "abilities": {
+            "0": "Super Luck"
         }
     },
     "Slowking": {
-        types: [
+        "types": [
             "Water",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 75,
             "df": 80,
@@ -6098,15 +6143,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 30
         },
-        abilities: {
-            0: "Shell Armor"
+        "abilities": {
+            "0": "Shell Armor"
         }
     },
     "Misdreavus": {
-        types: [
+        "types": [
+            "Ghost",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 60,
             "df": 60,
@@ -6114,16 +6160,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 85
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Pineco": {
-        types: [
+        "types": [
             "Grass",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 65,
             "df": 90,
@@ -6131,16 +6177,16 @@ var DPP_VGC_PATCH = {
             "sd": 86,
             "sp": 10
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Forretress": {
-        types: [
+        "types": [
             "Grass",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 74,
             "at": 94,
             "df": 131,
@@ -6148,16 +6194,16 @@ var DPP_VGC_PATCH = {
             "sd": 116,
             "sp": 20
         },
-        abilities: {
-            0: "Rough Skin"
+        "abilities": {
+            "0": "Rough Skin"
         }
     },
     "Dunsparce": {
-        types: [
+        "types": [
             "Normal",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 100,
             "df": 70,
@@ -6165,16 +6211,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 45
         },
-        abilities: {
-            0: "Serene Grace"
+        "abilities": {
+            "0": "Serene Grace"
         }
     },
     "Gligar": {
-        types: [
+        "types": [
             "Ground",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 75,
             "df": 105,
@@ -6182,16 +6228,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 85
         },
-        abilities: {
-            0: "Poison Heal"
+        "abilities": {
+            "0": "Poison Heal"
         }
     },
     "Steelix": {
-        types: [
+        "types": [
             "Ground",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 125,
             "df": 150,
@@ -6199,16 +6245,16 @@ var DPP_VGC_PATCH = {
             "sd": 72,
             "sp": 50
         },
-        abilities: {
-            0: "Solid Rock"
+        "abilities": {
+            "0": "Solid Rock"
         }
     },
     "Scizor": {
-        types: [
+        "types": [
             "Bug",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 130,
             "df": 100,
@@ -6216,16 +6262,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 60
         },
-        abilities: {
-            0: "Technician"
+        "abilities": {
+            "0": "Technician"
         }
     },
     "Shuckle": {
-        types: [
+        "types": [
             "Bug",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 30,
             "at": 10,
             "df": 230,
@@ -6233,16 +6279,16 @@ var DPP_VGC_PATCH = {
             "sd": 230,
             "sp": 5
         },
-        abilities: {
-            0: "Shell Armor"
+        "abilities": {
+            "0": "Shell Armor"
         }
     },
     "Heracross": {
-        types: [
+        "types": [
             "Bug",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 125,
             "df": 75,
@@ -6250,16 +6296,16 @@ var DPP_VGC_PATCH = {
             "sd": 95,
             "sp": 85
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Sneasel": {
-        types: [
+        "types": [
             "Dark",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 95,
             "df": 55,
@@ -6267,16 +6313,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 115
         },
-        abilities: {
-            0: "Super Luck"
+        "abilities": {
+            "0": "Super Luck"
         }
     },
     "Teddiursa": {
-        types: [
+        "types": [
             "Fairy",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 80,
             "df": 70,
@@ -6284,16 +6330,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 40
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Ursaring": {
-        types: [
+        "types": [
             "Fairy",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 130,
             "df": 88,
@@ -6301,15 +6347,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 55
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Slugma": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 40,
             "df": 70,
@@ -6317,16 +6364,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 10
         },
-        abilities: {
-            0: "Drought"
+        "abilities": {
+            "0": "Drought"
         }
     },
     "Magcargo": {
-        types: [
+        "types": [
             "Fire",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 82,
             "at": 70,
             "df": 120,
@@ -6334,16 +6381,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 20
         },
-        abilities: {
-            0: "Drought"
+        "abilities": {
+            "0": "Drought"
         }
     },
     "Swinub": {
-        types: [
+        "types": [
             "Ice",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 50,
             "df": 40,
@@ -6351,16 +6398,16 @@ var DPP_VGC_PATCH = {
             "sd": 30,
             "sp": 50
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Piloswine": {
-        types: [
+        "types": [
             "Ice",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 100,
             "df": 80,
@@ -6368,16 +6415,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 50
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Corsola": {
-        types: [
+        "types": [
             "Water",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 110,
             "at": 105,
             "df": 95,
@@ -6385,16 +6432,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 20
         },
-        abilities: {
-            0: "Reckless"
+        "abilities": {
+            "0": "Reckless"
         }
     },
     "Houndour": {
-        types: [
+        "types": [
             "Dark",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 51,
             "at": 60,
             "df": 30,
@@ -6402,16 +6449,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 65
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Houndoom": {
-        types: [
+        "types": [
             "Dark",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 100,
             "df": 65,
@@ -6419,16 +6466,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 95
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Kingdra": {
-        types: [
+        "types": [
             "Water",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 95,
             "df": 95,
@@ -6436,15 +6483,16 @@ var DPP_VGC_PATCH = {
             "sd": 95,
             "sp": 95
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Porygon2": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 80,
             "df": 100,
@@ -6452,16 +6500,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 50
         },
-        abilities: {
-            0: "Adaptibility"
+        "abilities": {
+            "0": "Adaptibility"
         }
     },
     "Stantler": {
-        types: [
+        "types": [
             "Normal",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 118,
             "df": 80,
@@ -6469,15 +6517,16 @@ var DPP_VGC_PATCH = {
             "sd": 77,
             "sp": 85
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Tyrogue": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 35,
             "at": 55,
             "df": 55,
@@ -6485,15 +6534,16 @@ var DPP_VGC_PATCH = {
             "sd": 35,
             "sp": 35
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Hitmontop": {
-        types: [
+        "types": [
+            "Fighting",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 95,
             "df": 95,
@@ -6501,15 +6551,16 @@ var DPP_VGC_PATCH = {
             "sd": 110,
             "sp": 70
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Elekid": {
-        types: [
+        "types": [
+            "Electric",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 65,
             "df": 40,
@@ -6517,15 +6568,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 95
         },
-        abilities: {
-            0: "Motor Drive"
+        "abilities": {
+            "0": "Motor Drive"
         }
     },
     "Magby": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 75,
             "df": 37,
@@ -6533,15 +6585,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 83
         },
-        abilities: {
-            0: "Water Absorb"
+        "abilities": {
+            "0": "Water Absorb"
         }
     },
     "Blissey": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 210,
             "at": 120,
             "df": 110,
@@ -6549,15 +6602,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 60
         },
-        abilities: {
-            0: "Scrappy"
+        "abilities": {
+            "0": "Scrappy"
         }
     },
     "Raikou": {
-        types: [
+        "types": [
+            "Electric",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 105,
             "df": 75,
@@ -6565,15 +6619,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 135
         },
-        abilities: {
-            0: "Volt Absorb"
+        "abilities": {
+            "0": "Volt Absorb"
         }
     },
     "Entei": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 115,
             "at": 120,
             "df": 85,
@@ -6581,16 +6636,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 100
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Suicune": {
-        types: [
+        "types": [
             "Water",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 120,
             "at": 75,
             "df": 115,
@@ -6598,16 +6653,16 @@ var DPP_VGC_PATCH = {
             "sd": 115,
             "sp": 85
         },
-        abilities: {
-            0: "Drizzle"
+        "abilities": {
+            "0": "Drizzle"
         }
     },
     "Larvitar": {
-        types: [
+        "types": [
             "Rock",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 64,
             "df": 50,
@@ -6615,16 +6670,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 41
         },
-        abilities: {
-            0: "Sand Stream"
+        "abilities": {
+            "0": "Sand Stream"
         }
     },
     "Pupitar": {
-        types: [
+        "types": [
             "Rock",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 84,
             "df": 70,
@@ -6632,16 +6687,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 51
         },
-        abilities: {
-            0: "Sand Stream"
+        "abilities": {
+            "0": "Sand Stream"
         }
     },
     "Tyranitar": {
-        types: [
+        "types": [
             "Rock",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 134,
             "df": 110,
@@ -6649,16 +6704,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 61
         },
-        abilities: {
-            0: "Sand Stream"
+        "abilities": {
+            "0": "Sand Stream"
         }
     },
     "Treecko": {
-        types: [
+        "types": [
             "Grass",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 47,
             "at": 45,
             "df": 35,
@@ -6666,16 +6721,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 70
         },
-        abilities: {
-            0: "Solar Power"
+        "abilities": {
+            "0": "Solar Power"
         }
     },
     "Grovyle": {
-        types: [
+        "types": [
             "Grass",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 65,
             "df": 45,
@@ -6683,16 +6738,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 95
         },
-        abilities: {
-            0: "Solar Power"
+        "abilities": {
+            "0": "Solar Power"
         }
     },
     "Sceptile": {
-        types: [
+        "types": [
             "Grass",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 85,
             "df": 70,
@@ -6700,15 +6755,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 135
         },
-        abilities: {
-            0: "Solar Power"
+        "abilities": {
+            "0": "Solar Power"
         }
     },
     "Torchic": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 60,
             "df": 40,
@@ -6716,16 +6772,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 45
         },
-        abilities: {
-            0: "Speed Boost"
+        "abilities": {
+            "0": "Speed Boost"
         }
     },
     "Combusken": {
-        types: [
+        "types": [
             "Fire",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 85,
             "df": 60,
@@ -6733,16 +6789,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 55
         },
-        abilities: {
-            0: "Speed Boost"
+        "abilities": {
+            "0": "Speed Boost"
         }
     },
     "Blaziken": {
-        types: [
+        "types": [
             "Fire",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 120,
             "df": 70,
@@ -6750,15 +6806,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 80
         },
-        abilities: {
-            0: "Speed Boost"
+        "abilities": {
+            "0": "Speed Boost"
         }
     },
     "Mudkip": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 60,
             "df": 50,
@@ -6766,16 +6823,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 40
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Marshtomp": {
-        types: [
+        "types": [
             "Water",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 85,
             "df": 70,
@@ -6783,16 +6840,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 50
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Swampert": {
-        types: [
+        "types": [
             "Water",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 110,
             "df": 90,
@@ -6800,15 +6857,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 60
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Poochyena": {
-        types: [
+        "types": [
+            "Dark",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 55,
             "df": 40,
@@ -6816,15 +6874,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 45
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Mightyena": {
-        types: [
+        "types": [
+            "Dark",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 100,
             "df": 70,
@@ -6832,15 +6891,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 80
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Seedot": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 30,
             "df": 60,
@@ -6848,16 +6908,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 30
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Nuzleaf": {
-        types: [
+        "types": [
             "Grass",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 70,
             "df": 55,
@@ -6865,16 +6925,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 60
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Shiftry": {
-        types: [
+        "types": [
             "Grass",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 105,
             "df": 60,
@@ -6882,16 +6942,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 80
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Taillow": {
-        types: [
+        "types": [
             "Normal",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 55,
             "df": 30,
@@ -6899,16 +6959,16 @@ var DPP_VGC_PATCH = {
             "sd": 30,
             "sp": 85
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Swellow": {
-        types: [
+        "types": [
             "Normal",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 85,
             "df": 60,
@@ -6916,16 +6976,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 125
         },
-        abilities: {
-            0: "Guts"
+        "abilities": {
+            "0": "Guts"
         }
     },
     "Wingull": {
-        types: [
+        "types": [
             "Water",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 30,
             "df": 35,
@@ -6933,16 +6993,16 @@ var DPP_VGC_PATCH = {
             "sd": 35,
             "sp": 85
         },
-        abilities: {
-            0: "Drizzle"
+        "abilities": {
+            "0": "Drizzle"
         }
     },
     "Pelipper": {
-        types: [
+        "types": [
             "Water",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 50,
             "df": 100,
@@ -6950,16 +7010,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 65
         },
-        abilities: {
-            0: "Drizzle"
+        "abilities": {
+            "0": "Drizzle"
         }
     },
     "Ralts": {
-        types: [
+        "types": [
             "Psychic",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 28,
             "at": 25,
             "df": 25,
@@ -6967,16 +7027,16 @@ var DPP_VGC_PATCH = {
             "sd": 35,
             "sp": 40
         },
-        abilities: {
-            0: "Inner Focus"
+        "abilities": {
+            "0": "Inner Focus"
         }
     },
     "Kirlia": {
-        types: [
+        "types": [
             "Psychic",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 51,
             "at": 35,
             "df": 35,
@@ -6984,16 +7044,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 50
         },
-        abilities: {
-            0: "Inner Focus"
+        "abilities": {
+            "0": "Inner Focus"
         }
     },
     "Gardevoir": {
-        types: [
+        "types": [
             "Psychic",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 65,
             "df": 65,
@@ -7001,16 +7061,16 @@ var DPP_VGC_PATCH = {
             "sd": 115,
             "sp": 80
         },
-        abilities: {
-            0: "Inner Focus"
+        "abilities": {
+            "0": "Inner Focus"
         }
     },
     "Surskit": {
-        types: [
+        "types": [
             "Bug",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 58,
             "at": 30,
             "df": 45,
@@ -7018,16 +7078,16 @@ var DPP_VGC_PATCH = {
             "sd": 59,
             "sp": 70
         },
-        abilities: {
-            0: "Speed Boost"
+        "abilities": {
+            "0": "Speed Boost"
         }
     },
     "Masquerain": {
-        types: [
+        "types": [
             "Bug",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 60,
             "df": 65,
@@ -7035,15 +7095,16 @@ var DPP_VGC_PATCH = {
             "sd": 115,
             "sp": 80
         },
-        abilities: {
-            0: "Speed Boost"
+        "abilities": {
+            "0": "Speed Boost"
         }
     },
     "Shroomish": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 40,
             "df": 60,
@@ -7051,16 +7112,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 35
         },
-        abilities: {
-            0: "Poison Heal"
+        "abilities": {
+            "0": "Poison Heal"
         }
     },
     "Breloom": {
-        types: [
+        "types": [
             "Grass",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 130,
             "df": 80,
@@ -7068,15 +7129,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 70
         },
-        abilities: {
-            0: "Poison Heal"
+        "abilities": {
+            "0": "Poison Heal"
         }
     },
     "Slakoth": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 60,
             "df": 60,
@@ -7084,15 +7146,16 @@ var DPP_VGC_PATCH = {
             "sd": 35,
             "sp": 30
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Vigoroth": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 80,
             "df": 70,
@@ -7100,15 +7163,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 70
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Slaking": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 120,
             "df": 95,
@@ -7116,15 +7180,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 75
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Whismur": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 51,
             "df": 23,
@@ -7132,16 +7197,16 @@ var DPP_VGC_PATCH = {
             "sd": 23,
             "sp": 28
         },
-        abilities: {
-            0: "Scrappy"
+        "abilities": {
+            "0": "Scrappy"
         }
     },
     "Loudred": {
-        types: [
+        "types": [
             "Normal",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 105,
             "at": 76,
             "df": 43,
@@ -7149,16 +7214,16 @@ var DPP_VGC_PATCH = {
             "sd": 43,
             "sp": 48
         },
-        abilities: {
-            0: "Scrappy"
+        "abilities": {
+            "0": "Scrappy"
         }
     },
     "Exploud": {
-        types: [
+        "types": [
             "Normal",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 130,
             "at": 101,
             "df": 63,
@@ -7166,16 +7231,16 @@ var DPP_VGC_PATCH = {
             "sd": 63,
             "sp": 68
         },
-        abilities: {
-            0: "Scrappy"
+        "abilities": {
+            "0": "Scrappy"
         }
     },
     "Makuhita": {
-        types: [
+        "types": [
             "Fighting",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 72,
             "at": 60,
             "df": 35,
@@ -7183,16 +7248,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 25
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Hariyama": {
-        types: [
+        "types": [
             "Fighting",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 144,
             "at": 120,
             "df": 68,
@@ -7200,16 +7265,16 @@ var DPP_VGC_PATCH = {
             "sd": 68,
             "sp": 50
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Nosepass": {
-        types: [
+        "types": [
             "Electric",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 45,
             "df": 135,
@@ -7217,16 +7282,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 30
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Skitty": {
-        types: [
+        "types": [
             "Normal",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 53,
             "df": 45,
@@ -7234,16 +7299,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 50
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Delcatty": {
-        types: [
+        "types": [
             "Normal",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 90,
             "df": 65,
@@ -7251,16 +7316,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 90
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Sableye": {
-        types: [
+        "types": [
             "Dark",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 81,
             "df": 81,
@@ -7268,16 +7333,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 50
         },
-        abilities: {
-            0: "Bad Dreams"
+        "abilities": {
+            "0": "Bad Dreams"
         }
     },
     "Mawile": {
-        types: [
+        "types": [
             "Steel",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 120,
             "df": 70,
@@ -7285,15 +7350,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 45
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Aron": {
-        types: [
-            "Steel", "Steel"
+        "types": [
+            "Steel",
+            "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 70,
             "df": 100,
@@ -7301,15 +7367,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 30
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Lairon": {
-        types: [
-            "Steel", "Steel"
+        "types": [
+            "Steel",
+            "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 90,
             "df": 140,
@@ -7317,15 +7384,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 40
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Aggron": {
-        types: [
-            "Steel", "Steel"
+        "types": [
+            "Steel",
+            "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 110,
             "df": 180,
@@ -7333,16 +7401,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 50
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Electrike": {
-        types: [
+        "types": [
             "Electric",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 47,
             "at": 45,
             "df": 40,
@@ -7350,16 +7418,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 65
         },
-        abilities: {
-            0: "Lightningrod"
+        "abilities": {
+            "0": "Lightning Rod"
         }
     },
     "Manectric": {
-        types: [
+        "types": [
             "Electric",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 80,
             "df": 85,
@@ -7367,16 +7435,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 110
         },
-        abilities: {
-            0: "Lightningrod"
+        "abilities": {
+            "0": "Lightning Rod"
         }
     },
     "Roselia": {
-        types: [
+        "types": [
             "Grass",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 60,
             "df": 45,
@@ -7384,16 +7452,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 75
         },
-        abilities: {
-            0: "Serene Grace"
+        "abilities": {
+            "0": "Serene Grace"
         }
     },
     "Gulpin": {
-        types: [
+        "types": [
             "Poison",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 43,
             "df": 53,
@@ -7401,16 +7469,16 @@ var DPP_VGC_PATCH = {
             "sd": 53,
             "sp": 40
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Swalot": {
-        types: [
+        "types": [
             "Poison",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 80,
             "df": 88,
@@ -7418,15 +7486,16 @@ var DPP_VGC_PATCH = {
             "sd": 88,
             "sp": 55
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Wailmer": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 130,
             "at": 60,
             "df": 50,
@@ -7434,15 +7503,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 60
         },
-        abilities: {
-            0: "Water Absorb"
+        "abilities": {
+            "0": "Water Absorb"
         }
     },
     "Wailord": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 180,
             "at": 80,
             "df": 60,
@@ -7450,16 +7520,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 55
         },
-        abilities: {
-            0: "Water Absorb"
+        "abilities": {
+            "0": "Water Absorb"
         }
     },
     "Numel": {
-        types: [
+        "types": [
             "Fire",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 60,
             "df": 60,
@@ -7467,16 +7537,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 35
         },
-        abilities: {
-            0: "Water Absorb"
+        "abilities": {
+            "0": "Water Absorb"
         }
     },
     "Camerupt": {
-        types: [
+        "types": [
             "Fire",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 90,
             "df": 80,
@@ -7484,16 +7554,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 40
         },
-        abilities: {
-            0: "Water Absorb"
+        "abilities": {
+            "0": "Water Absorb"
         }
     },
     "Spinda": {
-        types: [
+        "types": [
             "Fairy",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 83,
             "df": 90,
@@ -7501,16 +7571,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 75
         },
-        abilities: {
-            0: "Serene Grace"
+        "abilities": {
+            "0": "Serene Grace"
         }
     },
     "Trapinch": {
-        types: [
+        "types": [
             "Bug",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 80,
             "df": 60,
@@ -7518,16 +7588,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 10
         },
-        abilities: {
-            0: "Arena Trap"
+        "abilities": {
+            "0": "Arena Trap"
         }
     },
     "Vibrava": {
-        types: [
+        "types": [
             "Bug",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 90,
             "df": 65,
@@ -7535,16 +7605,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 70
         },
-        abilities: {
-            0: "Arena Trap"
+        "abilities": {
+            "0": "Arena Trap"
         }
     },
     "Flygon": {
-        types: [
+        "types": [
             "Bug",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 120,
             "df": 80,
@@ -7552,16 +7622,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 100
         },
-        abilities: {
-            0: "Arena Trap"
+        "abilities": {
+            "0": "Arena Trap"
         }
     },
     "Swablu": {
-        types: [
+        "types": [
             "Dragon",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 40,
             "df": 75,
@@ -7569,16 +7639,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 50
         },
-        abilities: {
-            0: "Filter"
+        "abilities": {
+            "0": "Filter"
         }
     },
     "Altaria": {
-        types: [
+        "types": [
             "Dragon",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 94,
             "at": 70,
             "df": 110,
@@ -7586,16 +7656,16 @@ var DPP_VGC_PATCH = {
             "sd": 110,
             "sp": 80
         },
-        abilities: {
-            0: "Filter"
+        "abilities": {
+            "0": "Filter"
         }
     },
     "Lunatone": {
-        types: [
+        "types": [
             "Rock",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 40,
             "df": 80,
@@ -7603,16 +7673,16 @@ var DPP_VGC_PATCH = {
             "sd": 105,
             "sp": 70
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Solrock": {
-        types: [
+        "types": [
             "Rock",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 105,
             "df": 105,
@@ -7620,16 +7690,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 70
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Barboach": {
-        types: [
+        "types": [
             "Water",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 48,
             "df": 54,
@@ -7637,16 +7707,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 60
         },
-        abilities: {
-            0: "Sand Stream"
+        "abilities": {
+            "0": "Sand Stream"
         }
     },
     "Whiscash": {
-        types: [
+        "types": [
             "Water",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 140,
             "at": 78,
             "df": 73,
@@ -7654,16 +7724,16 @@ var DPP_VGC_PATCH = {
             "sd": 71,
             "sp": 60
         },
-        abilities: {
-            0: "Sand Stream"
+        "abilities": {
+            "0": "Sand Stream"
         }
     },
     "Baltoy": {
-        types: [
+        "types": [
             "Ground",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 40,
             "df": 55,
@@ -7671,16 +7741,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 55
         },
-        abilities: {
-            0: "Sand Stream"
+        "abilities": {
+            "0": "Sand Stream"
         }
     },
     "Claydol": {
-        types: [
+        "types": [
             "Ground",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 90,
             "df": 105,
@@ -7688,16 +7758,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 75
         },
-        abilities: {
-            0: "Sand Stream"
+        "abilities": {
+            "0": "Sand Stream"
         }
     },
     "Lileep": {
-        types: [
+        "types": [
             "Rock",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 66,
             "at": 41,
             "df": 77,
@@ -7705,16 +7775,16 @@ var DPP_VGC_PATCH = {
             "sd": 87,
             "sp": 23
         },
-        abilities: {
-            0: "Storm Drain"
+        "abilities": {
+            "0": "Storm Drain"
         }
     },
     "Cradily": {
-        types: [
+        "types": [
             "Rock",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 86,
             "at": 81,
             "df": 97,
@@ -7722,16 +7792,16 @@ var DPP_VGC_PATCH = {
             "sd": 107,
             "sp": 43
         },
-        abilities: {
-            0: "Storm Drain"
+        "abilities": {
+            "0": "Storm Drain"
         }
     },
     "Anorith": {
-        types: [
+        "types": [
             "Rock",
             "Bug"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 95,
             "df": 50,
@@ -7739,16 +7809,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 75
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Armaldo": {
-        types: [
+        "types": [
             "Rock",
             "Bug"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 125,
             "df": 100,
@@ -7756,15 +7826,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 45
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Feebas": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 20,
             "at": 15,
             "df": 50,
@@ -7772,16 +7843,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 80
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Milotic": {
-        types: [
+        "types": [
             "Water",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 105,
             "at": 60,
             "df": 70,
@@ -7789,16 +7860,16 @@ var DPP_VGC_PATCH = {
             "sd": 125,
             "sp": 81
         },
-        abilities: {
-            0: "Marvel Scale"
+        "abilities": {
+            "0": "Marvel Scale"
         }
     },
     "Shuppet": {
-        types: [
+        "types": [
             "Dark",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 75,
             "df": 42,
@@ -7806,16 +7877,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 67
         },
-        abilities: {
-            0: "Shadow Tag"
+        "abilities": {
+            "0": "Shadow Tag"
         }
     },
     "Banette": {
-        types: [
+        "types": [
             "Dark",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 72,
             "at": 120,
             "df": 69,
@@ -7823,15 +7894,16 @@ var DPP_VGC_PATCH = {
             "sd": 69,
             "sp": 89
         },
-        abilities: {
-            0: "Shadow Tag"
+        "abilities": {
+            "0": "Shadow Tag"
         }
     },
     "Duskull": {
-        types: [
+        "types": [
+            "Ghost",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 20,
             "at": 40,
             "df": 90,
@@ -7839,15 +7911,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 25
         },
-        abilities: {
-            0: "Frisk"
+        "abilities": {
+            "0": "Frisk"
         }
     },
     "Dusclops": {
-        types: [
+        "types": [
+            "Ghost",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 70,
             "df": 130,
@@ -7855,16 +7928,16 @@ var DPP_VGC_PATCH = {
             "sd": 130,
             "sp": 25
         },
-        abilities: {
-            0: "Frisk"
+        "abilities": {
+            "0": "Frisk"
         }
     },
     "Tropius": {
-        types: [
+        "types": [
             "Grass",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 120,
             "at": 80,
             "df": 94,
@@ -7872,16 +7945,16 @@ var DPP_VGC_PATCH = {
             "sd": 94,
             "sp": 50
         },
-        abilities: {
-            0: "Solar Power"
+        "abilities": {
+            "0": "Solar Power"
         }
     },
     "Absol": {
-        types: [
+        "types": [
             "Dark",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 94,
             "at": 130,
             "df": 78,
@@ -7889,15 +7962,16 @@ var DPP_VGC_PATCH = {
             "sd": 96,
             "sp": 68
         },
-        abilities: {
-            0: "Super Luck"
+        "abilities": {
+            "0": "Super Luck"
         }
     },
     "Wynaut": {
-        types: [
+        "types": [
+            "Psychic",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 110,
             "at": 23,
             "df": 48,
@@ -7905,15 +7979,16 @@ var DPP_VGC_PATCH = {
             "sd": 48,
             "sp": 23
         },
-        abilities: {
-            0: "Shadow Tag"
+        "abilities": {
+            "0": "Shadow Tag"
         }
     },
     "Snorunt": {
-        types: [
+        "types": [
+            "Ice",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 68,
             "at": 50,
             "df": 55,
@@ -7921,15 +7996,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 42
         },
-        abilities: {
-            0: "Huge Power"
+        "abilities": {
+            "0": "Huge Power"
         }
     },
     "Glalie": {
-        types: [
+        "types": [
+            "Ice",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 70,
             "df": 74,
@@ -7937,16 +8013,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 45
         },
-        abilities: {
-            0: "Huge Power"
+        "abilities": {
+            "0": "Huge Power"
         }
     },
     "Spheal": {
-        types: [
+        "types": [
             "Ice",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 40,
             "df": 50,
@@ -7954,16 +8030,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 25
         },
-        abilities: {
-            0: "Snow Warning"
+        "abilities": {
+            "0": "Snow Warning"
         }
     },
     "Sealeo": {
-        types: [
+        "types": [
             "Ice",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 60,
             "df": 70,
@@ -7971,16 +8047,16 @@ var DPP_VGC_PATCH = {
             "sd": 78,
             "sp": 45
         },
-        abilities: {
-            0: "Snow Warning"
+        "abilities": {
+            "0": "Snow Warning"
         }
     },
     "Walrein": {
-        types: [
+        "types": [
             "Ice",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 124,
             "at": 80,
             "df": 90,
@@ -7988,16 +8064,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 65
         },
-        abilities: {
-            0: "Snow Warning"
+        "abilities": {
+            "0": "Snow Warning"
         }
     },
     "Bagon": {
-        types: [
+        "types": [
             "Dragon",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 75,
             "df": 60,
@@ -8005,16 +8081,16 @@ var DPP_VGC_PATCH = {
             "sd": 30,
             "sp": 50
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Shelgon": {
-        types: [
+        "types": [
             "Dragon",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 65,
             "at": 95,
             "df": 100,
@@ -8022,16 +8098,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 50
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Salamence": {
-        types: [
+        "types": [
             "Dragon",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 135,
             "df": 80,
@@ -8039,16 +8115,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 100
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Beldum": {
-        types: [
+        "types": [
             "Steel",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 55,
             "df": 80,
@@ -8056,16 +8132,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 30
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Metang": {
-        types: [
+        "types": [
             "Steel",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 75,
             "df": 100,
@@ -8073,16 +8149,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 45
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Metagross": {
-        types: [
+        "types": [
             "Steel",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 82,
             "at": 135,
             "df": 130,
@@ -8090,15 +8166,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 65
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Regirock": {
-        types: [
+        "types": [
+            "Rock",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 90,
             "df": 200,
@@ -8106,15 +8183,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 35
         },
-        abilities: {
-            0: "Solid Rock"
+        "abilities": {
+            "0": "Solid Rock"
         }
     },
     "Regice": {
-        types: [
+        "types": [
+            "Ice",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 50,
             "df": 100,
@@ -8122,15 +8200,16 @@ var DPP_VGC_PATCH = {
             "sd": 200,
             "sp": 50
         },
-        abilities: {
-            0: "Snow Warning"
+        "abilities": {
+            "0": "Snow Warning"
         }
     },
     "Registeel": {
-        types: [
+        "types": [
+            "Steel",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 75,
             "df": 150,
@@ -8138,49 +8217,50 @@ var DPP_VGC_PATCH = {
             "sd": 150,
             "sp": 50
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Latias": {
-        types: [
+        "types": [
             "Dragon",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 80,
             "df": 90,
             "sa": 110,
-            "sd": 110,
-            "sp": 130
-        },
-        abilities: {
-            0: "Levitate"
-        }
-    },
-    "Latios": {
-        types: [
-            "Dragon",
-            "Psychic"
-        ],
-        bs: {
-            "hp": 80,
-            "at": 90,
-            "df": 80,
-            "sa": 110,
             "sd": 130,
             "sp": 110
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
+        }
+    },
+    "Latios": {
+        "types": [
+            "Dragon",
+            "Psychic"
+        ],
+        "bs": {
+            "hp": 80,
+            "at": 90,
+            "df": 80,
+            "sa": 130,
+            "sd": 110,
+            "sp": 110
+        },
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Kyogre": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 100,
             "df": 90,
@@ -8188,16 +8268,16 @@ var DPP_VGC_PATCH = {
             "sd": 140,
             "sp": 90
         },
-        abilities: {
-            0: "Drizzle"
+        "abilities": {
+            "0": "Drizzle"
         }
     },
     "Rayquaza": {
-        types: [
+        "types": [
             "Dragon",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 105,
             "at": 150,
             "df": 90,
@@ -8205,16 +8285,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 95
         },
-        abilities: {
-            0: "Air Lock"
+        "abilities": {
+            "0": "Air Lock"
         }
     },
     "Turtwig": {
-        types: [
+        "types": [
             "Grass",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 68,
             "df": 64,
@@ -8222,16 +8302,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 31
         },
-        abilities: {
-            0: "Rock Head"
+        "abilities": {
+            "0": "Rock Head"
         }
     },
     "Grotle": {
-        types: [
+        "types": [
             "Grass",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 89,
             "df": 85,
@@ -8239,16 +8319,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 36
         },
-        abilities: {
-            0: "Rock Head"
+        "abilities": {
+            "0": "Rock Head"
         }
     },
     "Torterra": {
-        types: [
+        "types": [
             "Grass",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 120,
             "df": 109,
@@ -8256,16 +8336,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 56
         },
-        abilities: {
-            0: "Rock Head"
+        "abilities": {
+            "0": "Rock Head"
         }
     },
     "Chimchar": {
-        types: [
+        "types": [
             "Fire",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 44,
             "at": 58,
             "df": 44,
@@ -8273,16 +8353,16 @@ var DPP_VGC_PATCH = {
             "sd": 44,
             "sp": 61
         },
-        abilities: {
-            0: "Iron Fist"
+        "abilities": {
+            "0": "Iron Fist"
         }
     },
     "Monferno": {
-        types: [
+        "types": [
             "Fire",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 64,
             "at": 78,
             "df": 52,
@@ -8290,16 +8370,16 @@ var DPP_VGC_PATCH = {
             "sd": 52,
             "sp": 81
         },
-        abilities: {
-            0: "Iron Fist"
+        "abilities": {
+            "0": "Iron Fist"
         }
     },
     "Infernape": {
-        types: [
+        "types": [
             "Fire",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 86,
             "at": 104,
             "df": 71,
@@ -8307,16 +8387,16 @@ var DPP_VGC_PATCH = {
             "sd": 71,
             "sp": 108
         },
-        abilities: {
-            0: "Iron Fist"
+        "abilities": {
+            "0": "Iron Fist"
         }
     },
     "Piplup": {
-        types: [
+        "types": [
             "Water",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 63,
             "at": 46,
             "df": 63,
@@ -8324,16 +8404,16 @@ var DPP_VGC_PATCH = {
             "sd": 66,
             "sp": 24
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Prinplup": {
-        types: [
+        "types": [
             "Water",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 61,
             "df": 78,
@@ -8341,16 +8421,16 @@ var DPP_VGC_PATCH = {
             "sd": 86,
             "sp": 34
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Empoleon": {
-        types: [
+        "types": [
             "Water",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 94,
             "at": 81,
             "df": 100,
@@ -8358,16 +8438,16 @@ var DPP_VGC_PATCH = {
             "sd": 115,
             "sp": 44
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Starly": {
-        types: [
+        "types": [
             "Fighting",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 55,
             "df": 30,
@@ -8375,16 +8455,16 @@ var DPP_VGC_PATCH = {
             "sd": 30,
             "sp": 60
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Staravia": {
-        types: [
+        "types": [
             "Fighting",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 75,
             "df": 50,
@@ -8392,16 +8472,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 80
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Staraptor": {
-        types: [
+        "types": [
             "Fighting",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 120,
             "df": 70,
@@ -8409,16 +8489,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 110
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Shinx": {
-        types: [
+        "types": [
             "Electric",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 65,
             "df": 34,
@@ -8426,16 +8506,16 @@ var DPP_VGC_PATCH = {
             "sd": 34,
             "sp": 45
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Luxio": {
-        types: [
+        "types": [
             "Electric",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 85,
             "df": 49,
@@ -8443,16 +8523,16 @@ var DPP_VGC_PATCH = {
             "sd": 49,
             "sp": 60
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Luxray": {
-        types: [
+        "types": [
             "Electric",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 120,
             "df": 79,
@@ -8460,16 +8540,16 @@ var DPP_VGC_PATCH = {
             "sd": 79,
             "sp": 75
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Budew": {
-        types: [
+        "types": [
             "Grass",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 40,
             "at": 45,
             "df": 45,
@@ -8477,16 +8557,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 55
         },
-        abilities: {
-            0: "Serene Grace"
+        "abilities": {
+            "0": "Serene Grace"
         }
     },
     "Roserade": {
-        types: [
+        "types": [
             "Grass",
             "Poison"
         ],
-        bs: {
+        "bs": {
             "hp": 68,
             "at": 70,
             "df": 55,
@@ -8494,15 +8574,16 @@ var DPP_VGC_PATCH = {
             "sd": 105,
             "sp": 90
         },
-        abilities: {
-            0: "Serene Grace"
+        "abilities": {
+            "0": "Serene Grace"
         }
     },
     "Cranidos": {
-        types: [
+        "types": [
+            "Rock",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 67,
             "at": 125,
             "df": 40,
@@ -8510,15 +8591,16 @@ var DPP_VGC_PATCH = {
             "sd": 30,
             "sp": 58
         },
-        abilities: {
-            0: "Rock Head"
+        "abilities": {
+            "0": "Rock Head"
         }
     },
     "Rampardos": {
-        types: [
+        "types": [
+            "Rock",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 97,
             "at": 150,
             "df": 70,
@@ -8526,15 +8608,16 @@ var DPP_VGC_PATCH = {
             "sd": 65,
             "sp": 82
         },
-        abilities: {
-            0: "Rock Head"
+        "abilities": {
+            "0": "Rock Head"
         }
     },
     "Shieldon": {
-        types: [
+        "types": [
+            "Steel",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 30,
             "at": 60,
             "df": 118,
@@ -8542,15 +8625,16 @@ var DPP_VGC_PATCH = {
             "sd": 88,
             "sp": 30
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Bastiodon": {
-        types: [
+        "types": [
+            "Steel",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 85,
             "df": 168,
@@ -8558,16 +8642,16 @@ var DPP_VGC_PATCH = {
             "sd": 138,
             "sp": 30
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Combee": {
-        types: [
+        "types": [
             "Bug",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 60,
             "at": 30,
             "df": 42,
@@ -8575,16 +8659,16 @@ var DPP_VGC_PATCH = {
             "sd": 42,
             "sp": 70
         },
-        abilities: {
-            0: "Tinted Lens"
+        "abilities": {
+            "0": "Tinted Lens"
         }
     },
     "Vespiquen": {
-        types: [
+        "types": [
             "Bug",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 80,
             "df": 102,
@@ -8592,16 +8676,16 @@ var DPP_VGC_PATCH = {
             "sd": 102,
             "sp": 40
         },
-        abilities: {
-            0: "Tinted Lens"
+        "abilities": {
+            "0": "Tinted Lens"
         }
     },
     "Pachirisu": {
-        types: [
+        "types": [
             "Electric",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 60,
             "df": 95,
@@ -8609,16 +8693,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 105
         },
-        abilities: {
-            0: "Static"
+        "abilities": {
+            "0": "Static"
         }
     },
     "Shellos": {
-        types: [
+        "types": [
             "Water",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 76,
             "at": 48,
             "df": 56,
@@ -8626,16 +8710,16 @@ var DPP_VGC_PATCH = {
             "sd": 62,
             "sp": 34
         },
-        abilities: {
-            0: "Storm Drain"
+        "abilities": {
+            "0": "Storm Drain"
         }
     },
     "Gastrodon": {
-        types: [
+        "types": [
             "Water",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 119,
             "at": 92,
             "df": 77,
@@ -8643,16 +8727,16 @@ var DPP_VGC_PATCH = {
             "sd": 82,
             "sp": 39
         },
-        abilities: {
-            0: "Storm Drain"
+        "abilities": {
+            "0": "Storm Drain"
         }
     },
     "Ambipom": {
-        types: [
+        "types": [
             "Normal",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 105,
             "df": 70,
@@ -8660,16 +8744,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 120
         },
-        abilities: {
-            0: "Technician"
+        "abilities": {
+            "0": "Technician"
         }
     },
     "Drifloon": {
-        types: [
+        "types": [
             "Ghost",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 55,
             "df": 44,
@@ -8677,16 +8761,16 @@ var DPP_VGC_PATCH = {
             "sd": 44,
             "sp": 70
         },
-        abilities: {
-            0: "Unburden"
+        "abilities": {
+            "0": "Unburden"
         }
     },
     "Drifblim": {
-        types: [
+        "types": [
             "Ghost",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 150,
             "at": 80,
             "df": 55,
@@ -8694,15 +8778,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 80
         },
-        abilities: {
-            0: "Unburden"
+        "abilities": {
+            "0": "Unburden"
         }
     },
     "Mismagius": {
-        types: [
+        "types": [
+            "Ghost",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 60,
             "df": 68,
@@ -8710,16 +8795,16 @@ var DPP_VGC_PATCH = {
             "sd": 105,
             "sp": 120
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Honchkrow": {
-        types: [
+        "types": [
             "Dark",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 125,
             "df": 52,
@@ -8727,16 +8812,16 @@ var DPP_VGC_PATCH = {
             "sd": 52,
             "sp": 85
         },
-        abilities: {
-            0: "Super Luck"
+        "abilities": {
+            "0": "Super Luck"
         }
     },
     "Bronzor": {
-        types: [
+        "types": [
             "Steel",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 57,
             "at": 34,
             "df": 86,
@@ -8744,16 +8829,16 @@ var DPP_VGC_PATCH = {
             "sd": 86,
             "sp": 23
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Bronzong": {
-        types: [
+        "types": [
             "Steel",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 67,
             "at": 89,
             "df": 116,
@@ -8761,16 +8846,16 @@ var DPP_VGC_PATCH = {
             "sd": 116,
             "sp": 33
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Bonsly": {
-        types: [
+        "types": [
             "Rock",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 50,
             "at": 80,
             "df": 95,
@@ -8778,15 +8863,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 10
         },
-        abilities: {
-            0: "Battle Armor"
+        "abilities": {
+            "0": "Battle Armor"
         }
     },
     "Happiny": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 65,
             "df": 65,
@@ -8794,16 +8880,16 @@ var DPP_VGC_PATCH = {
             "sd": 10,
             "sp": 35
         },
-        abilities: {
-            0: "Scrappy"
+        "abilities": {
+            "0": "Scrappy"
         }
     },
     "Spiritomb": {
-        types: [
+        "types": [
             "Ghost",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 68,
             "at": 92,
             "df": 108,
@@ -8811,16 +8897,16 @@ var DPP_VGC_PATCH = {
             "sd": 108,
             "sp": 35
         },
-        abilities: {
-            0: "Bad Dreams"
+        "abilities": {
+            "0": "Bad Dreams"
         }
     },
     "Gible": {
-        types: [
+        "types": [
             "Dragon",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 58,
             "at": 70,
             "df": 45,
@@ -8828,16 +8914,16 @@ var DPP_VGC_PATCH = {
             "sd": 45,
             "sp": 42
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Gabite": {
-        types: [
+        "types": [
             "Dragon",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 68,
             "at": 90,
             "df": 65,
@@ -8845,16 +8931,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 82
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Garchomp": {
-        types: [
+        "types": [
             "Dragon",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 108,
             "at": 130,
             "df": 95,
@@ -8862,15 +8948,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 102
         },
-        abilities: {
-            0: "Intimidate"
+        "abilities": {
+            "0": "Intimidate"
         }
     },
     "Munchlax": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 135,
             "at": 85,
             "df": 40,
@@ -8878,16 +8965,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 5
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Riolu": {
-        types: [
+        "types": [
             "Fighting",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 70,
             "df": 40,
@@ -8895,16 +8982,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 70
         },
-        abilities: {
-            0: "Technician"
+        "abilities": {
+            "0": "Technician"
         }
     },
     "Lucario": {
-        types: [
+        "types": [
             "Fighting",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 120,
             "df": 70,
@@ -8912,15 +8999,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 99
         },
-        abilities: {
-            0: "Iron Fist"
+        "abilities": {
+            "0": "Iron Fist"
         }
     },
     "Hippopotas": {
-        types: [
+        "types": [
+            "Ground",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 60,
             "df": 78,
@@ -8928,15 +9016,16 @@ var DPP_VGC_PATCH = {
             "sd": 72,
             "sp": 32
         },
-        abilities: {
-            0: "Sand Stream"
+        "abilities": {
+            "0": "Sand Stream"
         }
     },
     "Hippowdon": {
-        types: [
+        "types": [
+            "Ground",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 130,
             "at": 95,
             "df": 120,
@@ -8944,16 +9033,16 @@ var DPP_VGC_PATCH = {
             "sd": 110,
             "sp": 47
         },
-        abilities: {
-            0: "Sand Stream"
+        "abilities": {
+            "0": "Sand Stream"
         }
     },
     "Skorupi": {
-        types: [
+        "types": [
             "Poison",
             "Bug"
         ],
-        bs: {
+        "bs": {
             "hp": 48,
             "at": 65,
             "df": 90,
@@ -8961,16 +9050,16 @@ var DPP_VGC_PATCH = {
             "sd": 55,
             "sp": 65
         },
-        abilities: {
-            0: "Sniper"
+        "abilities": {
+            "0": "Sniper"
         }
     },
     "Drapion": {
-        types: [
+        "types": [
             "Poison",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 100,
             "df": 115,
@@ -8978,16 +9067,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 95
         },
-        abilities: {
-            0: "Sniper"
+        "abilities": {
+            "0": "Sniper"
         }
     },
     "Croagunk": {
-        types: [
+        "types": [
             "Poison",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 55,
             "at": 75,
             "df": 40,
@@ -8995,16 +9084,16 @@ var DPP_VGC_PATCH = {
             "sd": 40,
             "sp": 50
         },
-        abilities: {
-            0: "Super Luck"
+        "abilities": {
+            "0": "Super Luck"
         }
     },
     "Toxicroak": {
-        types: [
+        "types": [
             "Poison",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 83,
             "at": 118,
             "df": 75,
@@ -9012,15 +9101,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 90
         },
-        abilities: {
-            0: "Super Luck"
+        "abilities": {
+            "0": "Super Luck"
         }
     },
     "Carnivine": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 100,
             "df": 50,
@@ -9028,15 +9118,16 @@ var DPP_VGC_PATCH = {
             "sd": 50,
             "sp": 180
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Finneon": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 59,
             "at": 49,
             "df": 50,
@@ -9044,15 +9135,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 66
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Lumineon": {
-        types: [
+        "types": [
+            "Water",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 74,
             "at": 86,
             "df": 76,
@@ -9060,16 +9152,16 @@ var DPP_VGC_PATCH = {
             "sd": 99,
             "sp": 99
         },
-        abilities: {
-            0: "Swift Swim"
+        "abilities": {
+            "0": "Swift Swim"
         }
     },
     "Snover": {
-        types: [
+        "types": [
             "Grass",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 62,
             "df": 65,
@@ -9077,16 +9169,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 40
         },
-        abilities: {
-            0: "Storm Drain"
+        "abilities": {
+            "0": "Storm Drain"
         }
     },
     "Abomasnow": {
-        types: [
+        "types": [
             "Grass",
             "Water"
         ],
-        bs: {
+        "bs": {
             "hp": 110,
             "at": 92,
             "df": 95,
@@ -9094,16 +9186,16 @@ var DPP_VGC_PATCH = {
             "sd": 95,
             "sp": 62
         },
-        abilities: {
-            0: "Storm Drain"
+        "abilities": {
+            "0": "Storm Drain"
         }
     },
     "Weavile": {
-        types: [
+        "types": [
             "Ice",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 120,
             "df": 65,
@@ -9111,16 +9203,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 125
         },
-        abilities: {
-            0: "Super Luck"
+        "abilities": {
+            "0": "Super Luck"
         }
     },
     "Magnezone": {
-        types: [
+        "types": [
             "Electric",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 70,
             "df": 115,
@@ -9128,16 +9220,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 60
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Rhyperior": {
-        types: [
+        "types": [
             "Steel",
             "Rock"
         ],
-        bs: {
+        "bs": {
             "hp": 115,
             "at": 140,
             "df": 130,
@@ -9145,15 +9237,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 40
         },
-        abilities: {
-            0: "Solid Rock"
+        "abilities": {
+            "0": "Solid Rock"
         }
     },
     "Tangrowth": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 100,
             "df": 125,
@@ -9161,15 +9254,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 50
         },
-        abilities: {
-            0: "Simple"
+        "abilities": {
+            "0": "Simple"
         }
     },
     "Electivire": {
-        types: [
+        "types": [
+            "Electric",
             "Electric"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 115,
             "df": 70,
@@ -9177,15 +9271,16 @@ var DPP_VGC_PATCH = {
             "sd": 85,
             "sp": 95
         },
-        abilities: {
-            0: "Motor Drive"
+        "abilities": {
+            "0": "Motor Drive"
         }
     },
     "Magmortar": {
-        types: [
+        "types": [
+            "Fire",
             "Fire"
         ],
-        bs: {
+        "bs": {
             "hp": 87,
             "at": 95,
             "df": 67,
@@ -9193,16 +9288,16 @@ var DPP_VGC_PATCH = {
             "sd": 95,
             "sp": 83
         },
-        abilities: {
-            0: "Water Absorb"
+        "abilities": {
+            "0": "Water Absorb"
         }
     },
     "Togekiss": {
-        types: [
+        "types": [
             "Fairy",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 50,
             "df": 95,
@@ -9210,16 +9305,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 75
         },
-        abilities: {
-            0: "Serene Grace"
+        "abilities": {
+            "0": "Serene Grace"
         }
     },
     "Yanmega": {
-        types: [
+        "types": [
             "Bug",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 86,
             "at": 76,
             "df": 86,
@@ -9227,15 +9322,16 @@ var DPP_VGC_PATCH = {
             "sd": 56,
             "sp": 95
         },
-        abilities: {
-            0: "Speed Boost"
+        "abilities": {
+            "0": "Speed Boost"
         }
     },
     "Leafeon": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 110,
             "df": 130,
@@ -9243,15 +9339,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 90
         },
-        abilities: {
-            0: "Chlorophyll"
+        "abilities": {
+            "0": "Chlorophyll"
         }
     },
     "Glaceon": {
-        types: [
+        "types": [
+            "Ice",
             "Ice"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 60,
             "df": 110,
@@ -9259,16 +9356,16 @@ var DPP_VGC_PATCH = {
             "sd": 95,
             "sp": 65
         },
-        abilities: {
-            0: "Snow Warning"
+        "abilities": {
+            "0": "Snow Warning"
         }
     },
     "Gliscor": {
-        types: [
+        "types": [
             "Ground",
             "Flying"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 95,
             "df": 125,
@@ -9276,16 +9373,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 95
         },
-        abilities: {
-            0: "Poison Heal"
+        "abilities": {
+            "0": "Poison Heal"
         }
     },
     "Mamoswine": {
-        types: [
+        "types": [
             "Ice",
             "Ground"
         ],
-        bs: {
+        "bs": {
             "hp": 110,
             "at": 130,
             "df": 80,
@@ -9293,15 +9390,16 @@ var DPP_VGC_PATCH = {
             "sd": 60,
             "sp": 80
         },
-        abilities: {
-            0: "Thick Fat"
+        "abilities": {
+            "0": "Thick Fat"
         }
     },
     "Porygon-Z": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 95,
             "at": 80,
             "df": 70,
@@ -9309,16 +9407,16 @@ var DPP_VGC_PATCH = {
             "sd": 75,
             "sp": 100
         },
-        abilities: {
-            0: "Adaptability"
+        "abilities": {
+            "0": "Adaptability"
         }
     },
     "Gallade": {
-        types: [
+        "types": [
             "Psychic",
             "Fighting"
         ],
-        bs: {
+        "bs": {
             "hp": 73,
             "at": 125,
             "df": 65,
@@ -9326,16 +9424,16 @@ var DPP_VGC_PATCH = {
             "sd": 115,
             "sp": 80
         },
-        abilities: {
-            0: "Super Luck"
+        "abilities": {
+            "0": "Super Luck"
         }
     },
     "Probopass": {
-        types: [
+        "types": [
             "Electric",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 55,
             "df": 145,
@@ -9343,15 +9441,16 @@ var DPP_VGC_PATCH = {
             "sd": 150,
             "sp": 30
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Dusknoir": {
-        types: [
+        "types": [
+            "Ghost",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 45,
             "at": 100,
             "df": 135,
@@ -9359,16 +9458,16 @@ var DPP_VGC_PATCH = {
             "sd": 135,
             "sp": 45
         },
-        abilities: {
-            0: "Frisk"
+        "abilities": {
+            "0": "Frisk"
         }
     },
     "Froslass": {
-        types: [
+        "types": [
             "Ice",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 70,
             "at": 80,
             "df": 80,
@@ -9376,16 +9475,16 @@ var DPP_VGC_PATCH = {
             "sd": 80,
             "sp": 118
         },
-        abilities: {
-            0: "Shadow Tag"
+        "abilities": {
+            "0": "Shadow Tag"
         }
     },
     "Rotom": {
-        types: [
+        "types": [
             "Electric",
             "Ghost"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 50,
             "df": 88,
@@ -9393,16 +9492,16 @@ var DPP_VGC_PATCH = {
             "sd": 88,
             "sp": 91
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Uxie": {
-        types: [
+        "types": [
             "Electric",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 75,
             "df": 130,
@@ -9410,16 +9509,16 @@ var DPP_VGC_PATCH = {
             "sd": 130,
             "sp": 95
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Mesprit": {
-        types: [
+        "types": [
             "Poison",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 75,
             "at": 95,
             "df": 95,
@@ -9427,16 +9526,16 @@ var DPP_VGC_PATCH = {
             "sd": 115,
             "sp": 95
         },
-        abilities: {
-            0: "Poison Point"
+        "abilities": {
+            "0": "Poison Point"
         }
     },
     "Azelf": {
-        types: [
+        "types": [
             "Water",
             "Fairy"
         ],
-        bs: {
+        "bs": {
             "hp": 80,
             "at": 125,
             "df": 70,
@@ -9444,16 +9543,16 @@ var DPP_VGC_PATCH = {
             "sd": 70,
             "sp": 115
         },
-        abilities: {
-            0: "Storm Drain"
+        "abilities": {
+            "0": "Storm Drain"
         }
     },
     "Dialga": {
-        types: [
+        "types": [
             "Steel",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 120,
             "df": 120,
@@ -9461,16 +9560,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 90
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Palkia": {
-        types: [
+        "types": [
             "Water",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 90,
             "at": 120,
             "df": 100,
@@ -9478,16 +9577,16 @@ var DPP_VGC_PATCH = {
             "sd": 120,
             "sp": 100
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Heatran": {
-        types: [
+        "types": [
             "Fire",
             "Steel"
         ],
-        bs: {
+        "bs": {
             "hp": 91,
             "at": 90,
             "df": 106,
@@ -9495,16 +9594,16 @@ var DPP_VGC_PATCH = {
             "sd": 106,
             "sp": 80
         },
-        abilities: {
-            0: "Flash Fire"
+        "abilities": {
+            "0": "Flash Fire"
         }
     },
     "Giratina": {
-        types: [
+        "types": [
             "Ghost",
             "Dragon"
         ],
-        bs: {
+        "bs": {
             "hp": 150,
             "at": 100,
             "df": 120,
@@ -9512,15 +9611,16 @@ var DPP_VGC_PATCH = {
             "sd": 120,
             "sp": 90
         },
-        abilities: {
-            0: "Clear Body"
+        "abilities": {
+            "0": "Clear Body"
         }
     },
     "Cresselia": {
-        types: [
+        "types": [
+            "Psychic",
             "Psychic"
         ],
-        bs: {
+        "bs": {
             "hp": 120,
             "at": 70,
             "df": 120,
@@ -9528,15 +9628,16 @@ var DPP_VGC_PATCH = {
             "sd": 130,
             "sp": 85
         },
-        abilities: {
-            0: "Levitate"
+        "abilities": {
+            "0": "Levitate"
         }
     },
     "Darkrai": {
-        types: [
+        "types": [
+            "Dark",
             "Dark"
         ],
-        bs: {
+        "bs": {
             "hp": 85,
             "at": 90,
             "df": 90,
@@ -9544,15 +9645,16 @@ var DPP_VGC_PATCH = {
             "sd": 90,
             "sp": 125
         },
-        abilities: {
-            0: "Bad Dreams"
+        "abilities": {
+            "0": "Bad Dreams"
         }
     },
     "Shaymin": {
-        types: [
+        "types": [
+            "Grass",
             "Grass"
         ],
-        bs: {
+        "bs": {
             "hp": 100,
             "at": 100,
             "df": 100,
@@ -9560,15 +9662,16 @@ var DPP_VGC_PATCH = {
             "sd": 100,
             "sp": 100
         },
-        abilities: {
-            0: "Serene Grace"
+        "abilities": {
+            "0": "Serene Grace"
         }
     },
     "Arceus": {
-        types: [
+        "types": [
+            "Normal",
             "Normal"
         ],
-        bs: {
+        "bs": {
             "hp": 120,
             "at": 120,
             "df": 120,
@@ -9576,8 +9679,8 @@ var DPP_VGC_PATCH = {
             "sd": 120,
             "sp": 120
         },
-        abilities: {
-            0: "Multitype"
+        "abilities": {
+            "0": "Multitype"
         }
     }
 };
