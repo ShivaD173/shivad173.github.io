@@ -4671,7 +4671,7 @@ var DPP_VGC_PATCH = {
             "sp": 40
         },
         abilities: {
-            0: "Skill link"
+            0: "Skill Link"
         }
     },
     "Cloyster": {
@@ -4688,7 +4688,7 @@ var DPP_VGC_PATCH = {
             "sp": 65
         },
         abilities: {
-            0: "Skill link"
+            0: "Skill Link"
         }
     },
     "Gastly": {
@@ -4887,7 +4887,7 @@ var DPP_VGC_PATCH = {
             "sp": 76
         },
         abilities: {
-            0: "Iron fist"
+            0: "Iron Fist"
         }
     },
     "Rhyhorn": {
@@ -5333,7 +5333,7 @@ var DPP_VGC_PATCH = {
             "sp": 30
         },
         abilities: {
-            0: "Thicc Fat"
+            0: "Thick Fat"
         }
     },
     "Articuno": {
@@ -7291,7 +7291,7 @@ var DPP_VGC_PATCH = {
     },
     "Aron": {
         types: [
-            "Steel"
+            "Steel", "Steel"
         ],
         bs: {
             "hp": 50,
@@ -7307,7 +7307,7 @@ var DPP_VGC_PATCH = {
     },
     "Lairon": {
         types: [
-            "Steel"
+            "Steel", "Steel"
         ],
         bs: {
             "hp": 60,
@@ -7323,7 +7323,7 @@ var DPP_VGC_PATCH = {
     },
     "Aggron": {
         types: [
-            "Steel"
+            "Steel", "Steel"
         ],
         bs: {
             "hp": 70,
@@ -8779,7 +8779,7 @@ var DPP_VGC_PATCH = {
             "sp": 10
         },
         abilities: {
-            0: "Psychic"
+            0: "Battle Armor"
         }
     },
     "Happiny": {

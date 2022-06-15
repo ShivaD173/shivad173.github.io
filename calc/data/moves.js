@@ -1164,6 +1164,20 @@ var DPP_PATCH = {
 };
 var DPP_old = (0, util_1.extend)(true, {}, ADV, DPP_PATCH);
 var DPP_VGC_PATCH = {
+    'Molten Mud': { bp: 70, type: 'Ground', category: 'Special' },
+    'Taxation': { bp: 65, type: 'Dark', category: 'Special', drain: [1, 2] },
+    'EarthSqueeze': {
+        bp: 90,
+        type: 'Ground',
+        makesContact: true,
+        category: 'Physical'
+    },
+    'Snipe Kick': {
+        bp: 80,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true
+    },
     'Play Rough': {
         bp: 90,
         type: 'Fairy',
@@ -1187,19 +1201,6 @@ var DPP_VGC_PATCH = {
         bp: 70,
         type: 'Electric',
         category: 'Special'
-    },
-    'Molten Mud': { bp: 70, type: 'Ground', category: 'Special' },
-    'EarthSqueeze': {
-        bp: 90,
-        type: 'Ground',
-        makesContact: true,
-        category: 'Physical'
-    },
-    'Snipe Kick': {
-        bp: 80,
-        type: 'Fighting',
-        category: 'Physical',
-        makesContact: true
     },
     "Accelerock": {
         bp: 40,
