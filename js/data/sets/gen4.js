@@ -24,13 +24,19 @@ var SETDEX_DPP = {
     "Roserade":
         { "Cynthia 1 Lead": { "level": 37, "item": "Focus Sash", "moves": ["Dark Pulse", "Taxation", "Psychic", "Ominous Wind"] } },
     "Spiritomb":
-        { "Cynthia 1 Lead": { "level": 37, "item": "Leftovers", "moves": ["Energy Ball", "Sludge Bomb", "Shadow Ball", "Extrasensory"] } },
+    {
+        "Cynthia 1 Lead": { "level": 37, "item": "Leftovers", "moves": ["Energy Ball", "Sludge Bomb", "Shadow Ball", "Extrasensory"] },
+        "Fantina 1": { "level": 40, "item": "Leftovers", "moves": ["Hypnosis", "Dream Eater", "Dark Pulse", "Nasty Plot"] }
+    },
     "Lucario":
         { "Cynthia 1": { "level": 37, "item": "Choice Scarf", "moves": ["Aura Sphere", "Dragon Pulse", "Psychic", "Earthquake"] } },
     "Vaporeon":
         { "Aaron Lead": { "level": 100, "item": "Leftovers", "moves": ["Hydro Pump", "Ice Beam", "Follow Me", "Helping Hand"] } },
     "Scizor":
-        { "Aaron Lead": { "level": 100, "item": "Choice Band", "moves": ["Bullet Punch", "Bug Bite", "Superpower", "U-turn"] } },
+    {
+        "Aaron Lead": { "level": 100, "item": "Choice Band", "moves": ["Bullet Punch", "Bug Bite", "Superpower", "U-turn"] },
+        "Byron 209 Lead": { "level": 46, "item": "Occa Berry", "moves": ["Bullet Punch", "Bug Bite", "Superpower", "Aerial Ace"] }
+    },
     "Ambipom":
         { "Aaron": { "level": 100, "item": "Life Orb", "moves": ["Fake Out", "Last Resort"] } },
     "Flygon":
@@ -107,9 +113,113 @@ var SETDEX_DPP = {
     "Cranidos":
         { "Roark 1": { "level": 16, "item": "Focus Sash", "moves": ["Iron Head", "Knock Off", "Rock Slide", "Accelerock"] } },
     "Solrock":
-        { "Roark 1": { "level": 16, "item": "Passho Berry", "moves": ["Flame Wheel", "Zen Headbutt", "Rock Tomb", "Swords Dance"] } },
+    {
+        "Roark 1": { "level": 16, "item": "Passho Berry", "moves": ["Flame Wheel", "Zen Headbutt", "Rock Tomb", "Swords Dance"] },
+        "Roark 2": { "level": 46, "item": "Life Orb", "moves": ["Sacred Fire", "Zen Headbutt", "Rock Slide", "Accelerock"] }
+    },
     "Corsola":
         { "Roark 1": { "level": 16, "item": "Rindo Berry", "moves": ["Submission", "Dragon Dance", "Rock Tomb", "Scald"] } },
     "Sudowoodo":
-        { "Roark 1": { "level": 16, "item": "Life Orb", "moves": ["Rock Slide", "Ice Punch", "Thunder Punch", "Bullet Seed"] } },
+    {
+        "Roark 1": { "level": 16, "item": "Life Orb", "moves": ["Rock Slide", "Ice Punch", "Thunder Punch", "Bullet Seed"] },
+        "Roark 2 Lead": { "level": 46, "item": "Life Orb", "moves": ["Wood Hammer", "Stone Edge", "Ice Punch", "Accelerock"] }
+    },
+    "Swellow":
+        { "Mars 1 Lead": { "level": 25, "item": "Flame Orb", "moves": ["Façade", "Bulk Up", "Wing Attack", "Quick Attack"] } },
+    "Skiploom":
+        { "Mars 1 Lead": { "level": 25, "item": "Focus Sash", "moves": ["Mega Drain", "Tailwind", "Sleep Powder", "Follow Me"] } },
+    "Yanma":
+        { "Mars 1": { "level": 25, "item": "Charti Berry", "moves": ["Bug Bite", "Supersonic", "Air Cutter", "U-turn"] } },
+    "Dratini":
+        { "Mars 1": { "level": 24, "item": "Berry Juice", "moves": ["Shock Wave", "Fire Spin", "DragonBreath", "Whirlpool"] } },
+    "Ledian":
+        { "Mars 1": { "level": 25, "item": "Charti Berry", "moves": ["Vacuum Wave", "Silver Wind", "Air Cutter", "Roost"] } },
+    "Kadabra":
+        { "Mars 1": { "level": 26, "item": "Focus Sash", "moves": ["Extrasensory", "Nasty Plot", "Hypnosis", "Energy Ball"] } },
+    "Pelipper":
+        { "Jupiter 1 Lead": { "level": 33, "item": "Wacan Berry", "moves": ["Muddy Water", "Tailwind", "Air Cutter", "Amnesia"] } },
+    "Altaria":
+        { "Jupiter 1 Lead": { "level": 34, "item": "Sitrus Berry", "moves": ["Dragonbreath", "Air Slash", "Thunder", "Nasty Plot"] } },
+    "Vespiquen":
+        { "Jupiter 1": { "level": 34, "item": "Sitrus Berry", "moves": ["Attack Order", "Defend Order", "Power Gem", "Hyper Beam"] } },
+    "Staraptor":
+        { "Jupiter 1": { "level": 34, "item": "Life Orb", "moves": ["Wing Attack", "Take Down", "Bulk Up", "Quick Attack"] } },
+    "Aerodactyl":
+        { "Jupiter 1": { "level": 33, "item": "Wacan Berry", "moves": ["Ice Fang", "Fire Fang", "Thunder Fang", "Rock Slide"] } },
+    "Pidgeot":
+        { "Jupiter 1": { "level": 35, "item": "Flame Orb", "moves": ["Earthquake", "Wing Attack", "Protect", "Bulk Up"] } },
+    "Magcargo":
+        { "Gardenia 1 Lead": { "level": 28, "item": "Focus Sash", "moves": ["AncientPower", "Explosion", "Yawn", "Pain Split"] } },
+    "Leafeon":
+    {
+        "Gardenia 1 Lead": { "level": 29, "item": "Life Orb", "moves": ["Leaf Blade", "Knock Off", "EarthSqueeze", "Take Down"] },
+        "Gardenia 2": { "level": 47, "item": "Sitrus Berry", "moves": ["Leaf Blade", "EarthSqueeze", "Swords Dance", "Fire Fang"] }
+    },
+    "Breloom":
+        { "Gardenia 1": { "level": 29, "item": "Coba Berry", "moves": ["Spore", "PowerUpPunch", "Leech Seed", "Drain Punch"] } },
+    "Grovyle":
+        { "Gardenia 1": { "level": 29, "item": "Coba Berry", "moves": ["Aura Sphere", "Vacuum Wave", "Giga Drain", "Calm Mind"] } },
+    "Tropius":
+    {
+        "Gardenia 1": { "level": 29, "item": "Sitrus Berry", "moves": ["Giga Drain", "Air Slash", "Synthesis", "Dragon Breath"] },
+        "Gardenia 2 Lead": { "level": 47, "item": "Choice Scarf", "moves": ["Dragon Pulse", "SolarBeam", "Air Slash", "Energy Ball"] }
+    },
+    "Shaymin":
+        { "Gardenia 1": { "level": 29, "item": "Choice Scarf", "moves": ["Energy Ball", "Air Slash", "Molten Mud", "Hyper Beam"] } },
+    "Sceptile":
+        { "Gardenia 2": { "level": 47, "item": "Coba Berry", "moves": ["Aura Sphere", "Energy Ball", "Sucker Punch", "Vacuum Wave"] } },
+    "Venusaur":
+        { "Gardenia 2": { "level": 47, "item": "Life Orb", "moves": ["Petal Dance", "Earth Power", "Sludge Bomb", "Sleep Powder"] } },
+    "Exeggutor":
+        { "Gardenia 2": { "level": 47, "item": "Coba Berry", "moves": ["Barrage", "Wood Hammer", "Leech Seed", "Swords Dance"] } },
+    "Dusknoir":
+        { "Fantina 1 Lead": { "level": 40, "item": "Leftovers", "moves": ["Shadow Punch", "Helping Hand", "Will-O-Wisp", "Pain Split"] } },
+    "Giratina":
+    {
+        "Fantina 1 Lead": { "level": 40, "item": "Sitrus Berry", "moves": ["Shadow Force", "Taxation", "Dragon Claw", "Thunderbolt"] },
+        "Fantina 2": { "level": 48, "item": "Griseous Orb", "moves": ["ShadowForce", "Dragon Pulse", "Will-O-Wisp", "Thunderbolt"] }
+    },
+    "Absol":
+        { "Fantina 1": { "level": 40, "item": "Chople Berry", "moves": ["Night Slash", "Leaf Blade", "Cross Chop", "Swords Dance"] } },
+    "Sableye":
+        { "Fantina 1": { "level": 40, "item": "Sitrus Berry", "moves": ["Sing", "Shadow Ball", "Knock Off", "Fake Out"] } },
+    "Rotom":
+    {
+        "Fantina 1": { "level": 40, "item": "Life Orb", "moves": ["Thunder", "Overheat", "Shadow Ball", "Hydro Pump"] },
+        "Fantina 2": { "level": 48, "item": "Life Orb", "moves": ["Volt Switch", "Shadow Ball", "Overheat", "Hydro Pump"] }
+    },
+    "Lucario":
+        { "Maylene 1 Lead": { "level": 51, "item": "Choice Scarf", "moves": ["Drain Punch", "Bullet Punch", "ThunderPunch", "Sucker Punch"] } },
+    "Machamp":
+        { "Maylene 1 Lead": { "level": 51, "item": "Choice Scarf", "moves": ["Dynamic Punch", "Fire Punch", "Ice Punch", "Knock Off"] } },
+    "Blaziken":
+        { "Maylene 1": { "level": 51, "item": "Choice Band", "moves": ["Flare Blitz", "Close Combat", "Brave Bird", "Thunder Punch"] } },
+    "Arceus-Fighting":
+        { "Maylene 1": { "level": 51, "item": "Fist Plate", "moves": ["Judgment", "Thunderbolt", "Dark Pulse", "Nasty Plot"] } },
+    "Dodrio":
+        { "Maylene 1": { "level": 51, "item": "Focus Sash", "moves": ["Pluck", "Close Combat", "Mach Punch", "ExtremeSpeed"] } },
+    "Ursaring":
+        { "Maylene 1": { "level": 51, "item": "Flame Orb", "moves": ["Façade", "Close Combat", "Protect", "Rock Climb"] } },
+    "Rampardos":
+        { "Roark 2": { "level": 46, "item": "Choice Band", "moves": ["Head Smash", "Iron Head", "Superpower", "Accelerock"] } },
+    "Metagross":
+        { "Byron 209": { "level": 46, "item": "Shuca Berry", "moves": ["Bullet Punch", "Meteor Mash", "Zen Headbutt", "Agility"] } },
+    "Mawile":
+        { "Byron 209": { "level": 46, "item": "Occa Berry", "moves": ["Belly Drum", "Play Rough", "Sucker Punch", "Iron Head"] } },
+    "Flareon":
+        { "Gardenia 2 Lead": { "level": 47, "item": "Shuca Berry", "moves": ["Flare Blitz", "Follow Me", "Super Fang", "Thunder Fang"] } },
+    "Froslass":
+        { "Fantina 2 Lead": { "level": 48, "item": "Focus Sash", "moves": ["Perish Song", "Ice Beam", "Shadow Ball", "Double Team"] } },
+    "Crobat":
+        { "Fantina 2 Lead": { "level": 48, "item": "Focus Sash", "moves": ["Fly", "Cross Poison", "Bug Bite", "Protect"] } },
+    "Banette":
+        { "Fantina 2": { "level": 48, "item": "BrightPowder", "moves": ["Will-O-Wisp", "Perish Song", "Knock Off", "Sucker Punch"] } },
+    "Drifblim":
+        { "Fantina 2": { "level": 48, "item": "BrightPowder", "moves": ["Explosion", "Shadow Ball", "Thunderbolt", "Air Slash"] } },
+
+
+
+
+
+
 }
