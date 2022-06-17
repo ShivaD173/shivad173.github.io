@@ -1244,7 +1244,7 @@ var DPP_VGC_PATCH = {
     "Earth Power": { bp: 85 },
     "Egg Bomb": { type: "Psychic", bp: 100 },
     "Energy Ball": { bp: 85 },
-    "Fire Blast": { bp: 85 },
+    "Fire Blast": { bp: 100 },
     "Fire Spin": { bp: 45 },
     "Flamethrower": { bp: 90 },
     "Flare Blitz": { bp: 100 },

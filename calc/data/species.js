@@ -3855,7 +3855,7 @@ var DPP_VGC_PATCH = {
     "Charmander": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 39,
@@ -3906,7 +3906,7 @@ var DPP_VGC_PATCH = {
     "Squirtle": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 44,
@@ -4161,7 +4161,7 @@ var DPP_VGC_PATCH = {
     "Nidoran \u2642": {
         "types": [
             "Poison",
-            "Poison"
+            "???"
         ],
         "bs": {
             "hp": 46,
@@ -4314,7 +4314,7 @@ var DPP_VGC_PATCH = {
     "Mankey": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 50,
@@ -4331,7 +4331,7 @@ var DPP_VGC_PATCH = {
     "Primeape": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 72,
@@ -4382,7 +4382,7 @@ var DPP_VGC_PATCH = {
     "Poliwag": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 40,
@@ -4399,7 +4399,7 @@ var DPP_VGC_PATCH = {
     "Poliwhirl": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 65,
@@ -4433,7 +4433,7 @@ var DPP_VGC_PATCH = {
     "Abra": {
         "types": [
             "Psychic",
-            "Psychic"
+            "???"
         ],
         "bs": {
             "hp": 25,
@@ -4484,7 +4484,7 @@ var DPP_VGC_PATCH = {
     "Machop": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -4501,7 +4501,7 @@ var DPP_VGC_PATCH = {
     "Machoke": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 80,
@@ -4518,7 +4518,7 @@ var DPP_VGC_PATCH = {
     "Machamp": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 90,
@@ -4773,7 +4773,7 @@ var DPP_VGC_PATCH = {
     "Voltorb": {
         "types": [
             "Electric",
-            "Electric"
+            "???"
         ],
         "bs": {
             "hp": 60,
@@ -4790,7 +4790,7 @@ var DPP_VGC_PATCH = {
     "Electrode": {
         "types": [
             "Electric",
-            "Electric"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -4841,7 +4841,7 @@ var DPP_VGC_PATCH = {
     "Cubone": {
         "types": [
             "Ground",
-            "Ground"
+            "???"
         ],
         "bs": {
             "hp": 55,
@@ -4875,7 +4875,7 @@ var DPP_VGC_PATCH = {
     "Hitmonlee": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 65,
@@ -4892,7 +4892,7 @@ var DPP_VGC_PATCH = {
     "Hitmonchan": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 65,
@@ -4943,7 +4943,7 @@ var DPP_VGC_PATCH = {
     "Chansey": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 150,
@@ -4960,7 +4960,7 @@ var DPP_VGC_PATCH = {
     "Tangela": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 65,
@@ -4977,7 +4977,7 @@ var DPP_VGC_PATCH = {
     "Horsea": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 40,
@@ -5079,7 +5079,7 @@ var DPP_VGC_PATCH = {
     "Electabuzz": {
         "types": [
             "Electric",
-            "Electric"
+            "???"
         ],
         "bs": {
             "hp": 75,
@@ -5096,7 +5096,7 @@ var DPP_VGC_PATCH = {
     "Magmar": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 65,
@@ -5113,7 +5113,7 @@ var DPP_VGC_PATCH = {
     "Tauros": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 75,
@@ -5130,7 +5130,7 @@ var DPP_VGC_PATCH = {
     "Magikarp": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 50,
@@ -5181,7 +5181,7 @@ var DPP_VGC_PATCH = {
     "Eevee": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 55,
@@ -5198,7 +5198,7 @@ var DPP_VGC_PATCH = {
     "Vaporeon": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 130,
@@ -5215,7 +5215,7 @@ var DPP_VGC_PATCH = {
     "Jolteon": {
         "types": [
             "Electric",
-            "Electric"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -5232,7 +5232,7 @@ var DPP_VGC_PATCH = {
     "Flareon": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -5249,7 +5249,7 @@ var DPP_VGC_PATCH = {
     "Porygon": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -5351,7 +5351,7 @@ var DPP_VGC_PATCH = {
     "Snorlax": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 160,
@@ -5419,7 +5419,7 @@ var DPP_VGC_PATCH = {
     "Dratini": {
         "types": [
             "Dragon",
-            "Dragon"
+            "???"
         ],
         "bs": {
             "hp": 41,
@@ -5436,7 +5436,7 @@ var DPP_VGC_PATCH = {
     "Dragonair": {
         "types": [
             "Dragon",
-            "Dragon"
+            "???"
         ],
         "bs": {
             "hp": 61,
@@ -5487,7 +5487,7 @@ var DPP_VGC_PATCH = {
     "Chikorita": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 45,
@@ -5538,7 +5538,7 @@ var DPP_VGC_PATCH = {
     "Cyndaquil": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 43,
@@ -5555,7 +5555,7 @@ var DPP_VGC_PATCH = {
     "Quilava": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 58,
@@ -5572,7 +5572,7 @@ var DPP_VGC_PATCH = {
     "Typhlosion": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 78,
@@ -5640,7 +5640,7 @@ var DPP_VGC_PATCH = {
     "Sentret": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -5657,7 +5657,7 @@ var DPP_VGC_PATCH = {
     "Furret": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 90,
@@ -5810,7 +5810,7 @@ var DPP_VGC_PATCH = {
     "Togepi": {
         "types": [
             "Fairy",
-            "Fairy"
+            "???"
         ],
         "bs": {
             "hp": 50,
@@ -5878,7 +5878,7 @@ var DPP_VGC_PATCH = {
     "Mareep": {
         "types": [
             "Electric",
-            "Electric"
+            "???"
         ],
         "bs": {
             "hp": 55,
@@ -5895,7 +5895,7 @@ var DPP_VGC_PATCH = {
     "Flaaffy": {
         "types": [
             "Electric",
-            "Electric"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -5946,7 +5946,7 @@ var DPP_VGC_PATCH = {
     "Politoed": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 95,
@@ -6031,7 +6031,7 @@ var DPP_VGC_PATCH = {
     "Sunkern": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 55,
@@ -6048,7 +6048,7 @@ var DPP_VGC_PATCH = {
     "Sunflora": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 75,
@@ -6082,7 +6082,7 @@ var DPP_VGC_PATCH = {
     "Espeon": {
         "types": [
             "Psychic",
-            "Psychic"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -6099,7 +6099,7 @@ var DPP_VGC_PATCH = {
     "Umbreon": {
         "types": [
             "Dark",
-            "Dark"
+            "???"
         ],
         "bs": {
             "hp": 95,
@@ -6150,7 +6150,7 @@ var DPP_VGC_PATCH = {
     "Misdreavus": {
         "types": [
             "Ghost",
-            "Ghost"
+            "???"
         ],
         "bs": {
             "hp": 75,
@@ -6354,7 +6354,7 @@ var DPP_VGC_PATCH = {
     "Slugma": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 55,
@@ -6490,7 +6490,7 @@ var DPP_VGC_PATCH = {
     "Porygon2": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 85,
@@ -6524,7 +6524,7 @@ var DPP_VGC_PATCH = {
     "Tyrogue": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 35,
@@ -6541,7 +6541,7 @@ var DPP_VGC_PATCH = {
     "Hitmontop": {
         "types": [
             "Fighting",
-            "Fighting"
+            "???"
         ],
         "bs": {
             "hp": 60,
@@ -6558,7 +6558,7 @@ var DPP_VGC_PATCH = {
     "Elekid": {
         "types": [
             "Electric",
-            "Electric"
+            "???"
         ],
         "bs": {
             "hp": 45,
@@ -6575,7 +6575,7 @@ var DPP_VGC_PATCH = {
     "Magby": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 45,
@@ -6592,7 +6592,7 @@ var DPP_VGC_PATCH = {
     "Blissey": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 210,
@@ -6609,7 +6609,7 @@ var DPP_VGC_PATCH = {
     "Raikou": {
         "types": [
             "Electric",
-            "Electric"
+            "???"
         ],
         "bs": {
             "hp": 90,
@@ -6626,7 +6626,7 @@ var DPP_VGC_PATCH = {
     "Entei": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 115,
@@ -6762,7 +6762,7 @@ var DPP_VGC_PATCH = {
     "Torchic": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 45,
@@ -6813,7 +6813,7 @@ var DPP_VGC_PATCH = {
     "Mudkip": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 50,
@@ -6864,7 +6864,7 @@ var DPP_VGC_PATCH = {
     "Poochyena": {
         "types": [
             "Dark",
-            "Dark"
+            "???"
         ],
         "bs": {
             "hp": 45,
@@ -6881,7 +6881,7 @@ var DPP_VGC_PATCH = {
     "Mightyena": {
         "types": [
             "Dark",
-            "Dark"
+            "???"
         ],
         "bs": {
             "hp": 80,
@@ -6898,7 +6898,7 @@ var DPP_VGC_PATCH = {
     "Seedot": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 60,
@@ -7102,7 +7102,7 @@ var DPP_VGC_PATCH = {
     "Shroomish": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 60,
@@ -7136,7 +7136,7 @@ var DPP_VGC_PATCH = {
     "Slakoth": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 60,
@@ -7153,7 +7153,7 @@ var DPP_VGC_PATCH = {
     "Vigoroth": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -7170,7 +7170,7 @@ var DPP_VGC_PATCH = {
     "Slaking": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 100,
@@ -7187,7 +7187,7 @@ var DPP_VGC_PATCH = {
     "Whismur": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 85,
@@ -7357,7 +7357,7 @@ var DPP_VGC_PATCH = {
     "Aron": {
         "types": [
             "Steel",
-            "Steel"
+            "???"
         ],
         "bs": {
             "hp": 50,
@@ -7374,7 +7374,7 @@ var DPP_VGC_PATCH = {
     "Lairon": {
         "types": [
             "Steel",
-            "Steel"
+            "???"
         ],
         "bs": {
             "hp": 60,
@@ -7391,7 +7391,7 @@ var DPP_VGC_PATCH = {
     "Aggron": {
         "types": [
             "Steel",
-            "Steel"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -7493,7 +7493,7 @@ var DPP_VGC_PATCH = {
     "Wailmer": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 130,
@@ -7510,7 +7510,7 @@ var DPP_VGC_PATCH = {
     "Wailord": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 180,
@@ -7833,7 +7833,7 @@ var DPP_VGC_PATCH = {
     "Feebas": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 20,
@@ -7901,7 +7901,7 @@ var DPP_VGC_PATCH = {
     "Duskull": {
         "types": [
             "Ghost",
-            "Ghost"
+            "???"
         ],
         "bs": {
             "hp": 20,
@@ -7918,7 +7918,7 @@ var DPP_VGC_PATCH = {
     "Dusclops": {
         "types": [
             "Ghost",
-            "Ghost"
+            "???"
         ],
         "bs": {
             "hp": 40,
@@ -7969,7 +7969,7 @@ var DPP_VGC_PATCH = {
     "Wynaut": {
         "types": [
             "Psychic",
-            "Psychic"
+            "???"
         ],
         "bs": {
             "hp": 110,
@@ -7986,7 +7986,7 @@ var DPP_VGC_PATCH = {
     "Snorunt": {
         "types": [
             "Ice",
-            "Ice"
+            "???"
         ],
         "bs": {
             "hp": 68,
@@ -8003,7 +8003,7 @@ var DPP_VGC_PATCH = {
     "Glalie": {
         "types": [
             "Ice",
-            "Ice"
+            "???"
         ],
         "bs": {
             "hp": 100,
@@ -8173,7 +8173,7 @@ var DPP_VGC_PATCH = {
     "Regirock": {
         "types": [
             "Rock",
-            "Rock"
+            "???"
         ],
         "bs": {
             "hp": 90,
@@ -8190,7 +8190,7 @@ var DPP_VGC_PATCH = {
     "Regice": {
         "types": [
             "Ice",
-            "Ice"
+            "???"
         ],
         "bs": {
             "hp": 80,
@@ -8207,7 +8207,7 @@ var DPP_VGC_PATCH = {
     "Registeel": {
         "types": [
             "Steel",
-            "Steel"
+            "???"
         ],
         "bs": {
             "hp": 80,
@@ -8258,7 +8258,7 @@ var DPP_VGC_PATCH = {
     "Kyogre": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 100,
@@ -8581,7 +8581,7 @@ var DPP_VGC_PATCH = {
     "Cranidos": {
         "types": [
             "Rock",
-            "Rock"
+            "???"
         ],
         "bs": {
             "hp": 67,
@@ -8598,7 +8598,7 @@ var DPP_VGC_PATCH = {
     "Rampardos": {
         "types": [
             "Rock",
-            "Rock"
+            "???"
         ],
         "bs": {
             "hp": 97,
@@ -8615,7 +8615,7 @@ var DPP_VGC_PATCH = {
     "Shieldon": {
         "types": [
             "Steel",
-            "Steel"
+            "???"
         ],
         "bs": {
             "hp": 30,
@@ -8632,7 +8632,7 @@ var DPP_VGC_PATCH = {
     "Bastiodon": {
         "types": [
             "Steel",
-            "Steel"
+            "???"
         ],
         "bs": {
             "hp": 60,
@@ -8785,7 +8785,7 @@ var DPP_VGC_PATCH = {
     "Mismagius": {
         "types": [
             "Ghost",
-            "Ghost"
+            "???"
         ],
         "bs": {
             "hp": 75,
@@ -8870,7 +8870,7 @@ var DPP_VGC_PATCH = {
     "Happiny": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 100,
@@ -8955,7 +8955,7 @@ var DPP_VGC_PATCH = {
     "Munchlax": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 135,
@@ -9006,7 +9006,7 @@ var DPP_VGC_PATCH = {
     "Hippopotas": {
         "types": [
             "Ground",
-            "Ground"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -9023,7 +9023,7 @@ var DPP_VGC_PATCH = {
     "Hippowdon": {
         "types": [
             "Ground",
-            "Ground"
+            "???"
         ],
         "bs": {
             "hp": 130,
@@ -9108,7 +9108,7 @@ var DPP_VGC_PATCH = {
     "Carnivine": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -9125,7 +9125,7 @@ var DPP_VGC_PATCH = {
     "Finneon": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 59,
@@ -9142,7 +9142,7 @@ var DPP_VGC_PATCH = {
     "Lumineon": {
         "types": [
             "Water",
-            "Water"
+            "???"
         ],
         "bs": {
             "hp": 74,
@@ -9244,7 +9244,7 @@ var DPP_VGC_PATCH = {
     "Tangrowth": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 100,
@@ -9261,7 +9261,7 @@ var DPP_VGC_PATCH = {
     "Electivire": {
         "types": [
             "Electric",
-            "Electric"
+            "???"
         ],
         "bs": {
             "hp": 75,
@@ -9278,7 +9278,7 @@ var DPP_VGC_PATCH = {
     "Magmortar": {
         "types": [
             "Fire",
-            "Fire"
+            "???"
         ],
         "bs": {
             "hp": 87,
@@ -9329,7 +9329,7 @@ var DPP_VGC_PATCH = {
     "Leafeon": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 70,
@@ -9346,7 +9346,7 @@ var DPP_VGC_PATCH = {
     "Glaceon": {
         "types": [
             "Ice",
-            "Ice"
+            "???"
         ],
         "bs": {
             "hp": 75,
@@ -9397,7 +9397,7 @@ var DPP_VGC_PATCH = {
     "Porygon-Z": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 95,
@@ -9448,7 +9448,7 @@ var DPP_VGC_PATCH = {
     "Dusknoir": {
         "types": [
             "Ghost",
-            "Ghost"
+            "???"
         ],
         "bs": {
             "hp": 45,
@@ -9618,7 +9618,7 @@ var DPP_VGC_PATCH = {
     "Cresselia": {
         "types": [
             "Psychic",
-            "Psychic"
+            "???"
         ],
         "bs": {
             "hp": 120,
@@ -9635,7 +9635,7 @@ var DPP_VGC_PATCH = {
     "Darkrai": {
         "types": [
             "Dark",
-            "Dark"
+            "???"
         ],
         "bs": {
             "hp": 85,
@@ -9652,7 +9652,7 @@ var DPP_VGC_PATCH = {
     "Shaymin": {
         "types": [
             "Grass",
-            "Grass"
+            "???"
         ],
         "bs": {
             "hp": 100,
@@ -9669,7 +9669,7 @@ var DPP_VGC_PATCH = {
     "Arceus": {
         "types": [
             "Normal",
-            "Normal"
+            "???"
         ],
         "bs": {
             "hp": 120,

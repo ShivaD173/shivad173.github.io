@@ -48,7 +48,8 @@ var SETDEX_DPP = {
     "Tyranitar":
         { "Bertha Lead": { "level": 100, "item": "Chople Berry", "moves": ["Earthquake", "Thunderbolt", "Rock Slide", "Protect"] } },
     "Aerodactyl":
-        { "Bertha Lead": { "level": 100, "item": "Sitrus Berry", "moves": ["Ice Fang", "Head Smash", "Tailwind", "Brave Bird"] } },
+        { "Bertha Lead": { "level": 100, "item": "Sitrus Berry", "moves": ["Ice Fang", "Head Smash", "Tailwind", "Brave Bird"] },
+        "Jupiter 1": { "level": 33, "item": "Wacan Berry", "moves": ["Ice Fang", "Fire Fang", "Thunder Fang", "Rock Slide"] } },
     "Nidoking":
         { "Bertha": { "level": 100, "item": "Flame Orb", "moves": ["Sucker Punch", "Head Smash", "Thunder Punch", "Bonemerang"] } },
     "Mamoswine":
@@ -70,8 +71,6 @@ var SETDEX_DPP = {
         { "Flint": { "level": 100, "item": "Choice Scarf", "moves": ["Sacred Fire", "Stone Edge", "Extreme Speed", "Crunch"] } },
     "Infernape":
         { "Flint": { "level": 100, "item": "Life Orb", "moves": ["Blast Burn", "Gunk Shot", "Close Combat", "Mach Punch"] } },
-    "Leafeon":
-        { "Flint": { "level": 100, "item": "Miracle Seed", "moves": ["Leaf Blade", "Aerial Ace", "Swords Dance", "Synthesis"] } },
     "Mewtwo":
         { "Lucian Lead": { "level": 100, "item": "Lum Berry", "moves": ["Psychic", "Icy Wind", "Aura Sphere", "Blizzard"] } },
     "Cresselia":
@@ -144,8 +143,6 @@ var SETDEX_DPP = {
         { "Jupiter 1": { "level": 34, "item": "Sitrus Berry", "moves": ["Attack Order", "Defend Order", "Power Gem", "Hyper Beam"] } },
     "Staraptor":
         { "Jupiter 1": { "level": 34, "item": "Life Orb", "moves": ["Wing Attack", "Take Down", "Bulk Up", "Quick Attack"] } },
-    "Aerodactyl":
-        { "Jupiter 1": { "level": 33, "item": "Wacan Berry", "moves": ["Ice Fang", "Fire Fang", "Thunder Fang", "Rock Slide"] } },
     "Pidgeot":
         { "Jupiter 1": { "level": 35, "item": "Flame Orb", "moves": ["Earthquake", "Wing Attack", "Protect", "Bulk Up"] } },
     "Magcargo":
@@ -153,7 +150,8 @@ var SETDEX_DPP = {
     "Leafeon":
     {
         "Gardenia 1 Lead": { "level": 29, "item": "Life Orb", "moves": ["Leaf Blade", "Knock Off", "EarthSqueeze", "Take Down"] },
-        "Gardenia 2": { "level": 47, "item": "Sitrus Berry", "moves": ["Leaf Blade", "EarthSqueeze", "Swords Dance", "Fire Fang"] }
+        "Gardenia 2": { "level": 47, "item": "Sitrus Berry", "moves": ["Leaf Blade", "EarthSqueeze", "Swords Dance", "Fire Fang"]},
+        "Flint": { "level": 100, "item": "Miracle Seed", "moves": ["Leaf Blade", "Aerial Ace", "Swords Dance", "Synthesis"] },
     },
     "Breloom":
         { "Gardenia 1": { "level": 29, "item": "Coba Berry", "moves": ["Spore", "PowerUpPunch", "Leech Seed", "Drain Punch"] } },
