@@ -18,6 +18,8 @@ var SETDEX_DPP = {
     {
         "Cynthia 1": { "level": 37, "item": "Flame Orb", "moves": ["Surf", "Ice Beam", "Recover", "Draco Meteor"] },
         "Cynthia 2": { "level": 100, "item": "Leftovers", "moves": ["Water Spout", "Draco Meteor", "Ice Beam", "Recover"] },
+        "Wake 2": { "level": 63, "item": "Flame Orb", "moves": ["Recover", "Surf", "Icy Wind", "Draco Meteor"] },
+        "Palmer Lead": { "level": 96, "item": "Sitrus Berry", "moves": ["Hypnosis", "Hydro Pump", "Draco Meteor", "Icy Wind"] },
     },
     "Heatran":
         { "Cynthia 2": { "level": 100, "item": "Focus Sash", "moves": ["Heat Wave", "Flash Cannon", "Earth Power", "Accelerock"] } },
@@ -31,38 +33,48 @@ var SETDEX_DPP = {
     "Lucario":
         { "Cynthia 1": { "level": 37, "item": "Choice Scarf", "moves": ["Aura Sphere", "Dragon Pulse", "Psychic", "Earthquake"] } },
     "Vaporeon":
-        { "Aaron Lead": { "level": 100, "item": "Leftovers", "moves": ["Hydro Pump", "Ice Beam", "Follow Me", "Helping Hand"] } },
+        { "Aaron Lead": { "level": 100, "item": "Leftovers", "nature": "Hasty", "moves": ["Hydro Pump", "Ice Beam", "Follow Me", "Helping Hand"] } },
     "Scizor":
     {
-        "Aaron Lead": { "level": 100, "item": "Choice Band", "moves": ["Bullet Punch", "Bug Bite", "Superpower", "U-turn"] },
-        "Byron 209 Lead": { "level": 46, "item": "Occa Berry", "moves": ["Bullet Punch", "Bug Bite", "Superpower", "Aerial Ace"] }
+        "Aaron Lead": { "level": 100, "item": "Choice Band", "nature": "Rash", "moves": ["Bullet Punch", "Bug Bite", "Superpower", "U-turn"] },
+        "Byron 209 Lead": { "level": 46, "item": "Occa Berry", "moves": ["Bullet Punch", "Bug Bite", "Superpower", "Aerial Ace"] },
+        "Byron Gym Lead": { "level": 71, "item": "Life Orb", "moves": ["Bullet Punch", "Bug Bite", "Brick Break", "Swords Dance"] },
     },
     "Ambipom":
-        { "Aaron": { "level": 100, "item": "Life Orb", "moves": ["Fake Out", "Last Resort"] } },
+    {
+        "Aaron": { "level": 100, "item": "Life Orb", "nature": "Careful", "moves": ["Fake Out", "Last Resort"] },
+        "Maylene 2 Lead": { "level": 57, "item": "Life Orb", "moves": ["Fake Out", "U-Turn", "Close Combat", "Knock Off"] }
+    },
     "Flygon":
         { "Aaron": { "level": 100, "item": "Choice Scarf", "moves": ["Rock Slide", "U-turn", "Dragon Rush", "Earthquake"] } },
     "Gliscor":
-        { "Aaron": { "level": 100, "item": "Toxic Orb", "moves": ["Earthquake", "Roost", "Brave Bird", "Swords Dance"] } },
+        { "Aaron": { "level": 100, "item": "Toxic Orb", "nature": "Bold", "moves": ["Earthquake", "Roost", "Brave Bird", "Swords Dance"] } },
     "Heracross":
-        { "Aaron": { "level": 100, "item": "Flame Orb", "moves": ["Earthquake", "Close Combat", "Megahorn", "Protect"] } },
+        { "Aaron": { "level": 100, "item": "Flame Orb", "nature": "Modest", "moves": ["Earthquake", "Close Combat", "Megahorn", "Protect"] } },
     "Tyranitar":
-        { "Bertha Lead": { "level": 100, "item": "Chople Berry", "moves": ["Earthquake", "Thunderbolt", "Rock Slide", "Protect"] } },
+        { "Bertha Lead": { "level": 100, "item": "Chople Berry", "nature": "Lonely", "moves": ["Earthquake", "Thunderbolt", "Rock Slide", "Protect"] } },
     "Aerodactyl":
-        { "Bertha Lead": { "level": 100, "item": "Sitrus Berry", "moves": ["Ice Fang", "Head Smash", "Tailwind", "Brave Bird"] },
-        "Jupiter 1": { "level": 33, "item": "Wacan Berry", "moves": ["Ice Fang", "Fire Fang", "Thunder Fang", "Rock Slide"] } },
+    {
+        "Bertha Lead": { "level": 100, "item": "Sitrus Berry", "moves": ["Ice Fang", "Head Smash", "Tailwind", "Brave Bird"] },
+        "Jupiter 1": { "level": 33, "item": "Wacan Berry", "moves": ["Ice Fang", "Fire Fang", "Thunder Fang", "Rock Slide"] }
+    },
     "Nidoking":
         { "Bertha": { "level": 100, "item": "Flame Orb", "moves": ["Sucker Punch", "Head Smash", "Thunder Punch", "Bonemerang"] } },
     "Mamoswine":
     {
         "Bertha": { "level": 100, "item": "Lum Berry", "moves": ["Avalanche", "Rock Slide", "Iron Head", "Earthquake"] },
-        "Candice 2 Lead": { "level": 100, "item": "Choice Scarf", "moves": ["Avalanche", "Rock Slide", "Ice Shard", "Earthquake"] }
+        "Candice 1": { "level": 82, "item": "Focus Sash", "moves": ["Earthquake", "Rock Slide", "Avalanche", "Ice Shard"] },
+        "Candice 2 Lead": { "level": 100, "item": "Choice Scarf", "moves": ["Avalanche", "Rock Slide", "Ice Shard", "Earthquake"] },
     },
     "Rhyperior":
-        { "Bertha": { "level": 100, "item": "Focus Sash", "moves": ["Hammer Arm", "Rock Wrecker", "Endeavor", "Megahorn"] } },
+    {
+        "Bertha": { "level": 100, "item": "Focus Sash", "moves": ["Hammer Arm", "Rock Wrecker", "Endeavor", "Megahorn"] },
+        "Palmer": { "level": 96, "item": "Chople Berry", "moves": ["Rock Wrecker", "Ice Punch", "Iron Head", "Explosion"] }
+    },
     "Aggron":
-        { "Bertha": { "level": 100, "item": "Focus Sash", "moves": ["Iron Tail", "Stone Edge", "Explosion", "Ice Punch"] } },
+        { "Bertha": { "level": 100, "item": "Focus Sash", "nature": "Adamant", "moves": ["Iron Tail", "Stone Edge", "Explosion", "Ice Punch"] } },
     "Ninetales":
-        { "Flint Lead": { "level": 100, "item": "Focus Sash", "moves": ["Flamethrower", "Solar Beam", "Shadow Ball", "Will-O-Wisp"] } },
+        { "Flint Lead": { "level": 100, "item": "Focus Sash", "nature": "Modest", "moves": ["Flamethrower", "Solar Beam", "Shadow Ball", "Will-O-Wisp"] } },
     "Charizard":
         { "Flint Lead": { "level": 100, "item": "Sitrus Berry", "moves": ["Heat Wave", "Solar Beam", "Air Slash", "Draco Meteor"] } },
     "Moltres":
@@ -72,7 +84,7 @@ var SETDEX_DPP = {
     "Infernape":
         { "Flint": { "level": 100, "item": "Life Orb", "moves": ["Blast Burn", "Gunk Shot", "Close Combat", "Mach Punch"] } },
     "Mewtwo":
-        { "Lucian Lead": { "level": 100, "item": "Lum Berry", "moves": ["Psychic", "Icy Wind", "Aura Sphere", "Blizzard"] } },
+        { "Lucian Lead": { "level": 100, "item": "Lum Berry", "nature": "Bashful", "moves": ["Psychic", "Icy Wind", "Aura Sphere", "Blizzard"] } },
     "Cresselia":
         { "Lucian Lead": { "level": 100, "item": "Leftovers", "moves": ["Psychic", "Icy Wind", "Helping Hand", "Energy Ball"] } },
     "Slowking":
@@ -84,11 +96,17 @@ var SETDEX_DPP = {
     "Porygon-Z":
         { "Lucian": { "level": 100, "item": "Choice Specs", "moves": ["Hyper Beam", "Psychic", "Ice Beam", "Focus Blast"] } },
     "Articuno":
-        { "Candice 2": { "level": 100, "item": "Charti Berry", "moves": ["Blizzard", "Air Slash", "Tailwind", "Follow Me"] } },
+    {
+        "Candice 2": { "level": 100, "item": "Charti Berry", "moves": ["Blizzard", "Air Slash", "Tailwind", "Follow Me"] },
+        "Candice 1": { "level": 82, "item": "Charti Berry", "moves": ["Blizzard", "Air Slash", "Tailwind", "Focus Blast"] }
+    },
     "Cloyster":
         { "Candice 2": { "level": 100, "item": "Focus Sash", "moves": ["Icicle Spear", "Rock Blast", "Spike Cannon", "Explosion"] } },
     "Zapdos":
-        { "Volkner 2 Lead": { "level": 100, "item": "Choice Scarf", "moves": ["Weather Ball", "Volt Switch", "Heat Wave", "Air Slash"] } },
+    {
+        "Volkner 2 Lead": { "level": 100, "item": "Choice Scarf", "moves": ["Weather Ball", "Volt Switch", "Heat Wave", "Air Slash"] },
+        "Volkner 1": { "level": 92, "item": "Life Orb", "moves": ["Thunderbolt", "Weather Ball", "Earth Power", "Air Slash"] }
+    },
     "Manectric":
         { "Volkner 2": { "level": 100, "item": "Choice Scarf", "moves": ["Seed Flare", "Volt Switch", "Thunderbolt", "Flamethrower"] } },
     "Raikou":
@@ -142,7 +160,10 @@ var SETDEX_DPP = {
     "Vespiquen":
         { "Jupiter 1": { "level": 34, "item": "Sitrus Berry", "moves": ["Attack Order", "Defend Order", "Power Gem", "Hyper Beam"] } },
     "Staraptor":
-        { "Jupiter 1": { "level": 34, "item": "Life Orb", "moves": ["Wing Attack", "Take Down", "Bulk Up", "Quick Attack"] } },
+    {
+        "Jupiter 1": { "level": 34, "item": "Life Orb", "moves": ["Wing Attack", "Take Down", "Bulk Up", "Quick Attack"] },
+        "Maylene 2": { "level": 57, "item": "Focus Sash", "moves": ["Snipe Kick", "Brave Bird", "U-turn", "Quick Attack"] }
+    },
     "Pidgeot":
         { "Jupiter 1": { "level": 35, "item": "Flame Orb", "moves": ["Earthquake", "Wing Attack", "Protect", "Bulk Up"] } },
     "Magcargo":
@@ -150,7 +171,7 @@ var SETDEX_DPP = {
     "Leafeon":
     {
         "Gardenia 1 Lead": { "level": 29, "item": "Life Orb", "moves": ["Leaf Blade", "Knock Off", "EarthSqueeze", "Take Down"] },
-        "Gardenia 2": { "level": 47, "item": "Sitrus Berry", "moves": ["Leaf Blade", "EarthSqueeze", "Swords Dance", "Fire Fang"]},
+        "Gardenia 2": { "level": 47, "item": "Sitrus Berry", "moves": ["Leaf Blade", "EarthSqueeze", "Swords Dance", "Fire Fang"] },
         "Flint": { "level": 100, "item": "Miracle Seed", "moves": ["Leaf Blade", "Aerial Ace", "Swords Dance", "Synthesis"] },
     },
     "Breloom":
@@ -195,29 +216,98 @@ var SETDEX_DPP = {
     "Arceus-Fighting":
         { "Maylene 1": { "level": 51, "item": "Fist Plate", "moves": ["Judgment", "Thunderbolt", "Dark Pulse", "Nasty Plot"] } },
     "Dodrio":
-        { "Maylene 1": { "level": 51, "item": "Focus Sash", "moves": ["Pluck", "Close Combat", "Mach Punch", "ExtremeSpeed"] } },
+    {
+        "Maylene 1": { "level": 51, "item": "Focus Sash", "moves": ["Pluck", "Close Combat", "Mach Punch", "ExtremeSpeed"] },
+        "Maylene 2": { "level": 57, "item": "Choice Band", "moves": ["ExtremeSpeed", "Pluck", "Snipe Kick", "Flame Wheel"] }
+    },
     "Ursaring":
         { "Maylene 1": { "level": 51, "item": "Flame Orb", "moves": ["Façade", "Close Combat", "Protect", "Rock Climb"] } },
     "Rampardos":
         { "Roark 2": { "level": 46, "item": "Choice Band", "moves": ["Head Smash", "Iron Head", "Superpower", "Accelerock"] } },
     "Metagross":
-        { "Byron 209": { "level": 46, "item": "Shuca Berry", "moves": ["Bullet Punch", "Meteor Mash", "Zen Headbutt", "Agility"] } },
+    {
+        "Byron 209": { "level": 46, "item": "Shuca Berry", "moves": ["Bullet Punch", "Meteor Mash", "Zen Headbutt", "Agility"] },
+        "Byron Gym": { "level": 71, "item": "Shuca Berry", "moves": ["Meteor Mash", "EarthSqueeze", "Avalanche", "Ice Punch"] }
+    },
     "Mawile":
-        { "Byron 209": { "level": 46, "item": "Occa Berry", "moves": ["Belly Drum", "Play Rough", "Sucker Punch", "Iron Head"] } },
+    {
+        "Byron 209": { "level": 46, "item": "Occa Berry", "moves": ["Belly Drum", "Play Rough", "Sucker Punch", "Iron Head"] },
+        "Byron Gym": { "level": 71, "item": "Life Orb", "moves": ["Iron Head", "Play Rough", "Sucker Punch", "Swords Dance"] }
+    },
     "Flareon":
         { "Gardenia 2 Lead": { "level": 47, "item": "Shuca Berry", "moves": ["Flare Blitz", "Follow Me", "Super Fang", "Thunder Fang"] } },
     "Froslass":
-        { "Fantina 2 Lead": { "level": 48, "item": "Focus Sash", "moves": ["Perish Song", "Ice Beam", "Shadow Ball", "Double Team"] } },
+    {
+        "Fantina 2 Lead": { "level": 48, "item": "Focus Sash", "moves": ["Perish Song", "Ice Beam", "Shadow Ball", "Double Team"] },
+        "Candice 1 Lead": { "level": 82, "item": "Focus Sash", "moves": ["Blizzard", "Ominous Wind", "Thunderbolt", "Will-O-Wisp"] }
+    },
     "Crobat":
         { "Fantina 2 Lead": { "level": 48, "item": "Focus Sash", "moves": ["Fly", "Cross Poison", "Bug Bite", "Protect"] } },
     "Banette":
-        { "Fantina 2": { "level": 48, "item": "BrightPowder", "moves": ["Will-O-Wisp", "Perish Song", "Knock Off", "Sucker Punch"] } },
+        { "Fantina 2": { "level": 48, "item": "Bright Powder", "moves": ["Will-O-Wisp", "Perish Song", "Knock Off", "Sucker Punch"] } },
     "Drifblim":
-        { "Fantina 2": { "level": 48, "item": "BrightPowder", "moves": ["Explosion", "Shadow Ball", "Thunderbolt", "Air Slash"] } },
-
-
-
-
-
+        { "Fantina 2": { "level": 48, "item": "Bright Powder", "moves": ["Explosion", "Shadow Ball", "Thunderbolt", "Air Slash"] } },
+    "Tauros":
+        { "Maylene 2 Lead": { "level": 57, "item": "Black Belt", "moves": ["Volt Tackle", "Take Down", "Rock Climb", "Bulk Up"] } },
+    "Hariyama":
+        { "Maylene 2": { "level": 57, "item": "Chople Berry", "moves": ["Fake Out", "Avalanche", "Superpower", "EarthSqueeze"] } },
+    "Exploud":
+        { "Maylene 2": { "level": 57, "item": "Life Orb", "moves": ["Fake Out", "Hyper Voice", "Focus Blast", "Hydro Pump"] } },
+    "Masquerain":
+        { "Wake 1 Lead": { "level": 60, "item": "Life Orb", "moves": ["Water Spout", "Bug Buzz", "GrassWhistle", "Energy Ball"] } },
+    "Lapras":
+        { "Wake 1 Lead": { "level": 60, "item": "Sitrus Berry", "moves": ["Aqua Tail", "Aqua Jet", "Avalanche", "Dragon Dance"] } },
+    "Gyarados":
+    {
+        "Wake 1": { "level": 60, "item": "Life Orb", "moves": ["Waterfall", "Avalanche", "Crunch", "Dragon Dance"] },
+        "Wake 2 Lead": { "level": 63, "item": "Sitrus Berry", "moves": ["Dragon Rush", "Waterfall", "Ice Fang", "Hyper Fang"] }
+    },
+    "Kingdra":
+    {
+        "Wake 1": { "level": 60, "item": "Life Orb", "moves": ["Waterfall", "Bounce", "Dragon Rush", "Dragon Dance"] },
+        "Wake 2": { "level": 63, "item": "Choice Specs", "moves": ["Dragon Pulse", "Muddy Water", "Ice Beam", "Flash Cannon"] }
+    },
+    "Kyogre":
+    {
+        "Wake 1": { "level": 60, "item": "Wacan Berry", "moves": ["Surf", "Thunder", "Ice Beam", "Calm Mind"] },
+        "Wake 2 Lead": { "level": 63, "item": "Choice Scarf", "moves": ["Water Spout", "Ice Beam", "Thunder", "Scald"] }
+    },
+    "Politoed":
+        { "Wake 1": { "level": 60, "item": "Wacan Berry", "moves": ["Hydro Pump", "Icy Wind", "Bounce", "Helping Hand"] } },
+    "Empoleon":
+        { "Wake 2": { "level": 63, "item": "Chople Berry", "moves": ["Flash Cannon", "Hydro Cannon", "Earth Power", "Ice Beam"] } },
+    "Swampert":
+        { "Wake 2": { "level": 63, "item": "Rindo Berry", "moves": ["EarthSqueeze", "Avalanche", "Scald", "Bulk Up"] } },
+    "Dragonite":
+        { "Palmer": { "level": 96, "item": "Life Orb", "moves": ["Outrage", "Aqua Tail", "Fly", "ExtremeSpeed"] } },
+    "Magnezone":
+    {
+        "Barry Sunyshore Lead": { "level": 96, "item": "Bright Powder", "moves": ["Doom Desire", "Volt Switch", "Flash Cannon", "Earth Power"] },
+        "Volkner 1": { "level": 92, "item": "Sitrus Berry", "moves": ["Thunder", "Explosion", "Doom Desire", "Flash Cannon"] }
+    },
+    "Latios":
+        { "Barry Sunyshore": { "level": 96, "item": "Soul Dew", "moves": ["Draco Meteor", "Psycho Boost", "Ice Beam", "Dazzling Gleam"] } },
+    "Delcatty":
+        { "Barry Sunyshore": { "level": 100, "item": "Life Orb", "moves": ["Trump Card", "Spirit Break", "Fake Out", "Rock Slide"] } },
+    "Dialga":
+        { "Byron Gym Lead": { "level": 71, "item": "Adamant Orb", "moves": ["Roar Of Time", "Flash Cannon", "Psychic", "Earth Power"] } },
+    "Bronzong":
+        { "Byron Gym": { "level": 71, "item": "Leftovers", "moves": ["Flash Cannon", "Psychic", "Confuse Ray", "Trick Room"] } },
+    "Registeel":
+        { "Byron Gym": { "level": 71, "item": "Leftovers", "moves": ["Explosion", "Zap Cannon", "Toxic", "Rest"] } },
+    "Jynx":
+        { "Candice 1 Lead": { "level": 82, "item": "Choice Scarf", "moves": ["Blizzard", "Moonblast", "Psychic", "Shadow Ball"] } },
+    "Walrein":
+        { "Candice 1": { "level": 82, "item": "Leftovers", "moves": ["Blizzard", "Recover", "Surf", "Icy Wind"] } },
+    "Weavile":
+        { "Candice 1": { "level": 82, "item": "Focus Sash", "moves": ["Fake Out", "Night Slash", "Avalanche", "Swords Dance"] } },
+    "Raichu":
+        { "Volkner 1": { "level": 92, "item": "Focus Sash", "moves": ["Play Rough", "Thunder Wave", "Surf", "Thunder"] } },
+    "Suicune":
+        { "Volkner 1": { "level": 92, "item": "Life Orb", "moves": ["Hydro Pump", "Ice Beam", "Air Slash", "Psychic"] } },
+    "Electivire":
+        { "Volkner 1": { "level": 92, "item": "Choice Scarf", "moves": ["Thunder", "Sucker Punch", "Aqua Tail", "Fire Blast"] } },
+    "Raikou":
+        { "Volkner 1": { "level": 92, "item": "Choice Specs", "moves": ["Scald", "Thunderbolt", "Aura Sphere", "Signal Beam"] } },
 
 }
