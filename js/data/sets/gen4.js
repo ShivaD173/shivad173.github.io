@@ -148,7 +148,7 @@ var SETDEX_DPP = {
     "Yanma":
         { "Mars 1": { "level": 25, "item": "Charti Berry", "moves": ["Bug Bite", "Supersonic", "Air Cutter", "U-turn"] } },
     "Dratini":
-        { "Mars 1": { "level": 24, "item": "Berry Juice", "moves": ["Shock Wave", "Fire Spin", "DragonBreath", "Whirlpool"] } },
+        { "Mars 1": { "level": 24, "item": "Berry Juice", "moves": ["Shock Wave", "Fire Spin", "Dragon Breath", "Whirlpool"] } },
     "Ledian":
         { "Mars 1": { "level": 25, "item": "Charti Berry", "moves": ["Vacuum Wave", "Silver Wind", "Air Cutter", "Roost"] } },
     "Kadabra":
@@ -167,7 +167,7 @@ var SETDEX_DPP = {
     "Pidgeot":
         { "Jupiter 1": { "level": 35, "item": "Flame Orb", "moves": ["Earthquake", "Wing Attack", "Protect", "Bulk Up"] } },
     "Magcargo":
-        { "Gardenia 1 Lead": { "level": 28, "item": "Focus Sash", "moves": ["AncientPower", "Explosion", "Yawn", "Pain Split"] } },
+        { "Gardenia 1 Lead": { "level": 28, "item": "Focus Sash", "moves": ["Ancient Power", "Explosion", "Yawn", "Pain Split"] } },
     "Leafeon":
     {
         "Gardenia 1 Lead": { "level": 29, "item": "Life Orb", "moves": ["Leaf Blade", "Knock Off", "EarthSqueeze", "Take Down"] },

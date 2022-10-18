@@ -1193,7 +1193,7 @@ var DPP_VGC_PATCH = {
     'Draining Kiss': {
         bp: 50,
         type: 'Fairy',
-        drain: [3, 4],
+        drain: [1, 2],
         makesContact: true,
         category: 'Special'
     },
@@ -1203,6 +1203,51 @@ var DPP_VGC_PATCH = {
         category: 'Special'
     },
     "Accelerock": {
+        bp: 40,
+        type: 'Rock',
+        priority: 1,
+        makesContact: true,
+        category: 'Physical'
+    },
+    'Mud Sport': { bp: 70, type: 'Ground', category: 'Special' },
+    'Embargo': { bp: 65, type: 'Dark', category: 'Special', drain: [1, 2] },
+    'Smelling Salt': {
+        bp: 90,
+        type: 'Ground',
+        makesContact: true,
+        category: 'Physical'
+    },
+    'Mega Kick': {
+        bp: 80,
+        type: 'Fighting',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Wake-Up Slap': {
+        bp: 90,
+        type: 'Fairy',
+        category: 'Physical',
+        makesContact: true
+    },
+    'Mist Ball': {
+        bp: 95,
+        type: 'Fairy',
+        category: 'Special'
+    },
+    'Luster Purge': { bp: 80, type: 'Fairy', target: 'allAdjacentFoes', category: 'Special' },
+    'Absorb': {
+        bp: 50,
+        type: 'Fairy',
+        drain: [1, 2],
+        makesContact: true,
+        category: 'Special'
+    },
+    'Natural Gift': {
+        bp: 70,
+        type: 'Electric',
+        category: 'Special'
+    },
+    "Stealth Rock": {
         bp: 40,
         type: 'Rock',
         priority: 1,
