@@ -1893,7 +1893,7 @@ var BW_PATCH = {
 };
 var BW_old = (0, util_1.extend)(true, {}, DPP_old, BW_PATCH);
 var BLACK_DAIZO_PATCH = {
-    'Absorb': { bp: 70 },
+    'Absorb': { bp: 30 },
     'Avalanche': { bp: 75, target: 'allAdjacentFoes' },
     'Bind': { bp: 20 },
     'Blast Burn': { recoil: [1, 2] },
