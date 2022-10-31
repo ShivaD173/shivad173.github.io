@@ -1961,6 +1961,7 @@ var BLACK_DAIZO_PATCH = {
     'Snore': { bp: 50 },
     'Spike Cannon': { type: 'Steel', bp: 25 },
     'Splash': { bp: 40, target: 'allAdjacentFoes', category: 'Special' },
+    'Strength': { type: 'Fighting' },
     'Struggle Bug': { bp: 50 },
     'Surf': { bp: 90 },
     'Take Down': { type: 'Fighting' },
