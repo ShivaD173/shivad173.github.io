@@ -5192,7 +5192,7 @@ var DPP_VGC_PATCH = {
             "sp": 55
         },
         "abilities": {
-            "0": "Adaptibility"
+            "0": "Adaptability"
         }
     },
     "Vaporeon": {
@@ -5260,7 +5260,7 @@ var DPP_VGC_PATCH = {
             "sp": 40
         },
         "abilities": {
-            "0": "Adaptibility"
+            "0": "Adaptability"
         }
     },
     "Omanyte": {
@@ -6093,7 +6093,7 @@ var DPP_VGC_PATCH = {
             "sp": 110
         },
         "abilities": {
-            "0": "Adaptibility"
+            "0": "Adaptability"
         }
     },
     "Umbreon": {
@@ -6110,7 +6110,7 @@ var DPP_VGC_PATCH = {
             "sp": 65
         },
         "abilities": {
-            "0": "Adaptibility"
+            "0": "Adaptability"
         }
     },
     "Murkrow": {
@@ -6501,7 +6501,7 @@ var DPP_VGC_PATCH = {
             "sp": 50
         },
         "abilities": {
-            "0": "Adaptibility"
+            "0": "Adaptability"
         }
     },
     "Stantler": {
