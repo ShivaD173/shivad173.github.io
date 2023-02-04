@@ -10,6 +10,10 @@ export declare class Field implements State.Field {
     isAuraBreak?: boolean;
     isFairyAura?: boolean;
     isDarkAura?: boolean;
+    isBeadsOfRuin?: boolean;
+    isSwordOfRuin?: boolean;
+    isTabletsOfRuin?: boolean;
+    isVesselOfRuin?: boolean;
     attackerSide: Side;
     defenderSide: Side;
     constructor(field?: Partial<State.Field>);
@@ -33,6 +37,7 @@ export declare class Side implements State.Side {
     isForesight: boolean;
     isTailwind: boolean;
     isHelpingHand: boolean;
+    isFlowerGift: boolean;
     isFriendGuard: boolean;
     isAuroraVeil: boolean;
     isBattery: boolean;

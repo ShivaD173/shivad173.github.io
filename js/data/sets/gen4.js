@@ -1,4 +1,6 @@
+/* My Showdown Sets */
 /* VGC Plat Trainer Sets */
+
 var SETDEX_DPP = {
     "Togekiss":
     {

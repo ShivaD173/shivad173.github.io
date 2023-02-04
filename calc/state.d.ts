@@ -6,6 +6,8 @@ export declare namespace State {
         ability?: I.AbilityName;
         abilityOn?: boolean;
         isDynamaxed?: boolean;
+        isSaltCure?: boolean;
+        alliesFainted?: number;
         item?: I.ItemName;
         gender?: I.GenderName;
         nature?: I.NatureName;
@@ -14,6 +16,7 @@ export declare namespace State {
         boosts?: Partial<I.StatsTable>;
         originalCurHP?: number;
         status?: I.StatusName | '';
+        teraType?: I.TypeName;
         toxicCounter?: number;
         moves?: I.MoveName[];
         overrides?: Partial<I.Specie>;
@@ -38,6 +41,10 @@ export declare namespace State {
         isAuraBreak?: boolean;
         isFairyAura?: boolean;
         isDarkAura?: boolean;
+        isBeadsOfRuin?: boolean;
+        isSwordOfRuin?: boolean;
+        isTabletsOfRuin?: boolean;
+        isVesselOfRuin?: boolean;
         attackerSide: Side;
         defenderSide: Side;
     }
@@ -56,6 +63,7 @@ export declare namespace State {
         isForesight?: boolean;
         isTailwind?: boolean;
         isHelpingHand?: boolean;
+        isFlowerGift?: boolean;
         isFriendGuard?: boolean;
         isAuroraVeil?: boolean;
         isBattery?: boolean;

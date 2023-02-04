@@ -5,7 +5,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     function verb(n) { return function (v) { return step([n, v]); }; }
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
-        while (_) try {
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
             if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
             if (y = 0, t) op = [op[0] & 2, t.value];
             switch (op[0]) {
@@ -79,7 +79,6 @@ var GSC = [
     'Charcoal',
     'Dragon Fang',
     'Dragon Scale',
-    'Energy Powder',
     'Fast Ball',
     'Fire Stone',
     'Focus Band',
@@ -218,8 +217,6 @@ var ADV = GSC.filter(function (i) { return !GSC_ONLY.includes(i); }).concat([
     'Wiki Berry',
 ]);
 var DPP = ADV.concat([
-    'Eviolite',
-    'Assault Vest',
     'Adamant Orb',
     'Armor Fossil',
     'Babiri Berry',
@@ -234,10 +231,8 @@ var DPP = ADV.concat([
     'Colbur Berry',
     'Custap Berry',
     'Damp Rock',
-    'Destiny Knot',
     'Draco Plate',
     'Dread Plate',
-    'Dusk Ball',
     'Dusk Stone',
     'Earth Plate',
     'Expert Belt',
@@ -245,8 +240,6 @@ var DPP = ADV.concat([
     'Flame Orb',
     'Flame Plate',
     'Focus Sash',
-    'Grip Claw',
-    'Griseous Orb',
     'Haban Berry',
     'Heat Rock',
     'Icicle Plate',
@@ -260,7 +253,6 @@ var DPP = ADV.concat([
     'Lagging Tail',
     'Life Orb',
     'Light Clay',
-    'Lustrous Orb',
     'Meadow Plate',
     'Metronome',
     'Micle Berry',
@@ -270,7 +262,6 @@ var DPP = ADV.concat([
     'Odd Incense',
     'Passho Berry',
     'Payapa Berry',
-    'Quick Powder',
     'Razor Claw',
     'Razor Fang',
     'Rindo Berry',
@@ -474,24 +465,11 @@ var SS = SM.concat([
     'Clover Sweet',
     'Cracked Pot',
     'Eject Pack',
-    'Flower Sweet',
-    'Fossilized Bird',
-    'Fossilized Dino',
-    'Fossilized Drake',
-    'Fossilized Fish',
-    'Galarica Cuff',
-    'Galarica Wreath',
     'Heavy-Duty Boots',
     'Leek',
-    'Love Sweet',
-    'Ribbon Sweet',
     'Room Service',
     'Rusted Shield',
     'Rusted Sword',
-    'Star Sweet',
-    'Strawberry Sweet',
-    'Sweet Apple',
-    'Tart Apple',
     'Throat Spray',
 ]);
 for (var i = 0; i < 100; i++) {
@@ -499,6 +477,21 @@ for (var i = 0; i < 100; i++) {
 }
 SS.push('Utility Umbrella', 'Vile Vial');
 SS.push.apply(SS, __spreadArray(__spreadArray([], __read(GSC_ONLY), false), ['Old Amber'], false));
+var SV = SS.concat([
+    'Adamant Crystal',
+    'Auspicious Armor',
+    'Ability Shield',
+    'Booster Energy',
+    'Clear Amulet',
+    'Covert Cloak',
+    'Loaded Dice',
+    'Malicious Armor',
+    'Mirror Herb',
+    'Punching Glove',
+    'Lustrous Globe',
+    'Griseous Core',
+    'Strange Ball',
+]);
 var BERRIES = {
     'Aguav Berry': { t: 'Dragon', p: 80 },
     'Apicot Berry': { t: 'Ground', p: 100 },
@@ -578,7 +571,7 @@ var BERRIES = {
     'Wiki Berry': { t: 'Rock', p: 80 },
     'Yache Berry': { t: 'Ice', p: 80 }
 };
-exports.ITEMS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS];
+exports.ITEMS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 var Items = (function () {
     function Items(gen) {
         this.gen = gen;
@@ -587,22 +580,25 @@ var Items = (function () {
         return ITEMS_BY_ID[this.gen][id];
     };
     Items.prototype[Symbol.iterator] = function () {
-        var _a, _b, _i, id;
-        return __generator(this, function (_c) {
-            switch (_c.label) {
+        var _a, _b, _c, _i, id;
+        return __generator(this, function (_d) {
+            switch (_d.label) {
                 case 0:
-                    _a = [];
-                    for (_b in ITEMS_BY_ID[this.gen])
-                        _a.push(_b);
+                    _a = ITEMS_BY_ID[this.gen];
+                    _b = [];
+                    for (_c in _a)
+                        _b.push(_c);
                     _i = 0;
-                    _c.label = 1;
+                    _d.label = 1;
                 case 1:
-                    if (!(_i < _a.length)) return [3, 4];
-                    id = _a[_i];
+                    if (!(_i < _b.length)) return [3, 4];
+                    _c = _b[_i];
+                    if (!(_c in _a)) return [3, 3];
+                    id = _c;
                     return [4, this.get(id)];
                 case 2:
-                    _c.sent();
-                    _c.label = 3;
+                    _d.sent();
+                    _d.label = 3;
                 case 3:
                     _i++;
                     return [3, 1];
