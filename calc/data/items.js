@@ -218,7 +218,6 @@ var ADV = GSC.filter(function (i) { return !GSC_ONLY.includes(i); }).concat([
 ]);
 var DPP = ADV.concat([
     'Adamant Orb',
-    'Armor Fossil',
     'Babiri Berry',
     'Big Root',
     'Black Sludge',
@@ -300,20 +299,17 @@ var BW = DPP.concat([
     'Dark Gem',
     'Douse Drive',
     'Dragon Gem',
-    'Dream Ball',
     'Eject Button',
     'Electric Gem',
     'Eviolite',
     'Fighting Gem',
     'Fire Gem',
-    'Float Stone',
     'Flying Gem',
     'Ghost Gem',
     'Grass Gem',
     'Ground Gem',
     'Ice Gem',
     'Normal Gem',
-    'Plume Fossil',
     'Poison Gem',
     'Prism Scale',
     'Psychic Gem',
@@ -386,12 +382,9 @@ var XY = BW.concat(__spreadArray(__spreadArray([], __read(Object.keys(exports.ME
     'Pixie Plate',
     'Red Orb',
     'Roseli Berry',
-    'Sachet',
     'Safety Goggles',
-    'Sail Fossil',
     'Snowball',
     'Weakness Policy',
-    'Whipped Dream',
 ], false).sort());
 var SM = XY.filter(function (i) { return i !== 'Old Amber'; }).concat([
     'Adrenaline Orb',
@@ -419,7 +412,6 @@ var SM = XY.filter(function (i) { return i !== 'Old Amber'; }).concat([
     'Flyinium Z',
     'Ghost Memory',
     'Ghostium Z',
-    'Gold Bottle Cap',
     'Grass Memory',
     'Grassium Z',
     'Grassy Seed',
@@ -459,11 +451,8 @@ var SM = XY.filter(function (i) { return i !== 'Old Amber'; }).concat([
     'Waterium Z',
 ]);
 var SS = SM.concat([
-    'Berry Sweet',
     'Blunder Policy',
     'Chipped Pot',
-    'Clover Sweet',
-    'Cracked Pot',
     'Eject Pack',
     'Heavy-Duty Boots',
     'Leek',
@@ -478,19 +467,13 @@ for (var i = 0; i < 100; i++) {
 SS.push('Utility Umbrella', 'Vile Vial');
 SS.push.apply(SS, __spreadArray(__spreadArray([], __read(GSC_ONLY), false), ['Old Amber'], false));
 var SV = SS.concat([
-    'Adamant Crystal',
-    'Auspicious Armor',
     'Ability Shield',
     'Booster Energy',
     'Clear Amulet',
     'Covert Cloak',
     'Loaded Dice',
-    'Malicious Armor',
     'Mirror Herb',
     'Punching Glove',
-    'Lustrous Globe',
-    'Griseous Core',
-    'Strange Ball',
 ]);
 var BERRIES = {
     'Aguav Berry': { t: 'Dragon', p: 80 },

@@ -1284,7 +1284,7 @@ var DPP_VGC_PATCH = {
     "Doom Desire": { bp: 135 },
     "Double Slap": { bp: 25 },
     "Double-Edge": { bp: 105 },
-    "Draco Meteor": { bp: 110, recoil: [1, 3] },
+    "Draco Meteor": { bp: 110, recoil: [1, 3], self: {} },
     "Dragon Pulse": { bp: 85 },
     "Drain Punch": { bp: 75 },
     "Earth Power": { bp: 85 },
@@ -1317,7 +1317,7 @@ var DPP_VGC_PATCH = {
     "Knock Off": { bp: 70 },
     "Last Resort": { bp: 120 },
     "Lava Plume": { bp: 90 },
-    "Leaf Storm": { bp: 110, recoil: [1, 3] },
+    "Leaf Storm": { bp: 110, recoil: [1, 3], self: {} },
     "Leech Life": { bp: 80 },
     "Lick": { bp: 45 },
     "Magical Leaf": { bp: 70 },
@@ -1329,7 +1329,7 @@ var DPP_VGC_PATCH = {
     "Mud Slap": { bp: 30 },
     "Muddy Water": { bp: 85 },
     "Outrage": { bp: 100, recoil: [1, 3] },
-    "Overheat": { bp: 110, recoil: [1, 3] },
+    "Overheat": { bp: 110, recoil: [1, 3], self: {} },
     "Peck": { bp: 45 },
     "Petal Dance": { bp: 100, recoil: [1, 3] },
     "Pin Missile": { bp: 25 },
@@ -1339,7 +1339,7 @@ var DPP_VGC_PATCH = {
     "Power Gem": { bp: 80 },
     "Power Whip": { bp: 110 },
     "Psychic": { bp: 85 },
-    "Psycho Boost": { bp: 110, recoil: [1, 3] },
+    "Psycho Boost": { bp: 110, recoil: [1, 3], self: {} },
     "Rapid Spin": { bp: 50 },
     "Razor Leaf": { bp: 65 },
     "Roar of Time": { bp: 120, recoil: [1, 3], target: "allAdjacentFoes" },
@@ -1354,7 +1354,7 @@ var DPP_VGC_PATCH = {
     "Shadow Ball": { bp: 85 },
     "Shadow Claw": { bp: 80 },
     "Shadow Force": { bp: 100 },
-    "Skull Base": { type: 'Rock' },
+    "Skull Bash": { type: 'Rock' },
     "Sky Attack": { bp: 105 },
     "Sludge": { bp: 75, target: 'allAdjacentFoes' },
     "Sludge Bomb": { bp: 85 },
@@ -1368,7 +1368,7 @@ var DPP_VGC_PATCH = {
     "Stone Edge": { bp: 90 },
     "Strength": { type: 'Fighting', bp: 75 },
     "Submission": { bp: 85 },
-    "Superpower": { bp: 100, recoil: [1, 3] },
+    "Superpower": { bp: 100, recoil: [1, 3], self: {} },
     "Swift": { bp: 70 },
     "Tackle": { bp: 50 },
     "Take Down": { type: 'Fighting', bp: 85 },
@@ -5060,7 +5060,8 @@ var VGC_PLAT_SHOWDOWN_PATCH = {
     "Attack Order": { bp: 120 },
     "Volt Tackle": { bp: 110 },
     "Bonemerang": { bp: 50 },
-    "Stealth Rock": { bp: 0 }
+    "Stealth Rock": { bp: 0 },
+    "Sucker Punch": { bp: 80 }
 };
 var SV1 = (0, util_1.extend)(true, {}, SV_old, DPP_VGC_PATCH);
 var SV = (0, util_1.extend)(true, {}, SV1, VGC_PLAT_SHOWDOWN_PATCH);
