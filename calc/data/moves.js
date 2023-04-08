@@ -1354,6 +1354,7 @@ var DPP_VGC_PATCH = {
     "Shadow Ball": { bp: 85 },
     "Shadow Claw": { bp: 80 },
     "Shadow Force": { bp: 100 },
+    "Shadow Punch": { bp: 75 },
     "Skull Bash": { type: 'Rock' },
     "Sky Attack": { bp: 105 },
     "Sludge": { bp: 75, target: 'allAdjacentFoes' },
@@ -4695,6 +4696,13 @@ var SV_PATCH = {
         makesContact: true,
         isPunch: true
     },
+    'Hydro Steam': {
+        bp: 80,
+        type: 'Water',
+        category: 'Special',
+        zp: 160,
+        maxPower: 130
+    },
     'Hyper Drill': {
         bp: 100,
         type: 'Normal',
@@ -4841,6 +4849,15 @@ var SV_PATCH = {
         bp: 0,
         type: 'Normal',
         category: 'Status'
+    },
+    Psyblade: {
+        bp: 80,
+        type: 'Psychic',
+        category: 'Physical',
+        zp: 160,
+        maxPower: 130,
+        makesContact: true,
+        isSlicing: true
     },
     'Psyshield Bash': {
         bp: 70,
