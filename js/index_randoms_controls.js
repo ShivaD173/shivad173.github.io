@@ -37,14 +37,6 @@ function performCalculations() {
 	var battling = [p1, p2];
 	p1.maxDamages = [];
 	p2.maxDamages = [];
-	p1info.find(".at .totalMod").text(p1.stats.atk);
-	p2info.find(".at .totalMod").text(p2.stats.atk);
-	p1info.find(".df .totalMod").text(p1.stats.def);
-	p2info.find(".df .totalMod").text(p2.stats.def);
-	p1info.find(".sa .totalMod").text(p1.stats.spa);
-	p2info.find(".sa .totalMod").text(p2.stats.spa);
-	p1info.find(".sd .totalMod").text(p1.stats.spd);
-	p2info.find(".sd .totalMod").text(p2.stats.spd);
 	p1info.find(".sp .totalMod").text(p1.stats.spe);
 	p2info.find(".sp .totalMod").text(p2.stats.spe);
 	var fastestSide = p1.stats.spe > p2.stats.spe ? 0 : p1.stats.spe === p2.stats.spe ? "tie" : 1;
