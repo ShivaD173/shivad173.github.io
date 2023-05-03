@@ -2014,7 +2014,7 @@ var DPP_VGC_PATCH = {
         "category": "Status",
         "target": "self"
     },
-    "Hi Jump Kick": {
+    "High Jump Kick": {
         "bp": 120,
         "type": "Fighting",
         "category": "Physical",
@@ -7808,7 +7808,8 @@ var VGC_PLAT_SHOWDOWN_PATCH = {
     "Volt Tackle": { bp: 110 },
     "Bonemerang": { bp: 50 },
     "Stealth Rock": { bp: 0 },
-    "Sucker Punch": { bp: 80 }
+    "Sucker Punch": { bp: 80 },
+    "False Swipe": { bp: 150 }
 };
 var SV1 = (0, util_1.extend)(true, {}, SV_old, DPP_VGC_PATCH);
 var SV = (0, util_1.extend)(true, {}, SV1, VGC_PLAT_SHOWDOWN_PATCH);

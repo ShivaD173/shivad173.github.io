@@ -11682,7 +11682,7 @@ var DPP_VGC_PATCH = {
             "0": "Thick Fat"
         }
     },
-    "Porygon-z": {
+    "Porygon-Z": {
         "types": [
             "Normal"
         ],
