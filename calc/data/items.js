@@ -239,6 +239,7 @@ var DPP = ADV.concat([
     'Flame Orb',
     'Flame Plate',
     'Focus Sash',
+    'Griseous Orb',
     'Haban Berry',
     'Heat Rock',
     'Icicle Plate',
@@ -252,6 +253,7 @@ var DPP = ADV.concat([
     'Lagging Tail',
     'Life Orb',
     'Light Clay',
+    'Lustrous Orb',
     'Meadow Plate',
     'Metronome',
     'Micle Berry',
@@ -467,6 +469,7 @@ for (var i = 0; i < 100; i++) {
 SS.push('Utility Umbrella', 'Vile Vial');
 SS.push.apply(SS, __spreadArray(__spreadArray([], __read(GSC_ONLY), false), ['Old Amber'], false));
 var SV = SS.concat([
+    'Adamant Crystal',
     'Ability Shield',
     'Booster Energy',
     'Clear Amulet',
@@ -474,6 +477,8 @@ var SV = SS.concat([
     'Loaded Dice',
     'Mirror Herb',
     'Punching Glove',
+    'Lustrous Globe',
+    'Griseous Core',
 ]);
 var BERRIES = {
     'Aguav Berry': { t: 'Dragon', p: 80 },

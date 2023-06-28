@@ -16,7 +16,7 @@ var MECHANICS = [
     gen56_1.calculateBWXY,
     gen56_1.calculateBWXY,
     gen789_1.calculateSMSSSV,
-    gen789_1.calculateSMSSSV,
+    gen4_1.calculateDPP,
     gen789_1.calculateSMSSSV,
 ];
 function calculate(gen, attacker, defender, move, field) {
