@@ -10143,7 +10143,7 @@ var GG_PATCH = {
         "target": "normal"
     }
 };
-var SS = (0, util_1.extend)(true, {}, DPP_old, GG_PATCH);
+var SS = (0, util_1.extend)(true, {}, SS_old, GG_PATCH);
 var LGPE_MOVES = [
     'Baddy Bad',
     'Bouncy Bubble',
