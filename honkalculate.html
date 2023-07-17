@@ -8,7 +8,7 @@
     <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css" />
     <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/colvis/1.1.1/css/dataTables.colVis.css" />
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?5098d275" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?7f07fd38" />
     <link type="text/css" rel="stylesheet" href="./css/dark-theme.css" id="dark-theme-styles">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-3"></script>
@@ -108,6 +108,11 @@
                             <label>Type</label>
                             <select class="type1 terrain-trigger"></select>
                             <select class="type2 terrain-trigger"></select>
+                        </div>
+                        <div class="gen-specific g9">
+                            <label>Tera Type</label>
+                            <select class="teraType terrain-trigger calc-trigger"></select>
+                            <input type="checkbox" title= "Has this Pok&eacute;mon terastalized?" class="teraToggle terrain-trigger calc-trigger">
                         </div>
                         <div class="hide">
                             <label>Forme</label>
@@ -414,6 +419,15 @@
 										  <option value="4">Four allies fainted</option>
 										  <option value="5">Five allies fainted</option>
 									 </select>
+									 <select hidden aria-label="Boosted Stat" title="What stat is boosted by this ability?" class="boostedStat calc-trigger">
+										  <option value="">Auto-Select</option>
+										  <option value="atk">Attack</option>
+										  <option value="def">Defense</option>
+										  <option value="spa">Special Attack</option>
+										  <option value="spd">Special Defense</option>
+										  <option value="spe">Speed</option>
+									 </select>
+
                         </div>
                         <div class="gen-specific g2 g3 g4 g5 g6 g7 g8 g9">
                             <label>Item</label>
@@ -638,8 +652,14 @@
                         <label class="btn btn-small btn-mid" for="rain">Rain</label>
                         <input class="visually-hidden" type="radio" name="weather" value="Sand" id="sand" />
                         <label class="btn btn-small btn-mid" for="sand">Sand</label>
-                        <input class="visually-hidden" type="radio" name="weather" value="Hail" id="hail" />
-                        <label class="btn btn-small btn-right" for="hail">Hail</label>
+                        <span class="gen-specific g3 g4 g5 g6 g7 g8">
+                            <input class="visually-hidden" type="radio" name="weather" value="Hail" id="hail" />
+                            <label class="btn btn-small btn-right" for="hail">Hail</label>
+                        </span>
+                        <span class="gen-specific g9">
+                            <input class="visually-hidden" type="radio" name="weather" value="Snow" id="snow" />
+                            <label class="btn btn-small btn-right" for="snow">Snow</label>
+                        </span>
                     </div>
                     <div class="gen-specific g6 g7 g8 g9" title="Select the current weather condition.">
                         <input class="visually-hidden" type="radio" name="weather" value="Harsh Sunshine" id="harsh-sunshine" />
@@ -659,12 +679,20 @@
                         <input class="visually-hidden" type="radio" name="gscWeather" value="Sand" id="gscSand" />
                         <label class="btn btn-small btn-right" for="gscSand">Sand</label>
                     </div>
+                    <div class="gen-specific g5 g6 g7 g8 g9" style="width: 22.2em; margin: 5px auto; display: inline-block;">
+                        <span hidden id="magicRoomInstruction">Is Magic Room in effect?</span>
+                        <span hidden id="wonderRoomInstruction">Is Wonder Room in effect?</span>
+                        <input aria-describedby="magicRoomInstruction" class="visually-hidden" type="checkbox" id="magicroom" />
+                        <label class="btn btn-xxxwide btn-left" for="magicroom">Magic Room</label>
+                        <input aria-describedby="wonderRoomInstruction" class="visually-hidden" type="checkbox" id="wonderroom" />
+                        <label class="btn btn-xxxwide btn-right" for="wonderroom">Wonder Room</label>
+                    </div>
                     <div class="gen-specific g4 g5 g6 g7 g8 g9" style="width: 5.3em; margin: 5px auto;" title="Is gravity in effect?">
                         <input class="visually-hidden" type="checkbox" id="gravity" />
                         <label class="btn" for="gravity">Gravity</label>
                     </div>
                     <hr class="gen-specific g2 g3 g4 g5 g6 g7 g8 g9" />
-                    <div class="btn-group gen-specific g4 g5 g6 g7 g8">
+                    <div class="btn-group gen-specific g4 g5 g6 g7 g8 g9">
                         <div class="left" title="Is Stealth Rock affecting this side of the field?">
                             <input class="visually-hidden" type="checkbox" id="srL" />
                             <label class="btn btn-xwide" for="srL">Stealth Rock</label>
@@ -674,7 +702,7 @@
                             <label class="btn btn-xwide" for="srR">Stealth Rock</label>
                         </div>
                     </div>
-						 <div class="btn-group gen-specific g8 g9">
+						 <div class="btn-group gen-specific g8">
                         <div class="left" title="Is Steelsurge affecting this side of the field?">
                             <input class="visually-hidden" type="checkbox" id="steelsurgeL" />
                             <label class="btn btn-xwide" for="steelsurgeL">Steelsurge</label>
@@ -884,16 +912,16 @@
     </script>
     <script type="text/javascript" src="./calc/util.js?51463f0d"></script>
     <script type="text/javascript" src="./calc/stats.js?a9e37d1a"></script>
-    <script type="text/javascript" src="./calc/data/species.js?04eb4374"></script>
+    <script type="text/javascript" src="./calc/data/species.js?f2128341"></script>
     <script type="text/javascript" src="./js/data/sets/gen9.js?f362b729"></script>
-    <script type="text/javascript" src="./js/data/sets/gen8.js?bcd8d9fd"></script>
-    <script type="text/javascript" src="./js/data/sets/gen7.js?688bf80d"></script>
-    <script type="text/javascript" src="./js/data/sets/gen6.js?e8927608"></script>
+    <script type="text/javascript" src="./js/data/sets/gen8.js?5a1d0e95"></script>
+    <script type="text/javascript" src="./js/data/sets/gen7.js?8b2e96d5"></script>
+    <script type="text/javascript" src="./js/data/sets/gen6.js?196bdf8d"></script>
     <script type="text/javascript" src="./js/data/sets/gen5.js?1b245795"></script>
     <script type="text/javascript" src="./js/data/sets/gen4.js?98dec761"></script>
-    <script type="text/javascript" src="./js/data/sets/gen3.js?f7c78867"></script>
-    <script type="text/javascript" src="./js/data/sets/gen2.js?d6671e2c"></script>
-    <script type="text/javascript" src="./js/data/sets/gen1.js?a61a375f"></script>
+    <script type="text/javascript" src="./js/data/sets/gen3.js?034ba71a"></script>
+    <script type="text/javascript" src="./js/data/sets/gen2.js?92911e5b"></script>
+    <script type="text/javascript" src="./js/data/sets/gen1.js?87d0ae3d"></script>
     <script type="text/javascript" src="./calc/data/types.js?1d306136"></script>
     <script type="text/javascript" src="./calc/data/natures.js?28612810"></script>
     <script type="text/javascript" src="./calc/data/abilities.js?38448e91"></script>
@@ -901,11 +929,11 @@
     <script type="text/javascript" src="./calc/data/items.js?5443c125"></script>
     <script type="text/javascript" src="./calc/data/index.js?abecbd82"></script>
     <script type="text/javascript" src="./calc/move.js?57ab9f0a"></script>
-    <script type="text/javascript" src="./calc/pokemon.js?293fdf53"></script>
+    <script type="text/javascript" src="./calc/pokemon.js?1e459e1e"></script>
     <script type="text/javascript" src="./calc/field.js?bbf04408"></script>
     <script type="text/javascript" src="./calc/items.js?10064fda"></script>
-    <script type="text/javascript" src="./calc/mechanics/util.js?910b9a7c"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen789.js?aaf90e9d"></script>
+    <script type="text/javascript" src="./calc/mechanics/util.js?8dd1ef76"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen789.js?a478655a"></script>
     <script type="text/javascript" src="./calc/mechanics/gen56.js?a1115b60"></script>
     <script type="text/javascript" src="./calc/mechanics/gen4.js?dc25f845"></script>
     <script type="text/javascript" src="./calc/mechanics/gen3.js?2037ac24"></script>
@@ -915,7 +943,7 @@
     <script type="text/javascript" src="./calc/result.js?9f8881b5"></script>
     <script type="text/javascript" src="./calc/adaptable.js?92e49194"></script>
     <script type="text/javascript" src="./calc/index.js?0b1745b9"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?28dbb1e4"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?943fa538"></script>
     <script type="text/javascript" src="./js/honkalculate_controls.js?2857a4ec"></script>
 
     <div style="clear:both;padding:20px;text-align:left">Created by Honko, maintained by Austin and Kris
@@ -923,7 +951,7 @@
         <li><a href="https://www.smogon.com/forums/threads/pok%C3%A9mon-showdown-damage-calculator.3593546/" class="links-lighten" target="_blank">Bug Reports</a></li>
         <li><a href="https://github.com/smogon/damage-calc" class="links-lighten" target="_blank">GitHub repository</a></li></ul>
         <button type="button" id="dark-theme-toggle"></button>
-        <script type="text/javascript" src="./js/dark-theme-toggle.js?36af0255"></script>
+        <script type="text/javascript" src="./js/dark-theme-toggle.js?054b266a"></script>
     </div>
 
 </body>

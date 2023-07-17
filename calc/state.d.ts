@@ -9,6 +9,7 @@ export declare namespace State {
         dynamaxLevel?: number;
         isSaltCure?: boolean;
         alliesFainted?: number;
+        boostedStat?: I.StatIDExceptHP;
         item?: I.ItemName;
         gender?: I.GenderName;
         nature?: I.NatureName;

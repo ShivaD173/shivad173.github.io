@@ -907,9 +907,12 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
     }
     else if ((attacker.hasAbility('Steelworker') && move.hasType('Steel')) ||
         (attacker.hasAbility('Dragon\'s Maw') && move.hasType('Dragon')) ||
-        (attacker.hasAbility('Transistor') && move.hasType('Electric')) ||
         (attacker.hasAbility('Rocky Payload') && move.hasType('Rock'))) {
         atMods.push(6144);
+        desc.attackerAbility = attacker.ability;
+    }
+    else if (attacker.hasAbility('Transistor') && move.hasType('Electric')) {
+        atMods.push(gen.num >= 9 ? 5325 : 6144);
         desc.attackerAbility = attacker.ability;
     }
     else if (attacker.hasAbility('Stakeout') && attacker.abilityOn) {
@@ -927,8 +930,10 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
         atMods.push(2048);
         desc.defenderAbility = defender.ability;
     }
-    var isTabletsOfRuinActive = defender.hasAbility('Tablets of Ruin') || field.isTabletsOfRuin;
-    var isVesselOfRuinActive = defender.hasAbility('Vessel of Ruin') || field.isVesselOfRuin;
+    var isTabletsOfRuinActive = (defender.hasAbility('Tablets of Ruin') || field.isTabletsOfRuin) &&
+        !attacker.hasAbility('Tablets of Ruin');
+    var isVesselOfRuinActive = (defender.hasAbility('Vessel of Ruin') || field.isVesselOfRuin) &&
+        !attacker.hasAbility('Vessel of Ruin');
     if ((isTabletsOfRuinActive && move.category === 'Physical') ||
         (isVesselOfRuinActive && move.category === 'Special')) {
         if (defender.hasAbility('Tablets of Ruin') || defender.hasAbility('Vessel of Ruin')) {
@@ -944,8 +949,8 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
         (attacker.hasAbility('Quark Drive') &&
             (field.hasTerrain('Electric') || attacker.hasItem('Booster Energy')))) {
         if ((move.category === 'Physical' &&
-            (0, util_2.getMostProficientStat)(attacker) === 'atk') ||
-            (move.category === 'Special' && (0, util_2.getMostProficientStat)(attacker) === 'spa')) {
+            (0, util_2.getQPBoostedStat)(attacker) === 'atk') ||
+            (move.category === 'Special' && (0, util_2.getQPBoostedStat)(attacker) === 'spa')) {
             atMods.push(5325);
             desc.attackerAbility = attacker.ability;
         }
@@ -1042,8 +1047,10 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         dfMods.push(8192);
         desc.defenderAbility = defender.ability;
     }
-    var isSwordOfRuinActive = attacker.hasAbility('Sword of Ruin') || field.isSwordOfRuin;
-    var isBeadsOfRuinActive = attacker.hasAbility('Beads of Ruin') || field.isBeadsOfRuin;
+    var isSwordOfRuinActive = (attacker.hasAbility('Sword of Ruin') || field.isSwordOfRuin) &&
+        !defender.hasAbility('Sword of Ruin');
+    var isBeadsOfRuinActive = (attacker.hasAbility('Beads of Ruin') || field.isBeadsOfRuin) &&
+        !defender.hasAbility('Beads of Ruin');
     if ((isSwordOfRuinActive && hitsPhysical) ||
         (isBeadsOfRuinActive && !hitsPhysical)) {
         if (attacker.hasAbility('Sword of Ruin') || attacker.hasAbility('Beads of Ruin')) {
@@ -1058,8 +1065,8 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         (field.hasWeather('Sun') || attacker.hasItem('Booster Energy'))) ||
         (defender.hasAbility('Quark Drive') &&
             (field.hasTerrain('Electric') || attacker.hasItem('Booster Energy')))) {
-        if ((hitsPhysical && (0, util_2.getMostProficientStat)(defender) === 'def') ||
-            (!hitsPhysical && (0, util_2.getMostProficientStat)(defender) === 'spd')) {
+        if ((hitsPhysical && (0, util_2.getQPBoostedStat)(defender) === 'def') ||
+            (!hitsPhysical && (0, util_2.getQPBoostedStat)(defender) === 'spd')) {
             desc.defenderAbility = defender.ability;
             dfMods.push(5324);
         }
