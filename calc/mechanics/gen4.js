@@ -487,6 +487,16 @@ function calculateDPP(gen, attacker, defender, move, field) {
         berryMod = 0.5;
         desc.defenderItem = defender.item;
     }
+    if ((attacker.hasAbility('Sheer Force') &&
+        (move.secondaries || move.named('Jet Punch', 'Order Up')) && !move.isMax) ||
+        (attacker.hasAbility('Sand Force') &&
+            field.hasWeather('Sand') && move.hasType('Rock', 'Ground', 'Steel')) ||
+        (attacker.hasAbility('Analytic') &&
+            (turnOrder !== 'first' || field.defenderSide.isSwitching === 'out')) ||
+        (attacker.hasAbility('Tough Claws') && move.flags.contact) ||
+        (attacker.hasAbility('Punk Rock') && move.flags.sound)) {
+        baseDamage = Math.floor(baseDamage * 1.3);
+    }
     var damage = [];
     for (var i = 0; i < 16; i++) {
         damage[i] = Math.floor((baseDamage * (85 + i)) / 100);
